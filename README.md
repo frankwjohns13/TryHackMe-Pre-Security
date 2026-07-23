@@ -5,6 +5,14 @@ Notes on the TryHackMe Pre Security modules.
 
 ### Room 1 - Offensive Security Intro
 
+**What is Offensive Security** \
+"It involves breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access." - THM
+
+**Tool Used**
+- **Gobuster** - Takes a list of potential page or directory names and tries accessing a website with each of them.
+- **Flags**
+  - -u to state website
+  - -w to use a word list
 
 ### Room 2 - Defensive Security Intro
 
