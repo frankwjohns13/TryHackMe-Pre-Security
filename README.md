@@ -60,6 +60,54 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 - [Preparing for a Security Engineering Interview](https://tryhackme.com/r/resources/blog/security-engineer-interview-guide)
 - [Becoming a Security Engineer: Richárd’s Success Story](https://tryhackme.com/r/resources/blog/richard-success-story)
 
+#### Incident Responder ####
+Incident responders respond to security breaches. Incident response metrics include MTTD, MTTA, and MTTR - the meantime to detect, acknowledge, and recover (from attacks.) 
+
+**Responsibilities**
+- Developing and adopting a thorough, actionable incident response plan
+- Maintaining strong security best practices and supporting incident response measures
+- Post-incident reporting and preparation for future attacks, considering learnings and adaptations to take from incidents
+
+#### Digital Forensics Examiner ####
+"If you like to play detective, this might be the perfect job. If you are working as part of a law-enforcement department, you would be focused on collecting and analysing evidence to help solve crimes: charging the guilty and exonerating the innocent."
+
+**Responsibilities**
+- Collect digital evidence while observing legal procedures
+- Analyse digital evidence to find answers related to the case
+- Document your findings and report on the case
+
+#### Malware Analyst ####
+"A malware analyst's work involves analysing suspicious programs, discovering what they do and writing reports about their findings. A malware analyst is sometimes called a reverse-engineer as their core task revolves around converting compiled programs from machine language to readable code, usually in a low-level language."
+
+**Responsibilities**
+- Carry out static analysis of malicious programs, which entails reverse-engineering
+- Conduct dynamic analysis of malware samples by observing their activities in a controlled environment
+- Document and report all the findings
+
+#### Penetration Tester ####
+"You may see penetration testing referred to as pentesting and ethical hacking. A penetration tester's job role is to test the security of the systems and software within a company - this is achieved through attempts to uncover flaws and vulnerabilities through systemised hacking. Penetration testers exploit these vulnerabilities to evaluate the risk in each instance. The company can then take these insights to rectify issues to prevent a real-world cyberattack."
+
+**Responsibilities**
+- Conduct tests on computer systems, networks, and web-based applications
+- Perform security assessments, audits, and analyse policies
+- Evaluate and report on insights, recommending actions for attack prevention
+
+**Relevant Career Guides**
+- [Becoming a Penetration Tester](https://tryhackme.com/r/careers/penetration-tester)
+- [How to Become a Penetration Tester](https://tryhackme.com/r/resources/blog/how-to-become-a-penetration-tester)
+- [Preparing for a Junior Penetration Tester Interview](https://tryhackme.com/r/resources/blog/jr-pentester-interview-guide)
+- [From IT Support to Pentester: Tom’s Success Story](https://tryhackme.com/r/resources/blog/tom-success-story)
+
+#### Red Teamer ####
+Red teamers share similarities to penetration testers, with a more targeted job role. 
+
+**Responsibilities**
+- Emulate the role of a threat actor to uncover exploitable vulnerabilities, maintain access and avoid detection
+- Assess organisations' security controls, threat intelligence, and incident response procedures
+- Evaluate and report on insights, with actionable data for companies to avoid real-world instances
+
+**Relevant Career Guides**
+- [Red Teaming: Job Roles, Salaries & Opportunities](https://tryhackme.com/r/resources/blog/red-teaming-jobs-salaries-opportunities)
 
 
 ## Module 2 - Computer Fundamentals
