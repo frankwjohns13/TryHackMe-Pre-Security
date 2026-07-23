@@ -4,6 +4,8 @@ Notes on the TryHackMe Pre Security modules.
 ## Module 1 - Introduction to Cyber Security
 
 ### Room 1 - Offensive Security Intro
+Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
+
 **What is Offensive Security?** \
 "It involves breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access." - THM
 
@@ -14,9 +16,50 @@ Notes on the TryHackMe Pre Security modules.
   - -w to use a word list
 
 ### Room 2 - Defensive Security Intro
+Introducing defensive security, where you will protect FakeBank from an ongoing attack. \
 
+**Think like a Defender** \n
+"Defensive security is the process of defending and securing devices and systems." \
+
+**What does a defender do?**
+- Detecting and investigating attacks, and responding before damage occurs.
+- Detecting Suspicious Activity - Use the Event Management tool to detect a suspicious IP address.
+- Identifying the Attack - Security Analyst Dashboard to find what page they are trying to access.
+- Stop the Attack - Use a firewall rule to block the attackers IP address.
 
 ### Room 3 - Careers in Cyber
+
+####Security Analyst####
+"Security analysts construct security measures to protect the company from attacks. Analysts explore and evaluate company networks to uncover actionable data." - THM
+
+**Responsibilities**
+- Working with various stakeholders to analyse the cyber security throughout the company.
+- Compile ongoing reports about the safety of networks, documenting security issues and measures taken in response.
+- Develop security plans, incorporating research on new attack tools and trends, and measures needed across teams to maintain data security.
+
+**Relevant Career Guides**
+- [Becoming a Cyber Security Analyst](https://tryhackme.com/r/careers/cyber-security-analyst)
+- [How to Become a Level 1 SOC Analyst](https://tryhackme.com/r/resources/blog/become-level-1-soc-analyst)
+- [A Day in the Life of a SOC Analyst](https://tryhackme.com/r/resources/blog/interview-with-soc-analyst)
+- [The Ultimate SOC L1 Analyst Interview Guide](https://tryhackme.com/r/resources/blog/soc-analyst-interview-guide)
+- [From Student to SOC Analyst: Hayden’s Success Story](https://tryhackme.com/r/resources/blog/haydens-success-story)
+
+
+####Security Engineer####
+"Security engineers develop and implement security solutions."
+
+**Responsibilities**
+- Testing and screening security measures across software
+- Monitor networks and reports to update systems and mitigate vulnerabilities
+- Identify and implement systems needed for optimal security
+
+**Relevant Career Guides**
+- [Becoming a Security Engineer](https://tryhackme.com/r/careers/security-engineer)
+- [How to Become a Security Engineer](https://tryhackme.com/r/resources/blog/become-security-engineer)
+- [A Day in the Life of a Security Engineer](https://tryhackme.com/r/resources/blog/interview-with-security-engineer)
+- [Preparing for a Security Engineering Interview](https://tryhackme.com/r/resources/blog/security-engineer-interview-guide)
+- [Becoming a Security Engineer: Richárd’s Success Story](https://tryhackme.com/r/resources/blog/richard-success-story)
+
 
 
 ## Module 2 - Computer Fundamentals
