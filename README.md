@@ -29,7 +29,7 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 
 ### Room 3 - Careers in Cyber
 
-####Security Analyst####
+#### Security Analyst ####
 "Security analysts construct security measures to protect the company from attacks. Analysts explore and evaluate company networks to uncover actionable data." - THM
 
 **Responsibilities**
@@ -45,7 +45,7 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 - [From Student to SOC Analyst: Hayden’s Success Story](https://tryhackme.com/r/resources/blog/haydens-success-story)
 
 
-####Security Engineer####
+#### Security Engineer ####
 "Security engineers develop and implement security solutions."
 
 **Responsibilities**
