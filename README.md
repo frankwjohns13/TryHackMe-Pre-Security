@@ -2,8 +2,9 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Module 1: Introduction to Cybersecurity](#module-1-introduction-to-cybersecurity)
-- [Module 2: Computer Fundamentals](#module-2-computer-fundamentals)
+- [Module 1 - Introduction to Cybersecurity](#module-1-introduction-to-cybersecurity)
+  - [Room 1 - Offensive Security Intro](#room-1-offensive-security-intro)
+- [Module 2 - Computer Fundamentals](#module-2-computer-fundamentals)
 
 ---
 
@@ -11,7 +12,7 @@
 Welcome to my notes for the TryHackMe Pre-Security learning path. \
 You can view my TryHackMe Badges here -> [Badges](https://tryhackme.com/p/WickedWizard?tab=badges)
 
-## Module 1 Introduction to Cybersecurity
+## Module 1 - Introduction to Cybersecurity
 
 ### Room 1 - Offensive Security Intro
 Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
@@ -120,7 +121,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 - [Red Teaming: Job Roles, Salaries & Opportunities](https://tryhackme.com/r/resources/blog/red-teaming-jobs-salaries-opportunities)
 
 
-## Module 2 Computer Fundamentals
+## Module 2 - Computer Fundamentals
 
 ### Room 1 - Inside a Computer System
 
