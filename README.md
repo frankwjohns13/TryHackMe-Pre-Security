@@ -4,7 +4,7 @@ Notes on the TryHackMe Pre Security modules.
 ## Module 1 - Introduction to Cyber Security
 
 ### Room 1 - Offensive Security Intro
-**What is Offensive Security** \
+**What is Offensive Security?** \
 "It involves breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access." - THM
 
 **Tool Used**
