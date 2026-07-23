@@ -20,7 +20,7 @@
   - [Room 4 - Virtualization Basics](#room-4---virtualization-basics)
   - [Room 5 - Cloud Computing Fundamentals](#room-5---cloud-computing-fundamentals)
 - [Module 3 Operating Systems Basics](#module-3---operating-systems-basics)
-  - [Room 1 - Operating Systems - Introduction](#room-1---operating-systems-introduction)
+  - [Room 1 - Operating Systems - Introduction](#room-1---operating-systems---introduction)
   - [Room 2 - Windows Basics](#room-2---windows-basics)
   - [Room 3 - Linux CLI Basics](#room-3---linux-cli-basics)
   - [Room 4 - Windows CLI Basics](#room-4---windows-cli-basics)
