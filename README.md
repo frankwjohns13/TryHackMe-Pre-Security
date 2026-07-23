@@ -1,5 +1,8 @@
-# TryHackMe Pre Security
-Notes on the TryHackMe Pre Security modules.
+# TryHackMe Pre-Security Notes
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Module 1: Introduction to Cybersecurity](#module-1-introduction-to-cybersecurity)
 
 ## Module 1 - Introduction to Cyber Security
 
