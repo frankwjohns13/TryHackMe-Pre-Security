@@ -137,7 +137,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 5 - Cloud Computing Fundamentals
 
 
-## Module 3 - Operating Systems Basics
+## Module 3 Operating Systems Basics
 
 
 ### Room 1 - Operating Systems: Introduction
@@ -155,7 +155,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 5 - Operating System Security
 
 
-## Module 4 - Software Basics
+## Module 4 Software Basics
 
 
 ### Room 1 - Data Representation
@@ -173,7 +173,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 5 - Database SQL Basics
 
 
-## Module 5 - Network Fundamentals
+## Module 5 Network Fundamentals
 
 
 ### Room 1 - What is Networking?
@@ -191,7 +191,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 5 - Extending Your Network
 
 
-## Module 6 - How The Web Works
+## Module 6 How The Web Works
 
 
 ### Room 1 - DNS in Detail
@@ -206,7 +206,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 4 - Putting it all together
 
 
-## Module 7 - Attacks and Defense
+## Module 7 Attacks and Defense
 
 
 ### Room 1 - The CIA Triad
