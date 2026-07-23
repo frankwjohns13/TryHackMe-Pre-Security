@@ -3,8 +3,8 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Module 1 - Introduction to Cybersecurity](#module-1---introduction-to-cybersecurity)
-  - [Room 1 - Offensive Security Intro](#room-1-offensive-security-intro)
-- [Module 2 - Computer Fundamentals](#module-2-computer-fundamentals)
+  - [Room 1 - Offensive Security Intro](#room-1---offensive-security-intro)
+- [Module 2 - Computer Fundamentals](#module-2---computer-fundamentals)
 
 ---
 
