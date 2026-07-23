@@ -10,7 +10,7 @@
 ## Introduction
 Welcome to my notes for the TryHackMe Pre-Security learning path.
 
-## 🔒 Module 1 Introduction to Cybersecurity
+## Module 1 Introduction to Cybersecurity
 
 ### Room 1 - Offensive Security Intro
 Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
@@ -119,7 +119,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 - [Red Teaming: Job Roles, Salaries & Opportunities](https://tryhackme.com/r/resources/blog/red-teaming-jobs-salaries-opportunities)
 
 
-## 📝 Module 2 Computer Fundamentals
+## Module 2 Computer Fundamentals
 
 ### Room 1 - Inside a Computer System
 
