@@ -11,8 +11,24 @@
     - [Incident Responder](#incident-responder)
     - [Digital Forensics Examiner](#digital-forensics-examiner)
     - [Malware Analyst](#malware-analyst)
+    - [Penetration Tester](#penetration-tester)
     - [Red Teamer](#red-teamer)
 - [Module 2 - Computer Fundamentals](#module-2---computer-fundamentals)
+  - [Room 1 - Inside a Computer System](#room-1---inside-a-computer-system)
+  - [Room 2 - Computer Types](#room-2---computer-types)
+  - [Room 3 - Client-Server Basics](#room-3---client-server-basics)
+  - [Room 4 - Virtualization Basics](#room-4---virtualization-basics)
+  - [Room 5 - Cloud Computing Fundamentals](#room-5---cloud-computing-fundamentals)
+- [Module 3 Operating Systems Basics](#module-3---operating-systems-basics)
+  - [Room 1 - Operating Systems - Introduction](#room-1---operating-systems-introduction)
+  - [Room 2 - Windows Basics](#room-2---windows-basics)
+  - [Room 3 - Linux CLI Basics](#room-3---linux-cli-basics)
+  - [Room 4 - Windows CLI Basics](#room-4---windows-cli-basics)
+  - [Room 5 - Operating System Security](#room-5---operating-system-security)
+
+
+
+
 
 
 ---
@@ -147,10 +163,10 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 5 - Cloud Computing Fundamentals
 
 
-## Module 3 Operating Systems Basics
+## Module 3 - Operating Systems Basics
 
 
-### Room 1 - Operating Systems: Introduction
+### Room 1 - Operating Systems - Introduction
 
 
 ### Room 2 - Windows Basics
@@ -165,7 +181,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 5 - Operating System Security
 
 
-## Module 4 Software Basics
+## Module 4 - Software Basics
 
 
 ### Room 1 - Data Representation
@@ -174,16 +190,16 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 2 - Data Encoding
 
 
-### Room 3 - Python: Simple Demo
+### Room 3 - Python - Simple Demo
 
 
-### Room 4 - JavaScript: Simple Demo
+### Room 4 - JavaScript - Simple Demo
 
 
 ### Room 5 - Database SQL Basics
 
 
-## Module 5 Network Fundamentals
+## Module 5 - Network Fundamentals
 
 
 ### Room 1 - What is Networking?
@@ -201,7 +217,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 5 - Extending Your Network
 
 
-## Module 6 How The Web Works
+## Module 6 - How The Web Works
 
 
 ### Room 1 - DNS in Detail
@@ -216,19 +232,22 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 4 - Putting it all together
 
 
-## Module 7 Attacks and Defense
+## Module 7 - Attacks and Defense
 
 
 ### Room 1 - The CIA Triad
 
 
-### Room 2 -Cryptography Concepts
+### Room 2 - Cryptography Concepts
 
 
-### Room 3 -Become a Hacker
+### Room 3 - Become a Hacker
 
 
-### Room 4 -Become a Defender
+### Room 4 - Become a Defender
+
+
+
 
 ---
 
