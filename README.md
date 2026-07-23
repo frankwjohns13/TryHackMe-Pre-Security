@@ -10,7 +10,6 @@
 ## Introduction
 Welcome to my notes for the TryHackMe Pre-Security learning path.
 
-#module-1-introduction-to-cybersecurity
 ## 🔒 Module 1: Introduction to Cybersecurity
 
 ### Room 1 - Offensive Security Intro
