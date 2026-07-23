@@ -9,7 +9,7 @@
 
 ## Introduction
 Welcome to my notes for the TryHackMe Pre-Security learning path. \
-You can view myTryHackMe Badges here -> [Badges](https://tryhackme.com/p/WickedWizard?tab=badges)
+You can view my TryHackMe Badges here -> [Badges](https://tryhackme.com/p/WickedWizard?tab=badges)
 
 ## Module 1 Introduction to Cybersecurity
 
