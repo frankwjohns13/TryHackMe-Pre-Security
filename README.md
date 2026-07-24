@@ -32,7 +32,7 @@
   - [Room 4 - JavaScript - Simple Demo](#room-4---javascript---simple-demo)
   - [Room 5 - Database SQL Basics](#room-5---database-sql-basics)
 - [Module 5 - Network Fundamentals](#module-5---network-fundamentals)
-  - [Room 1 - What is Networking?](#room-1---what-is-networking)
+  - [Room 1 - What is Networking?]("#room-1---what-is-networking?")
   - [Room 2 - Intro to LAN](#room-2---intro-to-lan)
   - [Room 3 - OSI Model](#room-3---osi-model)
   - [Room 4 - Packets and Frames](#room-4---packets-and-frames)
@@ -233,7 +233,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 3 - OSI Model
 
 
-### Room 4 - Packets & Frames
+### Room 4 - Packets and Frames
 
 
 ### Room 5 - Extending Your Network
