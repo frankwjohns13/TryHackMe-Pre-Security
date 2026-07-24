@@ -37,20 +37,16 @@
   - [Room 3 - OSI Model](#room-3---osi-model)
   - [Room 4 - Packets and Frames](#room-4---packets-and-frames)
   - [Room 5 - Extending Your Network](#room-5---extending-your-network)
-
-## Module 6 - How The Web Works
-### Room 1 - DNS in Detail
-### Room 2 - HTTP in Detail
-### Room 3 - How Websites Work
-### Room 4 - Putting it all together
-
-## Module 7 - Attacks and Defense
-### Room 1 - The CIA Triad
-### Room 2 - Cryptography Concepts
-### Room 3 - Become a Hacker
-### Room 4 - Become a Defender
-
-
+- [Module 6 - How The Web Works](#module-6---how-the-web-works)
+  - [Room 1 - DNS in Detail](#room-1---dns-in-detail)
+  - [Room 2 - HTTP in Detail](#room-2---http-in-detail)
+  - [Room 3 - How Websites Work](#room-3---how-websites-work)
+  - [Room 4 - Putting it all together](#room-4---putting-it-all-together)
+- [Module 7 - Attacks and Defense](#module-7---attacks-and-defense)
+  - [Room 1 - The CIA Triad](#room-1---the-cia-triad)
+  - [Room 2 - Cryptography Concepts](#room-2---cryptography-concepts)
+  - [Room 3 - Become a Hacker](#room-3---become-a-hacker)
+  - [Room 4 - Become a Defender](#room-4---become-a-defender)
 
 
 ---
