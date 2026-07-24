@@ -363,6 +363,7 @@ These limitations make it very difficult for your app to scale and reach a large
 
 **Major Cloud Vendors:**
 - **Microsoft Azure:** A strong competitor, especially in enterprise and hybrid cloud environments.
+- **Amazon Web Services:** A pay-as-you-go basis, covering computing, storage, networking, databases, analytics, and machine learning. 
 - **Google Cloud Platform (GCP):** Known for powerful data analytics, AI, and machine learning tools.
 - **Alibaba Cloud:** A major player in Asia, offering competitive cloud services globally.
 - **IBM Cloud:** Focuses on hybrid cloud and AI-driven solutions for businesses.
