@@ -213,7 +213,9 @@ Four types of computers that often look similar but serve very different purpose
 
 
   **Hideng in everyday objects:**
+  
 <div>   
+  
   | Type              | What it is                                                        | Examples                                                         |
   |-------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
   | Smartphone        | Pocket-sized computer optimized for battery life and connectivity | iPhone, Android phone                                            |
