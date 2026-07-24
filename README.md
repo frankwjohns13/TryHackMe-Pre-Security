@@ -283,6 +283,7 @@ Have you ever considered how expensive and inefficient it would be if every piec
 - Learn how containers have further optimized hardware utilization for applications.
 
 **One Application per Server**
+
 If each application required its own server that would mean a company that wanted to run a website, have a database, an email service, and an internal app would need four seperate servers. This creates problems:
 - **High cost:** Buying multiple physical servers is expensive, costs more in electricty, cooling, maintenance, and space.
 - **Low utilizaiton:** Most applications don't use the full capacity of the server. So a lot of time is spent idle while waiting for a request.
