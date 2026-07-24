@@ -192,10 +192,27 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 This was just a quick overview of the internal parts and what happens when you press the power button on your computer. 
 
-
-
-
 ### Room 2 - Computer Types
+**Learning Objectives**
+- Upon completion of this room, you will be able to identify and distinguish between different types of computers you use directly, such as laptops and smartphones, and indirectly, such as servers, IoT devices, and embedded systems. You will also understand what makes each type suited to its purpose.
+
+
+| **Computer Type**  | **Screen and Keyboard** | **Main Purpose**                                  |
+|--------------------|-------------------------|---------------------------------------------------|
+| Laptop             | Yes                     | Portable everyday computing.                      |
+| Desktop            | Yes                     | Sustained performance at a fixed location.        |
+| Workstation        | Yes                     | Precision and reliability for professional tasks. |
+| Server             | No                      | Providing services to many users over a network.  |
+\
+**Hideng in everyday objects:**
+| Type              | What it is                                                        | Examples                                                         |
+|-------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
+| Smartphone        | Pocket-sized computer optimized for battery life and connectivity | iPhone, Android phone                                            |
+| Tablet            | Touch-first computer with larger screen                           | iPad, drawing tablet                                             |
+| IoT device        | Network-connected device with a single purpose                    | Thermostat, smart doorbell, fitness tracker                      |
+| Embedded computer | Computer built into another device                                | Coffee maker controller, automatic door sensor, lamp dimmer chip |
+\
+IoT vs Embedded: Both can be small and single-purpose. The difference is connectivity. IoT devices connect to a network to report data or receive commands. Embedded computers might not connect to anything; they do their job inside the machine, often for years without anyone knowing they exist.
 
 
 ### Room 3 - Client-Server Basics
