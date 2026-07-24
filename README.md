@@ -35,7 +35,7 @@
   - [Room 1 - What is Networking?]("#room-1---what-is-networking?")
   - [Room 2 - Intro to LAN](#room-2---intro-to-lan)
   - [Room 3 - OSI Model](#room-3---osi-model)
-  - [Room 4 - Packets and Frames](#room-4---packets-and-frames)
+  - [Room 4 - Packets & Frames]("#room-4---packets-&-frames")
   - [Room 5 - Extending Your Network](#room-5---extending-your-network)
 
 ## Module 6 - How The Web Works
@@ -233,7 +233,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ### Room 3 - OSI Model
 
 
-### Room 4 - Packets and Frames
+### Room 4 - Packets & Frames
 
 
 ### Room 5 - Extending Your Network
