@@ -273,7 +273,8 @@ The Request for Comments(RFC) document lists nine core commands.
 
 ### Room 4 - Virtualization Basics
 Have you ever considered how expensive and inefficient it would be if every piece of software or every website required its own physical server? 
-**Virtualization was created to solve exactly this problem.** \
+
+**Virtualization was created to solve exactly this problem.** 
 
 **Learning Objectives:**
 - Understand why managing applications on individual physical servers is inefficient.
@@ -288,7 +289,8 @@ If each application required its own server that would mean a company that wante
 - **Slow deployment:** Setting up physical servers takes days or weeks.
 - **Hard to scale:** If an applicaiton needed more resources, you'd have to buy another physical server.
 
-**What if multiple applications could be run on the same server safely?** \
+**What if multiple applications could be run on the same server safely?** 
+
 **Enter virtualization:** A virtualization layer, called a hypervisor, was introduced to act as a referee between lab machines and allow each virtual computer to behave independently, like a physical computer.
 
 Hypervisors have two main types of implementation, each of which is used for specific scenarios, from home labs to large data centers:
