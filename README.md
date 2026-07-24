@@ -212,7 +212,7 @@ Four types of computers that often look similar but serve very different purpose
 </div>
 
 
-  **Hideng in everyday objects:**
+  **Hiding in everyday objects:**
   
 <div>   
   
