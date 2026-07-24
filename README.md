@@ -196,7 +196,6 @@ This was just a quick overview of the internal parts and what happens when you p
 **Learning Objectives**
 - Upon completion of this room, you will be able to identify and distinguish between different types of computers you use directly, such as laptops and smartphones, and indirectly, such as servers, IoT devices, and embedded systems. You will also understand what makes each type suited to its purpose.
 
-\
 Four types of computers that often look similar but serve very different purposes.
 - Portable everyday computing
 - Sustained performance at a fixed location
@@ -213,9 +212,8 @@ Four types of computers that often look similar but serve very different purpose
 </div>
 
 
-<div> 
-
   **Hideng in everyday objects:**
+<div>   
   | Type              | What it is                                                        | Examples                                                         |
   |-------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
   | Smartphone        | Pocket-sized computer optimized for battery life and connectivity | iPhone, Android phone                                            |
