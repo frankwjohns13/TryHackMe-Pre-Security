@@ -327,22 +327,55 @@ Containers behave like small, self-contained spaces because:
 - They can run consistently on any machine, making them perfect for development, testing, and scalable deployments.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Room 5 - Cloud Computing Fundamentals
+If you created an application that you wanted a lot of people to be able to use, you could host it on your own computer. You would have to give everyone a way to access it (share your IP address). Now, for them to access your computer would have to be on when they are trying to access it. What happens if people want to access it when your computer is shut down? What happens if more people want to access it than your network or computer can handle? These issues limit your apps ability to grow.
+
+**That's when cloud computing comes to play and solves these problems!**
+
+**Learning Objectives:**
+- What is cloud computing
+- Service models of cloud (IaaS, PaaS, SaaS)
+- Cloud Types (Private/Public/Hybrid)
+- Benefits of cloud computing
+- How big companies are using the cloud
+
+**Cloud Benefits and Characteristics:**
+- **Scalability:** Easily scale up or down as your application's needs change.
+- **On-demand self-service:** Create or remove servers and storage instantly, without waiting for hardware.
+- **Pay only for what you use:** You are charged based on usage, not upfront costs.
+- **Security:** Cloud providers protect the infrastructure with strong security measures.
+- **High availability:** Applications keep running even if part of the system fails.
+- **Global access:** Your application can be accessed by users anywhere in the world.
+
+**Types of Cloud:**
+- **Public Cloud:** Used by startups, websites, and global apps because it is affordable, easy to scale, and requires no infrastructure management. Public cloud services are preferable for nearly every use case.
+- **Private Cloud:** Used by banks, healthcare, and government organizations because it offers greater control, customization, and compliance for sensitive data.
+- **Hybrid Cloud:** Used by companies like e-commerce platforms that need to keep sensitive data private while still scaling publicly during high demand.
+
+**Cloud Service Models:**
+- **Infrastructure as a Service (IaaS):** You rent basic computing resources such as virtual servers, storage, and networking. You are responsible for managing the operating system and your application, while the provider manages the physical hardware.
+- **Platform as a Service (PaaS):** The cloud provider manages the infrastructure and the operating system. You focus on building, deploying, and running your application without worrying about servers.
+- **Software as a Service (SaaS):** You use a complete application over the internet. The provider manages everything, and you access the software through a browser or app, for example, Gmail or Zoom.
+
+**Major Cloud Vendors:**
+- **Microsoft Azure:** A strong competitor, especially in enterprise and hybrid cloud environments.
+- **Google Cloud Platform (GCP):** Known for powerful data analytics, AI, and machine learning tools.
+- **Alibaba Cloud:** A major player in Asia, offering competitive cloud services globally.
+- **IBM Cloud:** Focuses on hybrid cloud and AI-driven solutions for businesses.
+- **Oracle Cloud:** Focuses on enterprise applications and databases.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Module 3 - Operating Systems Basics
