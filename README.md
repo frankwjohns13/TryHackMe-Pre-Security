@@ -248,8 +248,8 @@ IoT vs Embedded: Both can be small and single-purpose. The difference is connect
   - Syntax used.
   - Response to valid requests.
   - Response to invalid request.
-- **Port** - Identify a specific service running on a system. 
-- **Domain Name System(DNS)** - Converts a human readable web address into an IP address (like a phonebook).
+- **Port:** Identify a specific service running on a system. 
+- **Domain Name System(DNS):** Converts a human readable web address into an IP address (like a phonebook).
 - **Scheme:** Tells us which protocol was used: HTTP or HTTPS.
 - **Host:** Tells us the name of the host we request resources from.
 - **Filename:** Indicates which file we requested from the host. In our request, this is "/", which actually translates to "index.html".
