@@ -328,7 +328,7 @@ Containers behave like small, self-contained spaces because:
 
 
 ### Room 5 - Cloud Computing Fundamentals
-If you created an application that you wanted a lot of people to be able to use, you could host it on your own computer. You would have to give everyone a way to access it (share your IP address). Now, for them to access your computer would have to be on when they are trying to access it. What happens if people want to access it when your computer is shut down? What happens if more people want to access it than your network or computer can handle? These issues limit your apps ability to grow.
+If you created an application that you wanted a lot of people to be able to use, you could host it on your own computer. You would have to give everyone a way to access it (share your IP address). This could be difficult to memorize, especially if it is an IPv6 address. Now, inorder for them to access your app, your computer would have to be on when they are trying to access it. What happens if people want to access it when your computer is shut down? What happens if more people want to access it than your network or computer can handle? These issues limit your app's ability to grow.
 
 **That's when cloud computing comes to play and solves these problems!**
 
