@@ -167,6 +167,32 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ## Module 2 - Computer Fundamentals
 
 ### Room 1 - Inside a Computer System
+**Learning Objectives**
+- After completing this room, you will be able to recognize and understand the functions of various computing components.
+
+**Inside a Computer System:**
+- **Motherboard:** The skeleton and nerves
+- **RAM:** Short-term memory
+- **PSU:** Heart and Lungs
+- **CPU:** The Brains
+- **GPU** Visual Cortex
+- **HDD + SDD:** Long-term memory
+
+**What happens when you press the power button**
+- **Step 1: Press the Power Button**
+  - A signal is sent to the PSU to allow power to flow
+- **Step 2: Fireware satrts**
+  - The central system called *Unified Extensible Firmware Interface (UEFI)* or the *Basic Input-Output System (BIOS)* come to life
+- **Step 3: Power-On Self Test(POST)**
+  - Tests if every required component is present, configured correctly, and functioning.
+- **Step 4: Select Boot Device**
+  - The system searches for the location of our bootup routine.
+- **Step 5: Initiate Bootloader**
+  - Initiates the "load routine" to start it.
+
+
+
+
 
 
 ### Room 2 - Computer Types
