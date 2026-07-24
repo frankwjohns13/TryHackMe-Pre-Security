@@ -405,6 +405,7 @@ The core software the coordinates everthing happening on a computer. It is the m
 Every OS is responsible for a few core duties that allow your computer to run safely, efficiently, and predictably.
 
 <div> 
+  
   | **OS Responsibility**  | **What the OS Does**                                                               | **Example**                                                                |
   |------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
   | Process Management     | Creates, schedules, prioritizes, and terminates programs.                          | Opening multiple apps, like your browser, music player, and social media.  |
