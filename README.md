@@ -91,7 +91,7 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 - Compile ongoing reports about the safety of networks, documenting security issues and measures taken in response.
 - Develop security plans, incorporating research on new attack tools and trends, and measures needed across teams to maintain data security.
 
-**Relevant Career Guides**
+**Relevant Career Guides** (Official Links)
 - [Becoming a Cyber Security Analyst](https://tryhackme.com/r/careers/cyber-security-analyst)
 - [How to Become a Level 1 SOC Analyst](https://tryhackme.com/r/resources/blog/become-level-1-soc-analyst)
 - [A Day in the Life of a SOC Analyst](https://tryhackme.com/r/resources/blog/interview-with-soc-analyst)
@@ -107,7 +107,7 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 - Monitor networks and reports to update systems and mitigate vulnerabilities
 - Identify and implement systems needed for optimal security
 
-**Relevant Career Guides**
+**Relevant Career Guides** (Official Links)
 - [Becoming a Security Engineer](https://tryhackme.com/r/careers/security-engineer)
 - [How to Become a Security Engineer](https://tryhackme.com/r/resources/blog/become-security-engineer)
 - [A Day in the Life of a Security Engineer](https://tryhackme.com/r/resources/blog/interview-with-security-engineer)
@@ -146,7 +146,7 @@ Incident responders respond to security breaches. Incident response metrics incl
 - Perform security assessments, audits, and analyse policies
 - Evaluate and report on insights, recommending actions for attack prevention
 
-**Relevant Career Guides**
+**Relevant Career Guides** (Official Links)
 - [Becoming a Penetration Tester](https://tryhackme.com/r/careers/penetration-tester)
 - [How to Become a Penetration Tester](https://tryhackme.com/r/resources/blog/how-to-become-a-penetration-tester)
 - [Preparing for a Junior Penetration Tester Interview](https://tryhackme.com/r/resources/blog/jr-pentester-interview-guide)
@@ -160,7 +160,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 - Assess organisations' security controls, threat intelligence, and incident response procedures
 - Evaluate and report on insights, with actionable data for companies to avoid real-world instances
 
-**Relevant Career Guides**
+**Relevant Career Guides** (Official Link)
 - [Red Teaming: Job Roles, Salaries & Opportunities](https://tryhackme.com/r/resources/blog/red-teaming-jobs-salaries-opportunities)
 
 
