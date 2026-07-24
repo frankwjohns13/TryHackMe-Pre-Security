@@ -19,14 +19,36 @@
   - [Room 3 - Client-Server Basics](#room-3---client-server-basics)
   - [Room 4 - Virtualization Basics](#room-4---virtualization-basics)
   - [Room 5 - Cloud Computing Fundamentals](#room-5---cloud-computing-fundamentals)
-- [Module 3 Operating Systems Basics](#module-3---operating-systems-basics)
+- [Module 3 - Operating Systems Basics](#module-3---operating-systems-basics)
   - [Room 1 - Operating Systems - Introduction](#room-1---operating-systems---introduction)
   - [Room 2 - Windows Basics](#room-2---windows-basics)
   - [Room 3 - Linux CLI Basics](#room-3---linux-cli-basics)
   - [Room 4 - Windows CLI Basics](#room-4---windows-cli-basics)
   - [Room 5 - Operating System Security](#room-5---operating-system-security)
+- [Module 4 - Software Basics](#module-4---software-basics)
+  - [Room 1 - Data Representation](#room-1---data-representation)
+  - [Room 2 - Data Encoding](#room-2---data-encoding)
+  - [Room 3 - Python - Simple Demo](#room-3---python---simple-demo)
+  - [Room 4 - JavaScript - Simple Demo](#room-4---javascript---simple-demo)
+  - [Room 5 - Database SQL Basics](#room-5---database-sql-basics)
+- [Module 5 - Network Fundamentals](#module-5---network-fundamentals)
+  - [Room 1 - What is Networking?](#room-1---what-is-networking\?)
+  - [Room 2 - Intro to LAN](#room-2---intro-to-lan)
+  - [Room 3 - OSI Model](#room-3---osi-model)
+  - [Room 4 - Packets & Frames](#room-4---packets-&-frames)
+  - [Room 5 - Extending Your Network](#room-5---extending-your-network)
 
+## Module 6 - How The Web Works
+### Room 1 - DNS in Detail
+### Room 2 - HTTP in Detail
+### Room 3 - How Websites Work
+### Room 4 - Putting it all together
 
+## Module 7 - Attacks and Defense
+### Room 1 - The CIA Triad
+### Room 2 - Cryptography Concepts
+### Room 3 - Become a Hacker
+### Room 4 - Become a Defender
 
 
 
