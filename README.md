@@ -167,7 +167,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ## Module 2 - Computer Fundamentals
 
 ### Room 1 - Inside a Computer System
-**Learning Objectives**
+**Learning Objectives:**
 - After completing this room, you will be able to recognize and understand the functions of various computing components.
 
 **Inside a Computer System:**
@@ -203,25 +203,25 @@ Four types of computers that often look similar but serve very different purpose
 
 <div>
 
-| **Computer Type**  | **Screen and Keyboard** | **Main Purpose**                                  |
-|--------------------|-------------------------|---------------------------------------------------|
-| Laptop             | Yes                     | Portable everyday computing.                      |
-| Desktop            | Yes                     | Sustained performance at a fixed location.        |
-| Workstation        | Yes                     | Precision and reliability for professional tasks. |
-| Server             | No                      | Providing services to many users over a network.  |
+  | **Computer Type**  | **Screen and Keyboard** | **Main Purpose**                                  |
+  |--------------------|-------------------------|---------------------------------------------------|
+  | Laptop             | Yes                     | Portable everyday computing.                      |
+  | Desktop            | Yes                     | Sustained performance at a fixed location.        |
+  | Workstation        | Yes                     | Precision and reliability for professional tasks. |
+  | Server             | No                      | Providing services to many users over a network.  |
 
 </div>
 
-<div> 
-  
-**Hideng in everyday objects:**
 
-| Type              | What it is                                                        | Examples                                                         |
-|-------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
-| Smartphone        | Pocket-sized computer optimized for battery life and connectivity | iPhone, Android phone                                            |
-| Tablet            | Touch-first computer with larger screen                           | iPad, drawing tablet                                             |
-| IoT device        | Network-connected device with a single purpose                    | Thermostat, smart doorbell, fitness tracker                      |
-| Embedded computer | Computer built into another device                                | Coffee maker controller, automatic door sensor, lamp dimmer chip |
+<div> 
+
+  **Hideng in everyday objects:**
+  | Type              | What it is                                                        | Examples                                                         |
+  |-------------------|-------------------------------------------------------------------|------------------------------------------------------------------|
+  | Smartphone        | Pocket-sized computer optimized for battery life and connectivity | iPhone, Android phone                                            |
+  | Tablet            | Touch-first computer with larger screen                           | iPad, drawing tablet                                             |
+  | IoT device        | Network-connected device with a single purpose                    | Thermostat, smart doorbell, fitness tracker                      |
+  | Embedded computer | Computer built into another device                                | Coffee maker controller, automatic door sensor, lamp dimmer chip |
 
 </div>
 
@@ -271,23 +271,72 @@ The Request for Comments(RFC) document lists nine core commands.
 - CONNECT - Special request type used to establish a tunnel through an HTTP proxy.
 - TRACE - A diagnostic tool for instpecting the request chain between the client and server.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Room 4 - Virtualization Basics
+Have you ever considered how expensive and inefficient it would be if every piece of software or every website required its own physical server? 
+**Virtualization was created to solve exactly this problem.** \
+
+**Learning Objectives:**
+- Understand why managing applications on individual physical servers is inefficient.
+- Learn how virtualization addresses hardware utilization and scalability challenges.
+- Understand the components of a lab machine.
+- Learn how containers have further optimized hardware utilization for applications.
+
+**One Application per Server**
+If each application required its own server that would mean a company that wanted to run a website, have a database, an email service, and an internal app would need four seperate servers. This creates problems:
+- **High cost:** Buying multiple physical servers is expensive, costs more in electricty, cooling, maintenance, and space.
+- **Low utilizaiton:** Most applications don't use the full capacity of the server. So a lot of time is spent idle while waiting for a request.
+- **Slow deployment:** Setting up physical servers takes days or weeks.
+- **Hard to scale:** If an applicaiton needed more resources, you'd have to buy another physical server.
+
+**What if multiple applications could be run on the same server safely?** \
+**Enter virtualization:** A virtualization layer, called a hypervisor, was introduced to act as a referee between lab machines and allow each virtual computer to behave independently, like a physical computer.
+
+Hypervisors have two main types of implementation, each of which is used for specific scenarios, from home labs to large data centers:
+- **Type 1** hypervisors run directly on the physical hardware, making them fast, efficient, and ideal for servers and professional environments.
+- **Type 2** hypervisors run within an existing operating system, making them easier to install and ideal for learning, testing, or small setups.
+
+<div>
+
+  | Use Case              | Type 1  | Type 2  |
+  |-----------------------|---------|---------|
+  | Test Malicious Files  |         |    X    |
+  | Production Server     |    X    |         |
+  | Database Server       |    X    |         |
+  | Software Testing      |         |    X    |
+  | Kali Linux            |         |    X    |
+  | Data Center           |    X    |         |
+  
+</div>
+
+**Lab Machines**\
+Even though it’s virtual, it behaves as a real machine:
+- It has its own virtual CPU, RAM, storage, and network.
+- It can run any operating system (Windows, Linux, etc.).
+- It’s completely isolated from other VMs. This means that if one VM breaks, the others continue to work.
+
+**Containers**\
+A container is a lightweight, isolated environment that runs a single application and all the necessary components to support it.
+
+Containers behave like small, self-contained spaces because:
+- They package the application and its dependencies (libraries, tools, versions).
+- They share the host’s operating system, so they start almost instantly.
+- They remain isolated from each other, so a misbehaving container doesn’t affect the others.
+- They can run consistently on any machine, making them perfect for development, testing, and scalable deployments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Room 5 - Cloud Computing Fundamentals
