@@ -257,9 +257,9 @@ IoT vs Embedded: Both can be small and single-purpose. The difference is connect
 - **Status:** This field indicates whether the request was successful. In our example, we received a "200 OK" status, which means that the request was successful.
 
 **Web Communication** \
-Hypertext Transfer Protocol (Secure), abbreviated as HTTP(S), is a stateless client-server protocol used for the World Wide Web. This means that each request is processed independently, without the server retaining information about previous requests.\
+Hypertext Transfer Protocol (Secure), abbreviated as HTTP(S), is a stateless client-server protocol used for the World Wide Web. This means that each request is processed independently, without the server retaining information about previous requests. \
 
-**HTTP Commands**\
+**HTTP Commands** \
 The Request for Comments (RFC) documents list nine core commands. 
 - GET - Used to retrieve a resource from a web server.
 - POST - Sends data to a server.
