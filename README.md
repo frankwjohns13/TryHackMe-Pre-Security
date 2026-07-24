@@ -229,6 +229,62 @@ IoT vs Embedded: Both can be small and single-purpose. The difference is connect
 
 
 ### Room 3 - Client-Server Basics
+**Learning Objectives**
+- Understand the Client-Server model
+- Understand the following concepts on a surface level:
+   - Client
+   - Server
+   - Protocol
+   - Port
+   - DNS
+   - Network
+
+**Key Terms:**
+- **Client:** The one making the request. (E.g., A web browser requesting a webpage)
+- **Server:** The one the request is made to.
+- **Protocol:** How requests are made.
+  - Commands the client and server understand.
+  - Request structure.
+  - Syntax used.
+  - Response to valid requests.
+  - Response to invalid request.
+- **Port** - Identify a specific service running on a system. 
+- **Domain Name System(DNS)** - Converts a human readable web address into an IP address (like a phonebook).
+- **Scheme:** Tells us which protocol was used: HTTP or HTTPS.
+- **Host:** Tells us the name of the host we request resources from.
+- **Filename:** Indicates which file we requested from the host. In our request, this is "/", which actually translates to "index.html".
+- **Address:** Displays the IP address where the website is hosted. In our example, we are hosting the website on the same device. That's why the address 127.0.0.1 is shown.
+- **Status:** This field indicates whether the request was successful. In our example, we received a "200 OK" status, which means that the request was successful.
+
+**Web Communication** \
+Hypertext Transfer Protocol (Secure), abbreviated as HTTP(S), is a stateless client-server protocol used for the World Wide Web. This means that each request is processed independently, without the server retaining information about previous requests.\
+
+**HTTP Commands**\
+The Request for Comments (RFC) documents list nine core commands. 
+- GET - Used to retrieve a resource from a web server.
+- POST - Sends data to a server.
+- PUT - Used to create or update a resource.
+- DELETE - Instructs a server to remove a resource.
+- PATCH - Used to apply partial modifications to a resource. 
+- HEAD - Requests only the headers of a resource.
+- OPTIONS - Used to request information about the communication options available.
+- CONNECT - Special request type used to establish a tunnel through an HTTP proxy.
+- TRACE - A diagnostic tool for instpecting the request chain between the client and server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Room 4 - Virtualization Basics
