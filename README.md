@@ -183,7 +183,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
   - A signal is sent to the PSU to allow power to flow
 - **Step 2: Fireware satrts**
   - The central system called *Unified Extensible Firmware Interface (UEFI)* or the *Basic Input-Output System (BIOS)* come to life
-- **Step 3: Power-On Self Test(POST)**
+- **Step 3: Power-On Self Test (POST)**
   - Tests if every required component is present, configured correctly, and functioning.
 - **Step 4: Select Boot Device**
   - The system searches for the location of our bootup routine.
@@ -249,7 +249,7 @@ IoT vs Embedded: Both can be small and single-purpose. The difference is connect
   - Response to valid requests.
   - Response to invalid request.
 - **Port:** Identify a specific service running on a system. 
-- **Domain Name System(DNS):** Converts a human readable web address into an IP address (like a phonebook).
+- **Domain Name System (DNS):** Converts a human readable web address into an IP address (like a phonebook).
 - **Scheme:** Tells us which protocol was used: HTTP or HTTPS.
 - **Host:** Tells us the name of the host we request resources from.
 - **Filename:** Indicates which file we requested from the host. In our request, this is "/", which actually translates to "index.html".
@@ -260,7 +260,7 @@ IoT vs Embedded: Both can be small and single-purpose. The difference is connect
 Hypertext Transfer Protocol (Secure), abbreviated as HTTP(S), is a stateless client-server protocol used for the World Wide Web. This means that each request is processed independently, without the server retaining information about previous requests. 
 
 **HTTP Commands** \
-The Request for Comments(RFC) document lists nine core commands. 
+The Request for Comments (RFC) document lists nine core commands. 
 - GET - Used to retrieve a resource from a web server.
 - POST - Sends data to a server.
 - PUT - Used to create or update a resource.
@@ -363,7 +363,7 @@ These limitations make it very difficult for your app to scale and reach a large
 
 **Major Cloud Vendors:**
 - **Microsoft Azure:** A strong competitor, especially in enterprise and hybrid cloud environments.
-- **Amazon Web Services:** A pay-as-you-go basis, covering computing, storage, networking, databases, analytics, and machine learning. 
+- **Amazon Web Services (AWS):** A pay-as-you-go basis, covering computing, storage, networking, databases, analytics, and machine learning. 
 - **Google Cloud Platform (GCP):** Known for powerful data analytics, AI, and machine learning tools.
 - **Alibaba Cloud:** A major player in Asia, offering competitive cloud services globally.
 - **IBM Cloud:** Focuses on hybrid cloud and AI-driven solutions for businesses.
