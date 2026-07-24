@@ -370,23 +370,111 @@ These limitations make it very difficult for your app to scale and reach a large
 - **Oracle Cloud:** Focuses on enterprise applications and databases.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Module 3 - Operating Systems Basics
 
-
 ### Room 1 - Operating Systems - Introduction
+**Learning Objectives:**
+- Understand what an operating system is and the role it plays
+- Explain the core duties of an operating system
+- Identify common OS types and their typical use cases
+- Practice interacting with an OS to gather system information
+
+**Key Terminology:**
+- Operating system (OS)
+- Kernel space
+- User space
+- Graphical user interface (GUI)
+- Command-line interface (CLI)
+
+#### **Operating System** 
+The core software the coordinates everthing happening on a computer. It is the middle man between the hardware and the applications we use.
+
+<div align="center">
+  
+  | User             |
+  |------------------|
+  | Applicaitons     |
+  | Operating System |
+  | Hardware         |
+
+</div>
+
+ Without an OS, each application would need direct control over the CPU, memory, files, devices, and security. This separation is intentional and helps prevent conflicts and security issues.
+ - **Kernel space:** The privileged, locked-down core of the OS. It has unrestricted access to the hardware.
+ - **User space:** Where all standard applicaitons run.
+
+#### **Operating System Duties**
+Every OS is responsible for a few core duties that allow your computer to run safely, efficiently, and predictably.
+
+<div> 
+  | **OS Responsibility**  | **What the OS Does**                                                               | **Example**                                                                |
+  |------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+  | Process Management     | Creates, schedules, prioritizes, and terminates programs.                          | Opening multiple apps, like your browser, music player, and social media.  |
+  | Memory Management      | Allocates RAM to processes, protects the app's memory.                             | Allocates RAM to each open app keeping them isolated.                      |
+  | File System Management | Organizes files into directories, handles naming, paths, permissions, and metadata | Creating new folders, saving photos, or setting a file to read only.       |
+  | User Management        | Handles multiple user accounts, authentication, and permissions.                   | Logging in with your user name and password.                               |
+  | Device Management      | Loads drivers and provides universal interface.                                    | Plugging in a new mouse, printer, or external hard drive.                  |
+
+</div>
+
+#### Operating System Security
+At a basic level, your operating system handles:
+- **Authentication:** Verifies who you are through login passwords and biometrics
+- **Permissions:** Controls exactly what each user and app is allowed to read, write, or execute
+- **Isolation:** Keeps every process in its own protected box (kernel/user space separation)
+- **System Protection:** Safeguards critical system files and settings from unauthorized changes
+
+**Graphical User Interface:** It provides the visual representation of all the information you want to access.
+**Command Line Interface:** Text-based interface that allows you to enter commands to retrieve or manipulate information.
+
+<div>
+  
+  | **OS Type** | **Primary Use Case** | **Key Characteristics** |
+  |-------------|--------------------------------                           |--------------------------|
+  | Desktop     | Personal computers, daily work, gaming, content creation. | Rich graphical interface |
+  | Server      | Web hosting, databases, cloud services, back-end | Headless (no GUI), maximum uptime, multi-user, remote access |
+  | Moblie      | Smartphones and tablets                          | Touch-based UI, power efficient, always connected, app sandboxing |
+  | Embedded    | Appliances, cars, IoT devices,...                | Tiny footprint, runs on limited hardware |
+  | Virtual/Cloud | Lab machines, containers, cloud instances | Lightweight, scalable, rapid deployment|
+  
+</div>
+
+#### Real World Operating Systems
+**Desktop**
+- **Windows:** The most widely used operating system on personal computers Windows 10 (end-of-life), Windows 11
+- **macOS:** Apple's desktop OS, known for its polished GUI and integration with other Apple devices Sonoma (14), Sequoia (15), Tahoe (26)
+- **Linux:** Not a single OS but a family of open-source operating systems called distributions - Ubuntu, Debian, Fedora
+
+**Server**
+- **Windows:** Used in large networks, data centers, and corporate environments Server 2016, 2019, 2022, 2025
+- **Linux:** The vast majority of web servers, trusted for its reliability and open-source nature Ubuntu Server, Debian, CentOS, Red Hat
+- **Unix:** Large enterprises, finance, telecom, government IBM AIX, Oracle Solaris
+  
+**Mobile**
+- **Android:** The most widely used mobile OS, which runs on phones, tablets, and smart devices Android 14 - 16, Manufacturer versions
+- **iOS:** Apple's mobile OS running on iPhones, iPads, and other devices iOS 17, 18, 26
+
+**Embedded and IoT Devices**
+- **Embedded Linux:* Specialized OS built into devices with dedicated functions OpenWrt, Ubuntu Core, Yocto Project
+- **Real-Time OS:** Designed for apps where tasks need guaranteed response times (aircraft controls)FreeRTOS, VxWorks, QNX
+
+**Virtual and Cloud**
+- **Cloud/VM:* Massive data centers that host websites, apps, and streaming services Ubuntu LTS, Amazon Linux, Rocky Linux
+- **Container-optimized:** Lightweight alternatives to VMs that package just the app and its dependencies Alpine Linux, Bottlerocket AWS, Flatcar Linux
+
+**Further Learning** (Official Links)
+- [Windows Basics](https://tryhackme.com/room/windowsbasics)
+- [Linux CLI Basics](https://tryhackme.com/room/linuxclibasics)
+- [Windows CLI Basics](https://tryhackme.com/room/windowsclibasics)
+
+
+
+
+
+
+
+
+
 
 
 ### Room 2 - Windows Basics
