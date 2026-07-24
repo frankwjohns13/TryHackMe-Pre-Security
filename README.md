@@ -172,13 +172,13 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 **Inside a Computer System:**
 - **Motherboard:** The skeleton and nerves
-- **RAM:** Short-term memory
-- **PSU:** Heart and Lungs
-- **CPU:** The Brains
-- **GPU** Visual Cortex
-- **HDD + SDD:** Long-term memory
+- **Random Access Memory (RAM):** Short-term memory
+- **Power Supply Unit (PSU):** Heart and Lungs
+- **Central Processing Unit (CPU):** The Brains
+- **Graphical Processing Unit (GPU)** Visual Cortex
+- **Hard Disk Drive (HDD) + Solid State Drive (SSD):** Long-term memory
 
-**What happens when you press the power button**
+**What happens when you press the Start Button**
 - **Step 1: Press the Power Button**
   - A signal is sent to the PSU to allow power to flow
 - **Step 2: Fireware satrts**
@@ -190,7 +190,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 - **Step 5: Initiate Bootloader**
   - Initiates the "load routine" to start it.
 
-
+This was just a quick overview of the internal parts and what happens when you press the power button on your computer. 
 
 
 
