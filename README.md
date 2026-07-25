@@ -498,10 +498,18 @@ Let's have a look at the Windows Desktop and cover some of its core features tog
 7. **Date and Time:** Opens up to a full calendar. Date and time settings can be accessed here, too
 8. **Notifications:** Displays computer or application notifications. Network and other settings can also be accessed
 
+<!-- Image relating to the numbered terms above -->
 <img width="520" height="457" alt="THM-Windows_Desktop" src="https://github.com/user-attachments/assets/5f5a2be9-18ad-44c6-9b8a-b040c358b11b" />
 
+**Start Menu**
+It is the area where we see what is available: apps, files, folders, settings, and power options.
+<!-- Start Menu Image from TryHackMe's room -->
+<img width="495" height="520" alt="THM-Windows-Start" src="https://github.com/user-attachments/assets/efd95624-b266-4411-86a9-4c7abc8f3349" />
+
+*Image from the TryHackMe website found here:* [Windows Images](https://tryhackme.com/room/windowsbasics)
 
 
+**Work on Task 3**
 
 
 
