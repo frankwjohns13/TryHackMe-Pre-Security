@@ -468,17 +468,48 @@ At a basic level, your operating system handles:
 - [Linux CLI Basics](https://tryhackme.com/room/linuxclibasics)
 - [Windows CLI Basics](https://tryhackme.com/room/windowsclibasics)
 
-
-
-
-
-
-
-
-
-
-
 ### Room 2 - Windows Basics
+
+**Learning Objectives:**
+- Navigate the Windows graphical interface, including the desktop, taskbar, and Start menu
+- Use File Explorer to browse folders, understand file paths, and organize files effectively
+- Check system settings and personalize the Windows environment using the Settings app
+- Use basic system tools like Task Manager and Windows Security to monitor performance and verify system protection
+
+**Exploring the Windows Workspace**\
+Before gaining access to the Windows Desktop, you must authenticate (prove your identity) to the system. The authentication process verifies your identity and determines the actions you're allowed to take once logged in.
+
+**Typical Accounts:** 
+- **Guest:** Restricted account for temporary access with minimal permissions.
+- **Standard:** User account for everyday tasks. Cannot make system-wide changes.
+- **Administrator:** Privileged account with full control over the system. 
+
+Let's have a look at the Windows Desktop and cover some of its core features together. When you first log in, you're presented with two main areas.
+- **Desktop:** The main workspace where files, folders, and shortcuts live
+- **Taskbar:** A control strip that provides access to applications, system tools, settings, and notifications
+
+**Core components and concepts**
+1. **Desktop icons:** Shortcuts to items like the Recycle Bin, folders, and frequently used applications. It is fully customizable
+2. **Start menu:** Primary way to access applications, settings, and power options. From here, you can log out, restart, or power off your machine
+3. **Search:** Quickly find applications, files, folders, and system settings by using keywords
+4. **Task View:** Allows you to see all currently open windows and quickly switch between them
+5. **Pinned Applications and Folders:** Your most used applications and folders can be pinned here
+6. **Network and Audio settings:** This section can be customized to suit your needs
+7. **Date and Time:** Opens up to a full calendar. Date and time settings can be accessed here, too
+8. **Notifications:** Displays computer or application notifications. Network and other settings can also be accessed
+
+<img width="520" height="457" alt="THM-Windows_Desktop" src="https://github.com/user-attachments/assets/5f5a2be9-18ad-44c6-9b8a-b040c358b11b" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Room 3 - Linux CLI Basics
