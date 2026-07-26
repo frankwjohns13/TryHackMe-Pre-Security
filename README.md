@@ -508,19 +508,89 @@ It is the area where we see what is available: apps, files, folders, settings, a
 
 *Image from the TryHackMe website found here:* [Windows Images](https://tryhackme.com/room/windowsbasics)
 
+#### Updating Your Applications
+Keeping your operating system and applications up to date is an important part of maintaining a secure and stable system
 
-**Work on Task 3**
+**Windows Updates**
+Windows has a built in Windows Update tool. It can keep the OS and some native applications and security features up to date. 
 
+**Updating Applications**\
+Application updates work differently depending on how the software is installed.
+- Built-in applications may update automatically in the background
+- Third-party applications often include their own update mechanisms
+- Some applications will prompt you to update upon launch
+- Some require you to check for updates or download a new installer manually
 
+#### Installing Applications
+1. **Microsoft Store:** Provides a curated and safe option for installing apps to Windows, although it is not available by default on Windows Server
+2. **From the Internet:** In many environments, apps are installed by downloading an installer directly from a trusted vendor's website. They usually come in an .exe or .msi file and guide the user through the installation process
 
+#### Uninstalling Applications
+In a Windows environment, there are multiple ways to uninstall programs. 
+- Using the Microsoft Store for installed applications
+- Add or remove programs feature in system settings
+- Uninstall a program section of the Control Panel
+- Using an application's built-in uninstaller
 
+#### Diving Into Settings
+There are two primary ways in which a Windows user can modify their environment. 
+1. Windows Settings: A modern, centralized location for configuring system, device, personalization, and security settings in Windows
+2. Control Panel: A legacy management interface that provides access to older system configuration tools still required for specific administrative tasks
 
+#### The Task Manager
+**Task Manager** is a built-in Windows tool that allows you to monitor what is happening on your system in real time.\
+Task Manager has five tabs to help you keep track of your system.
+1. **Processes:** Currently running apps and background processes, and their resource usage
+2. **Performance:** Graphs and statistics for system resources such as CPU, memory, and network
+3. **Users:** Currently logged-in users and used resources
+4. **Details:** A more technical view of running processes, including process IDs (PIDs)
+5. **Services:** Windows services and their current status (running or stopped)
 
+#### Native Windows Security
+**Windows Security**\
+The **Windows Security** application is your central dashboard for managing Windows' built-in protection measures. It is divided into four main sections, each focusing on a different area of system security.
+- **Virus & threat protection:** Helps detect and remove malicious software using real-time protection and customizable scans
+- **Firewall & network protection:** Controls incoming and outgoing network traffic to help prevent unauthorized access
+- **App & browser control:** Protects users from potentially unsafe apps, files, and websites
+- **Device security:** Provides hardware-based protections that help secure the system
 
+A closer look at the Virus & threat protection section of Windows Security on your workstation.
+1. Open **Windows Security** using the shortcut in the *Show hidden icons* section of your taskbar. 
+2. Select the Virus & Threat protection section.
 
+#### Windows Defender Firewall
+Windows Defender Firewall is a built-in firewall designed to help protect your computer from unauthorized network traffic.
+- **Domain:** Used when a system is connected to an organization’s domain network
+- **Private:** Intended for trusted networks, such as a home or lab environment
+- **Public:** Used for untrusted networks, such as public Wi-Fi
 
+Checking out the Advanced settings of Windows Defender Firewall, you can view
+1. An overview of your firewall's inbound, outbound, and connection rules
+2. A detailed view of each rule, including name, group, network profile, status, and action
+3. Create new rules or filter your current view
 
 ### Room 3 - Linux CLI Basics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Room 4 - Windows CLI Basics
