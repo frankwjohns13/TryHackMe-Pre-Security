@@ -305,7 +305,7 @@ Running a website, database, email service, and internal app on four separate ph
 - Slow deployment – setting up physical machines takes days or weeks
 - Hard to scale – needing more resources means buying more hardware
 
-**Solution: Virtualization**
+**Solution: Virtualization**\
 A hypervisor sits between the physical hardware and the virtual machines. It acts as a referee so each VM can behave like an independent computer while sharing the same physical resources safely.
 
 **Two Types of Hypervisors**
