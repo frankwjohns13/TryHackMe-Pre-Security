@@ -298,7 +298,7 @@ Client · Server · Protocol · Port · DNS · Network
 - Know the basic components of a lab/virtual machine
 - Understand how containers further improve efficiency
 
-**The Old Problem: One Application per Physical Server**
+**The Old Problem: One Application per Physical Server**\
 Running a website, database, email service, and internal app on four separate physical servers causes:
 - High cost – hardware, electricity, cooling, space, maintenance
 - Low utilization – most servers sit mostly idle
