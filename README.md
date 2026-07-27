@@ -237,75 +237,57 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 
 ### Room 3 - Client-Server Basics
 **Learning Objectives**
-- Understand the Client-Server model
-- Understand the following concepts on a surface level:
-   - Client
-   - Server
-   - Protocol
-   - Port
-   - DNS
-   - Network
+Understand the client-server model at a surface level, including these concepts:\
+Client · Server · Protocol · Port · DNS · Network
 
-**Key Terms:**
-- **Client:** The one making the request. (E.g., A web browser requesting a webpage)
-- **Server:** The one the request is made to.
-- **Protocol:** How requests are made.
-  - Commands the client and server understand.
-  - Request structure.
-  - Syntax used.
-  - Response to valid requests.
-  - Response to invalid request.
-- **Port:** Identify a specific service running on a system. 
-- **Domain Name System (DNS):** Converts a human readable web address into an IP address (like a phonebook).
-- **Scheme:** Tells us which protocol was used: HTTP or HTTPS.
-- **Host:** Tells us the name of the host we request resources from.
-- **Filename:** Indicates which file we requested from the host. In our request, this is "/", which actually translates to "index.html".
-- **Address:** Displays the IP address where the website is hosted. In our example, we are hosting the website on the same device. That's why the address 127.0.0.1 is shown.
-- **Status:** This field indicates whether the request was successful. In our example, we received a "200 OK" status, which means that the request was successful.
+**Key Terms**
+<div>
+  | **Term** | **Simple Definition** |
+  |----------|------------------------------------------------------------------------------|
+  | Client   | The side that makes the request (e.g. your web browser asking for a webpage) |
+  | Server   | The side that receives and responds to the request |
+  | Protocol | The agreed set of rules for how the client and server talk to each other (commands, request format, responses for success/failure) |
+  | Port     | A number that identifies a specific service running on a computer (e.g. web servers usually listen on port 80 or 443) |
+  | DNA      | Domain Name System - converts a human-readable name (google.com) into an IP address (like a phone book) |
+  | Network  | The connection that lets the client and server reach each other |
+  
+</div>
 
-**Web Communication** \
-Hypertext Transfer Protocol (Secure), abbreviated as HTTP(S), is a stateless client-server protocol used for the World Wide Web. This means that each request is processed independently, without the server retaining information about previous requests. 
+**Breaking Down a Web Request (example fields you’ll see)**
 
-**HTTP Commands** \
-The Request for Comments (RFC) document lists nine core commands. 
-- GET - Used to retrieve a resource from a web server.
-- POST - Sends data to a server.
-- PUT - Used to create or update a resource.
-- DELETE - Instructs a server to remove a resource.
-- PATCH - Used to apply partial modifications to a resource. 
-- HEAD - Requests only the headers of a resource.
-- OPTIONS - Used to request information about the communication options available.
-- CONNECT - Special request type used to establish a tunnel through an HTTP proxy.
-- TRACE - A diagnostic tool for instpecting the request chain between the client and server.
+<div>
 
+  | **Field**       | **Meaning** |
+  |-----------------|-------------------------------------------------------------------------------------|
+  | Scheme          | The protocol being used (*http* or *https)                                          |
+  | Host            | The name of the server you’re talking to                                            |
+  | Filename / Path | The specific resource requested (often / which maps to index.html)                  |
+  | Address         | The IP address of the server (e.g. 127.0.0.1 when it’s running on your own machine) |
+  | Status          | Result of the request (e.g. 200 OK = success)                                       |
+  
+</div>
 
+**Web Communication – HTTP / HTTPS**
+- **HTTP(S)** = Hypertext Transfer Protocol (Secure)
+- Stateless client-server protocol used by the World Wide Web
+- Stateless means every request is independent – the server does not remember previous requests by default
 
+**Core HTTP Methods (Commands)**
+<div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  | **Method** | **Purpose**                                      |
+  |------------|--------------------------------------------------|
+  | GET        | Retrieve a resource                              |
+  | POST       | Send data to the server                          |
+  | PUT        | Create or completely replace a resource          |
+  | DELETE     | Remove a resource                                |
+  | PATCH      | Apply partial modifications to a resource        |
+  | HEAD       | Get only the headers (no body)                   |
+  | OPTIONS    | Ask what methods/options the server supports     |
+  | CONNECT    | Establish a tunnel (usually through a proxy)     |
+  | TRACE      | Diagnostic – show the request path (rarely used) |
+  
+</div>
 
 ### Room 4 - Virtualization Basics
 Have you ever considered how expensive and inefficient it would be if every piece of software or every website required its own physical server? 
@@ -361,6 +343,31 @@ Containers behave like small, self-contained spaces because:
 - They share the host’s operating system, so they start almost instantly.
 - They remain isolated from each other, so a misbehaving container doesn’t affect the others.
 - They can run consistently on any machine, making them perfect for development, testing, and scalable deployments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Room 5 - Cloud Computing Fundamentals
