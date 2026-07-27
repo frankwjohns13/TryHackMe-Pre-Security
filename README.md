@@ -69,6 +69,10 @@ Hack your first website (legally in a safe environment) and experience an ethica
   - -u to state website
   - -w to use a word list
 
+**End of Room 1**
+
+---
+
 ### Room 2 - Defensive Security Intro
 Introducing defensive security, where you will protect FakeBank from an ongoing attack. \
 
@@ -80,6 +84,10 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 - Detecting Suspicious Activity - Use the Event Management tool to detect a suspicious IP address.
 - Identifying the Attack - Security Analyst Dashboard to find what page they are trying to access.
 - Stop the Attack - Use a firewall rule to block the attackers IP address.
+
+**End of Room 2**
+
+---
 
 ### Room 3 - Careers in Cyber
 
@@ -163,6 +171,11 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 **Relevant Career Guides** (Official Link)
 - [Red Teaming: Job Roles, Salaries & Opportunities](https://tryhackme.com/r/resources/blog/red-teaming-jobs-salaries-opportunities)
 
+**End of Room 3**
+
+---
+**End of Module 1**
+---
 
 ## Module 2 - Computer Fundamentals
 
@@ -200,6 +213,10 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 That’s the entire high-level sequence. Everything after step 5 is the OS taking control.
 
+**End of Room 1**
+
+---
+
 ### Room 2 - Computer Types
 **Learning Objectives**
 - Identify and distinguish computers you interact with directly (laptops, phones, tablets) and indirectly (servers, IoT devices, embedded systems). Understand why each type is designed the way it is.
@@ -234,6 +251,10 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 **IoT vs Embedded - The Key Difference**
 - **IoT** → has network connectivity (reports data or receives commands)
 - **Embedded** → often has no network connection; it just does its job silently inside the device for years
+
+**End of Room 2**
+
+---
 
 ### Room 3 - Client-Server Basics
 **Learning Objectives**
@@ -289,6 +310,10 @@ Client · Server · Protocol · Port · DNS · Network
   | TRACE      | Diagnostic – show the request path (rarely used) |
   
 </div>
+
+**End of Room 3**
+
+---
 
 ### Room 4 - Virtualization Basics
 
@@ -351,6 +376,10 @@ A container is a lightweight, isolated environment that packages a single applic
 - **VM** = full virtual computer (own OS)
 - **Container** = just the application + its dependencies (shares the host OS)
 
+**End of Room 4**
+
+---
+
 ### Room 5 - Cloud Computing Fundamentals
 
 **The Problem with Self-Hosting**\
@@ -407,6 +436,10 @@ Hosting an app on your own computer means:
 - **IBM Cloud** – hybrid cloud and AI-focused solutions
 - **Oracle Cloud** – enterprise applications and databases
 
+
+**End of Room 5**
+
+---
 
 ## Module 3 - Operating Systems Basics
 
@@ -505,6 +538,10 @@ At a basic level, your operating system handles:
 - [Windows Basics](https://tryhackme.com/room/windowsbasics)
 - [Linux CLI Basics](https://tryhackme.com/room/linuxclibasics)
 - [Windows CLI Basics](https://tryhackme.com/room/windowsclibasics)
+
+**End of Room 1**
+
+---
 
 
 
@@ -641,6 +678,10 @@ Checking out the Advanced settings of Windows Defender Firewall, you can view
 2. A detailed view of each rule, including name, group, network profile, status, and action
 3. Create new rules or filter your current view
 
+**End of Room 3**
+
+---
+
 ### Room 3 - Linux CLI Basics
 
 
@@ -665,11 +706,23 @@ Checking out the Advanced settings of Windows Defender Firewall, you can view
 
 
 
+**End of Room 3**
+
+---
+
 ### Room 4 - Windows CLI Basics
 
 
+**End of Room 4**
+
+---
+
 ### Room 5 - Operating System Security
 
+
+**End of Room 5**
+
+---
 
 ## Module 4 - Software Basics
 
@@ -677,17 +730,37 @@ Checking out the Advanced settings of Windows Defender Firewall, you can view
 ### Room 1 - Data Representation
 
 
+**End of Room 1**
+
+---
+
 ### Room 2 - Data Encoding
 
+
+**End of Room 2**
+
+---
 
 ### Room 3 - Python - Simple Demo
 
 
+**End of Room 3**
+
+---
+
 ### Room 4 - JavaScript - Simple Demo
 
 
+**End of Room 4**
+
+---
+
 ### Room 5 - Database SQL Basics
 
+
+**End of Room 5**
+
+---
 
 ## Module 5 - Network Fundamentals
 
@@ -695,17 +768,37 @@ Checking out the Advanced settings of Windows Defender Firewall, you can view
 ### Room 1 - What is Networking
 
 
+**End of Room 1**
+
+---
+
 ### Room 2 - Intro to LAN
 
+
+**End of Room 2**
+
+---
 
 ### Room 3 - OSI Model
 
 
+**End of Room 3**
+
+---
+
 ### Room 4 - Packets and Frames
 
 
+**End of Room 4**
+
+---
+
 ### Room 5 - Extending Your Network
 
+
+**End of Room 5**
+
+---
 
 ## Module 6 - How The Web Works
 
@@ -713,14 +806,30 @@ Checking out the Advanced settings of Windows Defender Firewall, you can view
 ### Room 1 - DNS in Detail
 
 
+**End of Room 1**
+
+---
+
 ### Room 2 - HTTP in Detail
 
+
+**End of Room 2**
+
+---
 
 ### Room 3 - How Websites Work
 
 
+**End of Room 3**
+
+---
+
 ### Room 4 - Putting it all together
 
+
+**End of Room 4**
+
+---
 
 ## Module 7 - Attacks and Defense
 
@@ -728,14 +837,30 @@ Checking out the Advanced settings of Windows Defender Firewall, you can view
 ### Room 1 - The CIA Triad
 
 
+**End of Room 1**
+
+---
+
 ### Room 2 - Cryptography Concepts
 
+
+**End of Room 2**
+
+---
 
 ### Room 3 - Become a Hacker
 
 
+**End of Room 3**
+
+---
+
 ### Room 4 - Become a Defender
 
+
+**End of Room 4**
+
+---
 
 
 
