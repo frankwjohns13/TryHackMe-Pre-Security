@@ -443,6 +443,10 @@ Hosting an app on your own computer means:
 
 ---
 
+**End of Module 2**
+
+---
+
 ## Module 3 - Operating Systems Basics
 
 ### Room 1 - Operating Systems - Introduction
