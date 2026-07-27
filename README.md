@@ -242,6 +242,7 @@ Client · Server · Protocol · Port · DNS · Network
 
 **Key Terms**
 <div>
+  
   | **Term** | **Simple Definition** |
   |----------|------------------------------------------------------------------------------|
   | Client   | The side that makes the request (e.g. your web browser asking for a webpage) |
