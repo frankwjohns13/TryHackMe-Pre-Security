@@ -167,7 +167,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ## Module 2 - Computer Fundamentals
 
 ### Room 1 - Inside a Computer System
-**Learning Objectives**\
+**Learning Objectives**
 - Recognize the main hardware components of a computer and understand what each one does.
 - Know the high-level sequence of events that occurs when you press the power button.
 
@@ -176,7 +176,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 <div>
   
   | **Component** | **Role** | **Analogy** |
-  |------------------------|----------------------------------------------------------|--------------------|
+  |------------------------|-----------------------------------------------------|--------------------|
   | Motherboard            | Central circuit board that everything else plugs into and communicates through | Skeleton + nervous system |
   | CPU (Central Processing Unit) | Executes instructions / does the actual computing | Brain |
   | RAM (Random Access Memory) | Fast, temporary working memory. Data disappears when power is cut | Short-term memory |
@@ -192,11 +192,11 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 - Modern systems almost always use **UEFI** instead of the older **BIOS**, but people still say “BIOS” generically.
 
 **What happens when you press the power button**
-1. **Power button pressed:** \Signal reaches the PSU → PSU starts supplying power to the motherboard and components.
-2. **Firmware starts:** \UEFI (or legacy BIOS) initializes. This is the very low-level software stored on a chip on the motherboard.
-3. **POST (Power-On Self-Test):** \Firmware checks that the essential hardware (CPU, RAM, etc.) is present and working. If something critical fails, you usually get beep codes or error messages.
-4. **Boot device selection:** \Firmware looks for a bootable device according to the boot order (SSD/HDD, USB, network, etc.).
-5. **Bootloader is loaded and run:** \The chosen device’s bootloader (e.g. GRUB, Windows Boot Manager) takes over and starts loading the operating system.
+1. **Power button pressed:** Signal reaches the PSU → PSU starts supplying power to the motherboard and components.
+2. **Firmware starts:** UEFI (or legacy BIOS) initializes. This is the very low-level software stored on a chip on the motherboard.
+3. **POST (Power-On Self-Test):** Firmware checks that the essential hardware (CPU, RAM, etc.) is present and working. If something critical fails, you usually get beep codes or error messages.
+4. **Boot device selection:** Firmware looks for a bootable device according to the boot order (SSD/HDD, USB, network, etc.).
+5. **Bootloader is loaded and run:** The chosen device’s bootloader (e.g. GRUB, Windows Boot Manager) takes over and starts loading the operating system.
 
 That’s the entire high-level sequence. Everything after step 5 is the OS taking control.
 
