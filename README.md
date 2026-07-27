@@ -338,7 +338,7 @@ Even though they are virtual, they behave like real computers:
 - Can run any operating system (Windows, Linux, etc.)
 - Are isolated from each other – if one breaks, the others keep running
 
-**Containers**
+**Containers**\
 A container is a lightweight, isolated environment that packages a single application + everything it needs (libraries, tools, versions).
 
 **Key characteristics:**
