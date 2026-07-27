@@ -450,100 +450,105 @@ Hosting an app on your own computer means:
 ## Module 3 - Operating Systems Basics
 
 ### Room 1 - Operating Systems - Introduction
-**Learning Objectives:**
+**Learning Objectives**
 - Understand what an operating system is and the role it plays
 - Explain the core duties of an operating system
 - Identify common OS types and their typical use cases
 - Practice interacting with an OS to gather system information
 
-**Key Terminology:**
-- Operating system (OS)
+**Key Terminology**
+- Operating System (OS)
 - Kernel space
 - User space
-- Graphical user interface (GUI)
-- Command-line interface (CLI)
+- Graphical User Interface (GUI)
+- Command-Line Interface (CLI)
 
-#### **Operating System** 
-The core software the coordinates everthing happening on a computer. It is the middle man between the hardware and the applications we use.
+---
 
-<div align="center">
-  
-  | User             |
-  |------------------|
-  | Applicaitons     |
-  | Operating System |
-  | Hardware         |
+#### What is an Operating System?
 
-</div>
+The operating system is the core software that coordinates everything happening on a computer. It acts as the middleman between the hardware and the applications we use.
 
- Without an OS, each application would need direct control over the CPU, memory, files, devices, and security. This separation is intentional and helps prevent conflicts and security issues.
- - **Kernel space:** The privileged, locked-down core of the OS. It has unrestricted access to the hardware.
- - **User space:** Where all standard applicaitons run.
+**User Applications → Operating System → Hardware**
 
-#### **Operating System Duties**
+Without an OS, every application would need direct control over the CPU, memory, files, devices, and security. This separation is intentional and helps prevent conflicts and security issues.
+
+- **Kernel space**: The privileged, locked-down core of the OS. It has unrestricted access to the hardware.
+- **User space**: Where all standard applications run.
+
+---
+
+#### Operating System Duties
+
 Every OS is responsible for a few core duties that allow your computer to run safely, efficiently, and predictably.
 
-<div> 
-  
-  | **OS Responsibility**  | **What the OS Does**                                                               | **Example**                                                                |
-  |------------------------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-  | Process Management     | Creates, schedules, prioritizes, and terminates programs.                          | Opening multiple apps, like your browser, music player, and social media.  |
-  | Memory Management      | Allocates RAM to processes, protects the app's memory.                             | Allocates RAM to each open app keeping them isolated.                      |
-  | File System Management | Organizes files into directories, handles naming, paths, permissions, and metadata | Creating new folders, saving photos, or setting a file to read only.       |
-  | User Management        | Handles multiple user accounts, authentication, and permissions.                   | Logging in with your user name and password.                               |
-  | Device Management      | Loads drivers and provides universal interface.                                    | Plugging in a new mouse, printer, or external hard drive.                  |
+| OS Responsibility       | What the OS Does                                      | Example                                      |
+|-------------------------|-------------------------------------------------------|----------------------------------------------|
+| Process Management      | Creates, schedules, prioritizes, and terminates programs | Opening multiple apps at the same time      |
+| Memory Management       | Allocates RAM to processes and protects their memory  | Isolating each open app’s memory             |
+| File System Management  | Organizes files, handles paths, permissions, and metadata | Creating folders, saving files, setting permissions |
+| User Management         | Handles accounts, authentication, and permissions     | Logging in with a username and password      |
+| Device Management       | Loads drivers and provides a universal interface      | Plugging in a mouse, printer, or external drive |
 
-</div>
+---
 
 #### Operating System Security
-At a basic level, your operating system handles:
-- **Authentication:** Verifies who you are through login passwords and biometrics
-- **Permissions:** Controls exactly what each user and app is allowed to read, write, or execute
-- **Isolation:** Keeps every process in its own protected box (kernel/user space separation)
-- **System Protection:** Safeguards critical system files and settings from unauthorized changes
 
-**Graphical User Interface:** It provides the visual representation of all the information you want to access.
-**Command Line Interface:** Text-based interface that allows you to enter commands to retrieve or manipulate information.
+At a basic level, the operating system handles:
+- **Authentication** — Verifies who you are (passwords, biometrics)
+- **Permissions** — Controls what each user and application can read, write, or execute
+- **Isolation** — Keeps every process in its own protected space (kernel vs user space)
+- **System Protection** — Safeguards critical system files and settings
 
-<div>
-  
-  | **OS Type** | **Primary Use Case** | **Key Characteristics** |
-  |-------------|--------------------------------                           |--------------------------|
-  | Desktop     | Personal computers, daily work, gaming, content creation. | Rich graphical interface |
-  | Server      | Web hosting, databases, cloud services, back-end | Headless (no GUI), maximum uptime, multi-user, remote access |
-  | Moblie      | Smartphones and tablets                          | Touch-based UI, power efficient, always connected, app sandboxing |
-  | Embedded    | Appliances, cars, IoT devices,...                | Tiny footprint, runs on limited hardware |
-  | Virtual/Cloud | Lab machines, containers, cloud instances | Lightweight, scalable, rapid deployment|
-  
-</div>
+**Interfaces**
+- **Graphical User Interface (GUI)**: Visual representation of information
+- **Command-Line Interface (CLI)**: Text-based interface for entering commands
 
-#### Real World Operating Systems
+---
+
+#### Types of Operating Systems
+
+| OS Type          | Primary Use Case                          | Key Characteristics                              |
+|------------------|-------------------------------------------|--------------------------------------------------|
+| Desktop          | Personal computers, daily work, gaming    | Rich graphical interface                         |
+| Server           | Web hosting, databases, cloud services    | Headless, high uptime, multi-user, remote access |
+| Mobile           | Smartphones and tablets                   | Touch-based, power efficient, app sandboxing     |
+| Embedded         | Appliances, cars, IoT devices             | Tiny footprint, limited hardware                 |
+| Virtual / Cloud  | Labs, containers, cloud instances         | Lightweight, scalable, rapid deployment          |
+
+---
+
+#### Real-World Operating Systems
+
 **Desktop**
-- **Windows:** The most widely used operating system on personal computers Windows 10 (end-of-life), Windows 11
-- **macOS:** Apple's desktop OS, known for its polished GUI and integration with other Apple devices Sonoma (14), Sequoia (15), Tahoe (26)
-- **Linux:** Not a single OS but a family of open-source operating systems called distributions - Ubuntu, Debian, Fedora
+- **Windows**: Most widely used on personal computers (Windows 10, Windows 11)
+- **macOS**: Apple’s desktop OS known for its polished interface (Sonoma, Sequoia)
+- **Linux**: Family of open-source distributions (Ubuntu, Debian, Fedora)
 
 **Server**
-- **Windows:** Used in large networks, data centers, and corporate environments Server 2016, 2019, 2022, 2025
-- **Linux:** The vast majority of web servers, trusted for its reliability and open-source nature Ubuntu Server, Debian, CentOS, Red Hat
-- **Unix:** Large enterprises, finance, telecom, government IBM AIX, Oracle Solaris
-  
+- **Windows Server**: Used in corporate environments and data centers (2019, 2022, 2025)
+- **Linux**: Powers the majority of web servers (Ubuntu Server, Debian, CentOS, Red Hat)
+- **Unix**: Used in large enterprises (IBM AIX, Oracle Solaris)
+
 **Mobile**
-- **Android:** The most widely used mobile OS, which runs on phones, tablets, and smart devices Android 14 - 16, Manufacturer versions
-- **iOS:** Apple's mobile OS running on iPhones, iPads, and other devices iOS 17, 18, 26
+- **Android**: Most widely used mobile OS
+- **iOS**: Apple’s mobile operating system
 
-**Embedded and IoT Devices**
-- **Embedded Linux:* Specialized OS built into devices with dedicated functions OpenWrt, Ubuntu Core, Yocto Project
-- **Real-Time OS:** Designed for apps where tasks need guaranteed response times (aircraft controls)FreeRTOS, VxWorks, QNX
+**Embedded & IoT**
+- Embedded Linux (OpenWrt, Ubuntu Core, Yocto)
+- Real-Time OS (FreeRTOS, VxWorks, QNX)
 
-**Virtual and Cloud**
-- **Cloud/VM:* Massive data centers that host websites, apps, and streaming services Ubuntu LTS, Amazon Linux, Rocky Linux
-- **Container-optimized:** Lightweight alternatives to VMs that package just the app and its dependencies Alpine Linux, Bottlerocket AWS, Flatcar Linux
+**Virtual & Cloud**
+- Cloud/VM: Ubuntu LTS, Amazon Linux, Rocky Linux
+- Container-optimized: Alpine Linux, Bottlerocket, Flatcar
+
+---
 
 **Further Learning** (Official Links)
 - [Windows Basics](https://tryhackme.com/room/windowsbasics)
 - [Linux CLI Basics](https://tryhackme.com/room/linuxclibasics)
 - [Windows CLI Basics](https://tryhackme.com/room/windowsclibasics)
+
 
 **End of Room 1**
 
