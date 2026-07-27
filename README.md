@@ -174,7 +174,9 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 **End of Room 3**
 
 ---
+
 **End of Module 1**
+
 ---
 
 ## Module 2 - Computer Fundamentals
