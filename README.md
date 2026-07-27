@@ -167,30 +167,38 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 ## Module 2 - Computer Fundamentals
 
 ### Room 1 - Inside a Computer System
-**Learning Objectives:**
-- After completing this room, you will be able to recognize and understand the functions of various computing components.
+**Learning Objectives**\
+- Recognize the main hardware components of a computer and understand what each one does.
+- Know the high-level sequence of events that occurs when you press the power button.
 
-**Inside a Computer System:**
-- **Motherboard:** The skeleton and nerves
-- **Random Access Memory (RAM):** Short-term memory
-- **Power Supply Unit (PSU):** Heart and Lungs
-- **Central Processing Unit (CPU):** The Brains
-- **Graphical Processing Unit (GPU)** Visual Cortex
-- **Hard Disk Drive (HDD) + Solid State Drive (SSD):** Long-term memory
+**Core Components (with simple analogies)**
 
-**What happens when you press the Start Button**
-- **Step 1: Press the Power Button**
-  - A signal is sent to the PSU to allow power to flow
-- **Step 2: Fireware satrts**
-  - The central system called *Unified Extensible Firmware Interface (UEFI)* or the *Basic Input-Output System (BIOS)* come to life
-- **Step 3: Power-On Self Test (POST)**
-  - Tests if every required component is present, configured correctly, and functioning.
-- **Step 4: Select Boot Device**
-  - The system searches for the location of our bootup routine.
-- **Step 5: Initiate Bootloader**
-  - Initiates the "load routine" to start it.
+<div>
+  
+  | **Component** | **Role** | **Analogy** |
+  |------------------------|----------------------------------------------------------|--------------------|
+  | Motherboard            | Central circuit board that everything else plugs into and communicates through | Skeleton + nervous system |
+  | CPU (Central Processing Unit) | Executes instructions / does the actual computing | Brain |
+  | RAM (Random Access Memory) | Fast, temporary working memory. Data disappears when power is cut | Short-term memory |
+  | GPU (Graphics Processing Unit) | Handles graphics and parallel workloads (games, video, some AI) | Visual cortex |
+  | Storage (HDD or SSD) | Permanent storage that keeps data even when the computer is off | Long-term memory |
+  |PSU (Power Supply Unit) | Converts wall power into the voltages the components need and delivers it | Heart + lungs |
+    
+</div>
 
-This was just a quick overview of the internal parts and what happens when you press the power button on your computer. 
+**Quick distinctions worth remembering**
+- **RAM** is volatile (needs power). Storage is non-volatile.
+- **HDD** = spinning magnetic disks (slower, cheaper per GB). SSD = flash memory (much faster, more expensive, no moving parts).
+- Modern systems almost always use **UEFI** instead of the older **BIOS**, but people still say “BIOS” generically.
+
+**What happens when you press the power button**
+1. **Power button pressed:** \Signal reaches the PSU → PSU starts supplying power to the motherboard and components.
+2. **Firmware starts:** \UEFI (or legacy BIOS) initializes. This is the very low-level software stored on a chip on the motherboard.
+3. **POST (Power-On Self-Test):** \Firmware checks that the essential hardware (CPU, RAM, etc.) is present and working. If something critical fails, you usually get beep codes or error messages.
+4. **Boot device selection:** \Firmware looks for a bootable device according to the boot order (SSD/HDD, USB, network, etc.).
+5. **Bootloader is loaded and run:** \The chosen device’s bootloader (e.g. GRUB, Windows Boot Manager) takes over and starts loading the operating system.
+
+That’s the entire high-level sequence. Everything after step 5 is the OS taking control.
 
 ### Room 2 - Computer Types
 **Learning Objectives**
