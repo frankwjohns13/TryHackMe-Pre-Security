@@ -352,60 +352,60 @@ A container is a lightweight, isolated environment that packages a single applic
 - **Container** = just the application + its dependencies (shares the host OS)
 
 ### Room 5 - Cloud Computing Fundamentals
-If you created an application that you wanted a lot of people to use, you could host it on your own computer. However, you would have to share your IP address with everyone who wanted to access it. This can be difficult to remember — especially with long IPv6 addresses.
 
-Additionally, your computer would need to stay online 24/7 for people to access the app at any time. What happens when your computer is turned off? What if more people try to access it than your network or hardware can handle?
+**The Problem with Self-Hosting**\
+Hosting an app on your own computer means:
+- Sharing your IP address (hard to remember, especially IPv6)
+- Keeping the computer online 24/7
+- Limited capacity when traffic grows
+- Difficult to scale or reach a large audience
 
-These limitations make it very difficult for your app to scale and reach a large audience.
+**Cloud computing** solves these issues.
 
-**That's when cloud computing comes to play and solves these problems!**
-
-**Learning Objectives:**
-- What is cloud computing
-- Service models of cloud (IaaS, PaaS, SaaS)
-- Cloud Types (Private/Public/Hybrid)
+**Learning Objectives**
+- What cloud computing is
+- Service models: IaaS, PaaS, SaaS
+- Cloud types: Public, Private, Hybrid
 - Benefits of cloud computing
-- How big companies are using the cloud
+- How major companies use the cloud
 
-**Cloud Benefits and Characteristics:**
-- **Scalability:** Easily scale up or down as your application's needs change.
-- **On-demand self-service:** Create or remove servers and storage instantly, without waiting for hardware.
-- **Pay only for what you use:** You are charged based on usage, not upfront costs.
-- **Security:** Cloud providers protect the infrastructure with strong security measures.
-- **High availability:** Applications keep running even if part of the system fails.
-- **Global access:** Your application can be accessed by users anywhere in the world.
+**Key Benefits & Characteristics**
+- **Scalability** – easily add or remove resources as demand changes
+- **On-demand self-service** – create/remove servers and storage instantly
+- **Pay-as-you-go** – charged only for what you actually use
+- **Security** – providers handle strong infrastructure protection
+- **High availability** – apps keep running even if parts of the system fail
+- **Global access** – users can reach your app from anywhere
 
-**Types of Cloud:**
-- **Public Cloud:** Used by startups, websites, and global apps because it is affordable, easy to scale, and requires no infrastructure management. Public cloud services are preferable for nearly every use case.
-- **Private Cloud:** Used by banks, healthcare, and government organizations because it offers greater control, customization, and compliance for sensitive data.
-- **Hybrid Cloud:** Used by companies like e-commerce platforms that need to keep sensitive data private while still scaling publicly during high demand.
+**Types of Cloud**
+<div>
 
-**Cloud Service Models:**
-- **Infrastructure as a Service (IaaS):** You rent basic computing resources such as virtual servers, storage, and networking. You are responsible for managing the operating system and your application, while the provider manages the physical hardware.
-- **Platform as a Service (PaaS):** The cloud provider manages the infrastructure and the operating system. You focus on building, deploying, and running your application without worrying about servers.
-- **Software as a Service (SaaS):** You use a complete application over the internet. The provider manages everything, and you access the software through a browser or app, for example, Gmail or Zoom.
+  | **Type** | **Typical Users**                | **Why it's used**                                  |
+  |----------|----------------------------------|----------------------------------------------------|
+  | Public   | Startups, websites, global apps  | Affordable, easy to scale, no hardware to manage   |
+  | Private  | Banks, healthcare, government    | Greater control, customization, and compliance     |
+  | Hybrid   | E-commerce and similar companies | Keep sensitive data private while scaling publicly |
+  
+</div>
 
-**Major Cloud Vendors:**
-- **Microsoft Azure:** A strong competitor, especially in enterprise and hybrid cloud environments.
-- **Amazon Web Services (AWS):** A pay-as-you-go basis, covering computing, storage, networking, databases, analytics, and machine learning. 
-- **Google Cloud Platform (GCP):** Known for powerful data analytics, AI, and machine learning tools.
-- **Alibaba Cloud:** A major player in Asia, offering competitive cloud services globally.
-- **IBM Cloud:** Focuses on hybrid cloud and AI-driven solutions for businesses.
-- **Oracle Cloud:** Focuses on enterprise applications and databases.
+**Cloud Service Models**
+<div>
 
+  | **Model** | **Full Name**               | **What you manage**   | **What the provider manages**         | **Example use**                      |
+  |-----------|--------------------|------------------|--------------------|-----------------|
+  | IaaS      | Infrastructure as a Service | OS + application      | Physical hardware, virtualization     | Virtual servers, storage, networking |
+  | PaaS      | Platform as a Service       | Your application only | Infrastructure + OS                   | Focus on building and deploying apps |
+  | Saas      | Software as a Service       | Nothing (just use it) | Everything                            | Gmail, Zoom, etc.                    |
+  
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+**Major Cloud Vendors**
+- **AWS (Amazon Web Services)** – broadest range of services, pay-as-you-go
+- **Microsoft Azure** – strong in enterprise and hybrid environments
+- **Google Cloud Platform (GCP)** – strong in data analytics, AI, and machine learning
+- **Alibaba Cloud** – major player in Asia, growing globally
+- **IBM Cloud** – hybrid cloud and AI-focused solutions
+- **Oracle Cloud** – enterprise applications and databases
 
 
 ## Module 3 - Operating Systems Basics
@@ -505,6 +505,40 @@ At a basic level, your operating system handles:
 - [Windows Basics](https://tryhackme.com/room/windowsbasics)
 - [Linux CLI Basics](https://tryhackme.com/room/linuxclibasics)
 - [Windows CLI Basics](https://tryhackme.com/room/windowsclibasics)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Room 2 - Windows Basics
 
