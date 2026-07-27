@@ -291,85 +291,65 @@ Client · Server · Protocol · Port · DNS · Network
 </div>
 
 ### Room 4 - Virtualization Basics
-Have you ever considered how expensive and inefficient it would be if every piece of software or every website required its own physical server? 
 
-**Virtualization was created to solve exactly this problem.** 
+**Learning Objectives**
+- Understand why running one application per physical server is inefficient
+- See how virtualization solves hardware utilization and scalability problems
+- Know the basic components of a lab/virtual machine
+- Understand how containers further improve efficiency
 
-**Learning Objectives:**
-- Understand why managing applications on individual physical servers is inefficient.
-- Learn how virtualization addresses hardware utilization and scalability challenges.
-- Understand the components of a lab machine.
-- Learn how containers have further optimized hardware utilization for applications.
+**The Old Problem: One Application per Physical Server**
+Running a website, database, email service, and internal app on four separate physical servers causes:
+- High cost – hardware, electricity, cooling, space, maintenance
+- Low utilization – most servers sit mostly idle
+- Slow deployment – setting up physical machines takes days or weeks
+- Hard to scale – needing more resources means buying more hardware
 
-**One Application per Server**
+**Solution: Virtualization**
+A hypervisor sits between the physical hardware and the virtual machines. It acts as a referee so each VM can behave like an independent computer while sharing the same physical resources safely.
 
-If each application required its own server that would mean a company that wanted to run a website, have a database, an email service, and an internal app would need four seperate servers. This creates problems:
-- **High cost:** Buying multiple physical servers is expensive, costs more in electricty, cooling, maintenance, and space.
-- **Low utilizaiton:** Most applications don't use the full capacity of the server. So a lot of time is spent idle while waiting for a request.
-- **Slow deployment:** Setting up physical servers takes days or weeks.
-- **Hard to scale:** If an applicaiton needed more resources, you'd have to buy another physical server.
-
-**What if multiple applications could be run on the same server safely?** 
-
-**Enter virtualization:** A virtualization layer, called a hypervisor, was introduced to act as a referee between lab machines and allow each virtual computer to behave independently, like a physical computer.
-
-Hypervisors have two main types of implementation, each of which is used for specific scenarios, from home labs to large data centers:
-- **Type 1** hypervisors run directly on the physical hardware, making them fast, efficient, and ideal for servers and professional environments.
-- **Type 2** hypervisors run within an existing operating system, making them easier to install and ideal for learning, testing, or small setups.
-
+**Two Types of Hypervisors**
 <div>
 
-  | Use Case              | Type 1  | Type 2  |
-  |-----------------------|---------|---------|
-  | Test Malicious Files  |         |    X    |
-  | Production Server     |    X    |         |
-  | Database Server       |    X    |         |
-  | Software Testing      |         |    X    |
-  | Kali Linux            |         |    X    |
-  | Data Center           |    X    |         |
+  | **Type**                | **Where it runs**                   | **Best for**                                       |
+  |-------------------------|-------------------------------------|----------------------------------------------------|
+  | **Type 1** (bare-metal) | Directly on the hardware            | Production servers, data centers, high performance |
+  | **Type 2** (hosted)     | Inside an existing operating system | Learning, testing, home labs, small setups         |
+   
+</div>
+
+**Typical use-case mapping**
+<div>
+
+  | **Use Case**         | **Type 1** | **Type 2** |
+  |----------------------|------------|------------|
+  | Test malicious files |    | ✓ |
+  | Production server    | ✓ |    |
+  | Database server      | ✓ |    |
+  | Software testing     |    | ✓ |
+  | Running Kali Linux   |    | ✓ |
+  | Data center          | ✓ |    |
   
 </div>
 
-**Lab Machines**\
-Even though it’s virtual, it behaves as a real machine:
-- It has its own virtual CPU, RAM, storage, and network.
-- It can run any operating system (Windows, Linux, etc.).
-- It’s completely isolated from other VMs. This means that if one VM breaks, the others continue to work.
+**Lab / Virtual Machines**
+Even though they are virtual, they behave like real computers:
+- Have their own virtual CPU, RAM, storage, and network
+- Can run any operating system (Windows, Linux, etc.)
+- Are isolated from each other – if one breaks, the others keep running
 
-**Containers**\
-A container is a lightweight, isolated environment that runs a single application and all the necessary components to support it.
+**Containers**
+A container is a lightweight, isolated environment that packages a single application + everything it needs (libraries, tools, versions).
 
-Containers behave like small, self-contained spaces because:
-- They package the application and its dependencies (libraries, tools, versions).
-- They share the host’s operating system, so they start almost instantly.
-- They remain isolated from each other, so a misbehaving container doesn’t affect the others.
-- They can run consistently on any machine, making them perfect for development, testing, and scalable deployments.
+**Key characteristics:**
+- Shares the host operating system (much lighter than a full VM)
+- Starts almost instantly
+- Stays isolated from other containers
+- Runs the same way on any machine → perfect for development, testing, and scaling
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Quick comparison**
+- **VM** = full virtual computer (own OS)
+- **Container** = just the application + its dependencies (shares the host OS)
 
 ### Room 5 - Cloud Computing Fundamentals
 If you created an application that you wanted a lot of people to use, you could host it on your own computer. However, you would have to share your IP address with everyone who wanted to access it. This can be difficult to remember — especially with long IPv6 addresses.
@@ -412,6 +392,20 @@ These limitations make it very difficult for your app to scale and reach a large
 - **Alibaba Cloud:** A major player in Asia, offering competitive cloud services globally.
 - **IBM Cloud:** Focuses on hybrid cloud and AI-driven solutions for businesses.
 - **Oracle Cloud:** Focuses on enterprise applications and databases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Module 3 - Operating Systems Basics
