@@ -554,41 +554,126 @@ At a basic level, the operating system handles:
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Room 2 - Windows Basics
+**Learning Objectives**
+- Navigate the Windows graphical interface (desktop, taskbar, and Start menu)
+- Use File Explorer to browse folders, understand file paths, and organize files
+- Check system settings and personalize the Windows environment using the Settings app
+- Use basic system tools like Task Manager and Windows Security to monitor performance and verify protection
+
+---
+
+#### Exploring the Windows Workspace
+
+Before accessing the Windows desktop, you must **authenticate** (prove your identity). Authentication determines what actions you are allowed to take once logged in.
+
+**Typical Account Types**
+- **Guest** — Restricted account for temporary access with minimal permissions
+- **Standard** — Everyday user account; cannot make system-wide changes
+- **Administrator** — Privileged account with full control over the system
+
+##### Core Desktop Components
+- **Desktop** — Main workspace for files, folders, and shortcuts
+- **Taskbar** — Control strip that provides access to applications, system tools, settings, and notifications
+
+**Key Features**
+1. **Desktop icons** — Shortcuts to the Recycle Bin, folders, and frequently used applications (fully customizable)
+2. **Start menu** — Primary way to access applications, settings, and power options
+3. **Search** — Quickly find applications, files, folders, and settings
+4. **Task View** — View and switch between all open windows
+5. **Pinned applications** — Quick access to your most-used apps and folders
+6. **Network & Audio settings** — System status and quick controls
+7. **Date and Time** — Calendar and time settings
+8. **Notifications** — System and application alerts
+
+---
+
+#### Updating Applications
+
+Keeping your operating system and applications up to date is essential for security and stability.
+
+**Windows Updates**
+- Windows has a built-in **Windows Update** tool that keeps the OS and many native applications current.
+
+**Application Updates**
+- Built-in apps may update automatically
+- Third-party apps often include their own update mechanisms
+- Some apps prompt you to update on launch
+- Others require manual checking or downloading a new installer
+
+**Installing Applications**
+1. **Microsoft Store** — Curated and safer option (not available by default on Windows Server)
+2. **From the Internet** — Download `.exe` or `.msi` installers from trusted vendor websites
+
+**Uninstalling Applications**
+- Microsoft Store (for apps installed from the Store)
+- **Settings → Apps → Installed apps**
+- Control Panel → Programs and Features
+- Application’s built-in uninstaller
+
+---
+
+#### Diving Into Settings
+
+Windows provides two main interfaces for configuration:
+
+1. **Windows Settings** — Modern, centralized location for system, device, personalization, and security settings
+2. **Control Panel** — Legacy interface still used for certain administrative tasks
+
+---
+
+#### Task Manager
+
+Task Manager is a built-in tool that lets you monitor system activity in real time.
+
+**Main Tabs**
+1. **Processes** — Currently running apps and background processes with resource usage
+2. **Performance** — Graphs for CPU, memory, disk, and network
+3. **Users** — Currently logged-in users and their resource usage
+4. **Details** — Technical view of processes, including Process IDs (PIDs)
+5. **Services** — Windows services and their current status (running or stopped)
+
+---
+
+#### Native Windows Security
+
+**Windows Security** is the central dashboard for managing built-in protection.
+
+**Main Sections**
+- **Virus & threat protection** — Real-time protection and scans for malware
+- **Firewall & network protection** — Controls network traffic
+- **App & browser control** — Protects against unsafe apps, files, and websites
+- **Device security** — Hardware-based protections
+
+**Windows Defender Firewall Network Profiles**
+- **Domain** — Used on organizational domain networks
+- **Private** — Trusted networks (home or lab)
+- **Public** — Untrusted networks (public Wi-Fi)
+
+In **Advanced settings** you can view and manage:
+- Inbound, outbound, and connection security rules
+- Detailed rule information (name, group, profile, status, action)
+- Create or filter rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Learning Objectives:**
 - Navigate the Windows graphical interface, including the desktop, taskbar, and Start menu
@@ -689,7 +774,7 @@ Checking out the Advanced settings of Windows Defender Firewall, you can view
 2. A detailed view of each rule, including name, group, network profile, status, and action
 3. Create new rules or filter your current view
 
-**End of Room 3**
+**End of Room 2**
 
 ---
 
