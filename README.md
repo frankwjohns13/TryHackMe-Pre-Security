@@ -202,25 +202,23 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 
 ### Room 2 - Computer Types
 **Learning Objectives**
-- Upon completion of this room, you will be able to identify and distinguish between different types of computers you use directly, such as laptops and smartphones, and indirectly, such as servers, IoT devices, and embedded systems. You will also understand what makes each type suited to its purpose.
+- Identify and distinguish computers you interact with directly (laptops, phones, tablets) and indirectly (servers, IoT devices, embedded systems). Understand why each type is designed the way it is.
 
-Four types of computers that often look similar but serve very different purposes.
-- Portable everyday computing
-- Sustained performance at a fixed location
+**Main Categories of Computers**
 
 <div>
 
-  | **Computer Type**  | **Screen and Keyboard** | **Main Purpose**                                  |
-  |--------------------|-------------------------|---------------------------------------------------|
-  | Laptop             | Yes                     | Portable everyday computing.                      |
-  | Desktop            | Yes                     | Sustained performance at a fixed location.        |
-  | Workstation        | Yes                     | Precision and reliability for professional tasks. |
-  | Server             | No                      | Providing services to many users over a network.  |
+  | **Computer Type**  | **Screen and Keyboard** | **Main Purpose**                                  | **Key Design Focus** |
+  |--------------------|-------------------------|---------------------------------------------------|---------------------------------------|
+  | Laptop             | Yes                     | Portable everyday computing.                      | Battery life + mobility |
+  | Desktop            | Yes                     | Sustained performance at a fixed location.        | Power, expandability, cooling |
+  | Workstation        | Yes                     | Precision and reliability for professional tasks. | High stability, specialized hardware (CAD, video, science, etc.) |
+  | Server             | No                      | Providing services to many users over a network.  | Reliability, uptime, remote management |
 
 </div>
 
 
-  **Hiding in everyday objects:**
+  **Computers Hidem in Everyday Objects:**
   
 <div>   
   
@@ -233,8 +231,9 @@ Four types of computers that often look similar but serve very different purpose
 
 </div>
 
-IoT vs Embedded: Both can be small and single-purpose. The difference is connectivity. IoT devices connect to a network to report data or receive commands. Embedded computers might not connect to anything; they do their job inside the machine, often for years without anyone knowing they exist.
-
+**IoT vs Embedded - The Key Difference**
+- **IoT** → has network connectivity (reports data or receives commands)
+- **Embedded** → often has no network connection; it just does its job silently inside the device for years
 
 ### Room 3 - Client-Server Basics
 **Learning Objectives**
@@ -278,6 +277,35 @@ The Request for Comments (RFC) document lists nine core commands.
 - OPTIONS - Used to request information about the communication options available.
 - CONNECT - Special request type used to establish a tunnel through an HTTP proxy.
 - TRACE - A diagnostic tool for instpecting the request chain between the client and server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Room 4 - Virtualization Basics
 Have you ever considered how expensive and inefficient it would be if every piece of software or every website required its own physical server? 
