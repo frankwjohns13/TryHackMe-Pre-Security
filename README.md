@@ -332,7 +332,7 @@ A hypervisor sits between the physical hardware and the virtual machines. It act
   
 </div>
 
-**Lab / Virtual Machines**
+**Lab / Virtual Machines**\
 Even though they are virtual, they behave like real computers:
 - Have their own virtual CPU, RAM, storage, and network
 - Can run any operating system (Windows, Linux, etc.)
