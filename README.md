@@ -716,31 +716,86 @@ The **terminal** is a text-based interface for controlling a Linux system. Inste
 
 ### Room 4 - Windows CLI Basics
 
+**Learning Objectives:**
+- Use the Windows command line confidently
+- Navigate folders without clicking
+- Find files when you only know their name
+- Read files using the terminal
+- Collect basic system and network information
 
+**What Is the Windows Command Line?**\
+The **Command Prompt** (often referred to as CMD) is a text-based interface for interacting with the Windows operating system. Instead of clicking folders and menus, you type commands to tell the system exactly what you want to do, such as listing files, moving between folders, or checking system information. It might look simple, but it's a powerful and widely used tool.
 
+The **terminal** is a text-based interface for interacting with the Windows OS. Instead of clicking windows and folders, you type commands that tell the computer exactly what to do. cyber security professionals use it because:
+- It's faster than clicking around
+- It gives more control
+- Many security tools only run in the terminal
 
+**Navigating files and finding your a file**
+- Step 1: Where Am I?
+  - the *cd* command by itself will return you current location. 
 
+- Step 2: What's around me?
+  - the *dir* command lists files and folders in your current location
 
+- Step 3: Are there hidden files?
+  - the *dir /a* command will show all files including hidden files
 
+- Step 4: Moving around the filesystem
+  - the *cd* command is also used to navigate the filesystem
+    - *cd <directory>* will move you to that directory
+    - *cd ..* will move you up one level 
 
+- Step 5: Finding a file on the Disk
+  - *dir /s <filename> searches all subdirectories for the file name
 
+- Step 6: Navigate to the file
+  - *cd <path_to_file>*
 
+- Step 7: Read the file
+  - *type filename*
 
+**Gathering System Information on Windows**
+- Step 1: Who Am I Logged In As?
+  - whoami
 
+- Step 2: What is the Name of This Computer?
+  - hostname
 
+- Step 3: What Version of Windows Is This?
+  - systeminfo
 
-
-
-
-
-
-
+- Step 4: How Is This Machine Connected to the Network?
+  - ipconfig
 
 **End of Room 4**
 
 ---
 
 ### Room 5 - Operating System Security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **End of Room 5**
