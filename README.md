@@ -662,9 +662,9 @@ In **Advanced settings** you can view and manage:
 
 ### Room 3 - Linux CLI Basics
 **Learning Objectives**
--	Understand what the Linux terminal is and what it's used for.
--	Feel comfortable interacting with the Linux environment.
--	Navigate through the Linux filesystem with basic commands.
+- Understand what the Linux terminal is and what it's used for.
+- Feel comfortable interacting with the Linux environment.
+- Navigate through the Linux filesystem with basic commands.
 
 **A Quick Note About the Terminal**\
 Before we begin exploring, let's take a moment to familiarize ourselves with the tool we're using.
@@ -675,22 +675,22 @@ The **terminal** is a text-based interface for controlling a Linux system. Inste
 - Many security tools only run in the terminal
 
 #### Interacting With the Terminal
--	Step 1: "Where Am I?"
+- Step 1: "Where Am I?"
   - pwd
 
--	Step 2: “What’s around me?”
-	- ls
+- Step 2: “What’s around me?”
+  - ls
   - ls -l (gives more details)
   - ls -al (shows hidden files)
 
--	Step 3: Let’s move around
-  -cd <directory>
+- Step 3: Let’s move around
+  - cd <directory>
   - cd ..
 
--	Step 4: Learn the Power of “Find”
+- Step 4: Learn the Power of “Find”
   - find <starting_point> -name <filename>
 
--	Step 5: Read the File
+- Step 5: Read the File
   - cat <filename>
 
 #### Investigation the System
