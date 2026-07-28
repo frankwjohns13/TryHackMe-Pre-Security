@@ -3,7 +3,8 @@
 ## Table of Contents
 - [Introduction](#introduction)
   <details>
-    <summary><strong>[Module 1 - Introduction to Cybersecurity](#module-1---introduction-to-cybersecurity)</strong></summary>
+    <summary><strong>Module 1 - Introduction to Cybersecurity</strong></summary>
+-[Module 1 - Introduction to Cybersecurity](#module-1---introduction-to-cybersecurity)
   - [Room 1 - Offensive Security Intro](#room-1---offensive-security-intro)
   - [Room 2 - Defensive Security Intro](#room-2---defensive-security-intro)
   - [Room 3 - Careers in Cyber](#room-3---careers-in-cyber)
