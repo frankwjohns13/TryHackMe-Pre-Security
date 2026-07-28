@@ -25,7 +25,7 @@
     - [Operating System Duties](#operating-system-duties)
     - [Operating System Security](#operating-system-security)
     - [Types of Operating Systems](#types-of-operating-systems)
-    - [Real-World Operating Systems](#real---world-operating-systems)
+    - [Real-World Operating Systems](#real-world-operating-systems)
   - [Room 2 - Windows Basics](#room-2---windows-basics)
   - [Room 3 - Linux CLI Basics](#room-3---linux-cli-basics)
   - [Room 4 - Windows CLI Basics](#room-4---windows-cli-basics)
