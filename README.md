@@ -27,6 +27,12 @@
     - [Types of Operating Systems](#types-of-operating-systems)
     - [Real-World Operating Systems](#real-world-operating-systems)
   - [Room 2 - Windows Basics](#room-2---windows-basics)
+    - [Exploring the Windows Workspace](#exploring-the-windows-workspace)
+    - [Core Desktop Components](#core-desktop-components)
+    - [Updating Applications](#updating-applications)
+    - [Diving Into Settings](#diving-into-settings)
+    - [Task Manager](#task-manager)
+    - [Native Windows Security](#native-windows-security)
   - [Room 3 - Linux CLI Basics](#room-3---linux-cli-basics)
   - [Room 4 - Windows CLI Basics](#room-4---windows-cli-basics)
   - [Room 5 - Operating System Security](#room-5---operating-system-security)
@@ -577,7 +583,7 @@ Before accessing the Windows desktop, you must **authenticate** (prove your iden
 - **Standard** — Everyday user account; cannot make system-wide changes
 - **Administrator** — Privileged account with full control over the system
 
-##### Core Desktop Components
+#### Core Desktop Components
 - **Desktop** — Main workspace for files, folders, and shortcuts
 - **Taskbar** — Control strip that provides access to applications, system tools, settings, and notifications
 
