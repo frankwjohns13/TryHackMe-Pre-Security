@@ -920,6 +920,8 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 
 
+
+
 <details><summary><strong>Module 4 - Software Basics</strong></summary>
 
 ## Module 4 - Software Basics
@@ -928,6 +930,91 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 ### Room 1 - Data Representation
 
+"Human beings find it most convenient to use the decimal system for everyday tasks, such as counting, measuring, weighing, and paying. If you like jogging, you might track your progress by timing yourself; for instance, you might say you jogged for 23 minutes. When you look at prices, you expect something like 17, 99, 239, 3049, and so on. Without giving it much thought, we use the decimal system, where the digits range from 0 to 9. Computers, on the other hand, are limited to two digits: 0 and 1. If you have ever wondered how computers represent the different values using only two digits, this room will help you get some answers." - TryHackMe
+
+**Learning Objectives:**
+- Representing 8 colors
+- Representing 16 million colors
+- Binary numbers
+- Hexadecimal numbers
+- Octal numbers
+
+---
+
+#### Representing Colors
+By combining different amounts of **red**, **green**, and **blue** lights, you can get any color you like. In computer colors, think of it like three knobs, and each knob controls one of the three colors.
+
+If each color can only be **on** or **off**, we get:
+
+`2 × 2 × 2 = 8`, color possibilities
+
+  | **Binary** | **Meaning**                 | **Color Name** | 
+  |------------|-----------------------------|----------------|
+  | 000        | All colors are off          | Black          |
+  | 001        | Only blue is on             | Blue           |
+  | 010        | Only green is on            | Green          |
+  | 100        | Only red is on              | Red            |
+  | 011        | Green and blue are on       | Cyan           |
+  | 101        | Red and blue are on         | Magenta        |
+  | 110        | Red and green are on        | Yellow         |
+  | 111        | Red, green, and blue are on | White          |
+
+To get millions of colors, each primary color is given **256 levels** instead of just 2:
+
+`256 × 256 × 256 = 16,777,216` colors
+
+- 1 bit = 2 states  
+- 8 bits = 256 states  
+- A group of 8 bits is called a **byte** (or octet)
+
+A color is therefore represented using **3 bytes (24 bits)**.
+
+---
+
+#### Hexadecimal Representation
+Hexadecimal makes long binary values easier to read by grouping every **4 bits** into one digit.
+
+| Hex | Binary | Decimal |
+|-----|--------|---------|
+| 0   | 0000   | 0       |
+| 1   | 0001   | 1       |
+| 2   | 0010   | 2       |
+| 3   | 0011   | 3       |
+| 4   | 0100   | 4       |
+| 5   | 0101   | 5       |
+| 6   | 0110   | 6       |
+| 7   | 0111   | 7       |
+| 8   | 1000   | 8       |
+| 9   | 1001   | 9       |
+| A   | 1010   | 10      |
+| B   | 1011   | 11      |
+| C   | 1100   | 12      |
+| D   | 1101   | 13      |
+| E   | 1110   | 14      |
+| F   | 1111   | 15      |
+
+**Example**  
+Binary: `10100011 11101010 00101010`  
+Hexadecimal: `A3EA2A`
+
+---
+
+#### Number Systems Summary
+
+| System       | Base | Digits Used     | Notes                              |
+|--------------|------|------------------|------------------------------------|
+| Decimal      | 10   | 0–9              | Everyday human counting            |
+| Binary       | 2    | 0–1              | What computers understand          |
+| Hexadecimal  | 16   | 0–9, A–F         | Groups 4 bits                      |
+| Octal        | 8    | 0–7              | Groups 3 bits (less common)        |
+
+**Key Takeaways**
+- **Bit** = Binary digit (0 or 1)
+- **Byte** = 8 bits
+- Colors are commonly represented using 24-bit RGB (3 bytes)
+- Hexadecimal is the most convenient way to write binary color codes
+
+---
 
 **End of Room 1**
 
