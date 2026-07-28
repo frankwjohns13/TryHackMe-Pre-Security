@@ -256,6 +256,7 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 ---
 
 <details><summary><strong>Room 3 - Client-Server Basics</strong></summary>
+  
 ### Room 3 - Client-Server Basics
 **Learning Objectives**
 Understand the client-server model at a surface level, including these concepts:\
@@ -944,26 +945,6 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 ### Room 1 - Data Representation
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **End of Room 1**
 
 </details>
@@ -1014,6 +995,8 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 </details>
 
 ---
+
+**End of Module 4**
 
 </details>
 
@@ -1090,6 +1073,8 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 ---
 
+**End of Module 5**
+
 </details>
 
 ---
@@ -1153,6 +1138,8 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 </details>
 
 ---
+
+**End of Module 6**
 
 </details>
 
@@ -1222,6 +1209,8 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 </details>
 
 ---
+
+**End of Module 7**
 
 </details>
 
