@@ -190,6 +190,11 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 ---
 
+
+
+
+
+
 ## Module 2 - Computer Fundamentals
 
 ### Room 1 - Inside a Computer System
@@ -458,6 +463,11 @@ Hosting an app on your own computer means:
 
 ---
 
+
+
+
+
+
 ## Module 3 - Operating Systems Basics
 
 ### Room 1 - Operating Systems - Introduction
@@ -582,6 +592,8 @@ Before accessing the Windows desktop, you must **authenticate** (prove your iden
 - **Guest** — Restricted account for temporary access with minimal permissions
 - **Standard** — Everyday user account; cannot make system-wide changes
 - **Administrator** — Privileged account with full control over the system
+
+---
 
 #### Core Desktop Components
 - **Desktop** — Main workspace for files, folders, and shortcuts
@@ -832,6 +844,14 @@ Cybersecurity professionals use the command line because:
 
 ---
 
+
+
+
+
+
+
+
+
 ## Module 4 - Software Basics
 
 
@@ -870,6 +890,14 @@ Cybersecurity professionals use the command line because:
 
 ---
 
+
+
+
+
+
+
+
+
 ## Module 5 - Network Fundamentals
 
 
@@ -907,6 +935,12 @@ Cybersecurity professionals use the command line because:
 **End of Room 5**
 
 ---
+
+
+
+
+
+
 
 ## Module 6 - How The Web Works
 
