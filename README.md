@@ -1,8 +1,14 @@
 # TryHackMe Pre-Security Notes
 
 ## Table of Contents
+<details><summary><strong>Introduction</strong></summary>
+  
 - [Introduction](#introduction)
-  <details>
+
+</details>
+
+<details><summary><strong>Module 1 - Introduction to Cybersecurity</strong></summary>
+  
 - [Module 1 - Introduction to Cybersecurity](#module-1---introduction-to-cybersecurity)
   - [Room 1 - Offensive Security Intro](#room-1---offensive-security-intro)
   - [Room 2 - Defensive Security Intro](#room-2---defensive-security-intro)
@@ -14,14 +20,23 @@
     - [Malware Analyst](#malware-analyst)
     - [Penetration Tester](#penetration-tester)
     - [Red Teamer](#red-teamer)
-    </details> 
+
+</details>
+
+<details><summary><strong>Module 2 - Computer Fundamentals</strong></summary>
+  
 - [Module 2 - Computer Fundamentals](#module-2---computer-fundamentals)
   - [Room 1 - Inside a Computer System](#room-1---inside-a-computer-system)
   - [Room 2 - Computer Types](#room-2---computer-types)
   - [Room 3 - Client-Server Basics](#room-3---client-server-basics)
   - [Room 4 - Virtualization Basics](#room-4---virtualization-basics)
   - [Room 5 - Cloud Computing Fundamentals](#room-5---cloud-computing-fundamentals)
-- [Module 3 - Operating Systems Basics](#module-3---operating-systems-basics)
+
+  </details>
+  
+  <details><summary><strong>Module 3 - Operating Systems Basics</strong></summary>
+    
+  - [Module 3 - Operating Systems Basics](#module-3---operating-systems-basics)
   - [Room 1 - Operating Systems - Introduction](#room-1---operating-systems---introduction)
     - [What is an Operating System?](#what-is-an-operating-system)
     - [Operating System Duties](#operating-system-duties)
@@ -48,29 +63,50 @@
     - [Common Examples of OS Security Issues](#common-examples-of-os-security-issues)
     - [Common Weak Passwords](#common-weak-passwords)
     - [Practical Concepts Demonstrated](#practical-concepts-demonstrated)
+
+</details>
+
+<details><summary><strong>Module 4 - Software Basics</strong></summary>
+  
 - [Module 4 - Software Basics](#module-4---software-basics)
   - [Room 1 - Data Representation](#room-1---data-representation)
   - [Room 2 - Data Encoding](#room-2---data-encoding)
   - [Room 3 - Python - Simple Demo](#room-3---python---simple-demo)
   - [Room 4 - JavaScript - Simple Demo](#room-4---javascript---simple-demo)
   - [Room 5 - Database SQL Basics](#room-5---database-sql-basics)
+
+</details>
+
+<details><summary><strong>Module 5 - Network Fundamentals</strong></summary>
+  
 - [Module 5 - Network Fundamentals](#module-5---network-fundamentals)
   - [Room 1 - What is Networking](#room-1---what-is-networking)
   - [Room 2 - Intro to LAN](#room-2---intro-to-lan)
   - [Room 3 - OSI Model](#room-3---osi-model)
   - [Room 4 - Packets and Frames](#room-4---packets-and-frames)
   - [Room 5 - Extending Your Network](#room-5---extending-your-network)
-- [Module 6 - How The Web Works](#module-6---how-the-web-works)
+
+</details>
+
+<details><summary><strong>Module 6 - How The Web Works</strong></summary>
+
+  - [Module 6 - How The Web Works](#module-6---how-the-web-works)
   - [Room 1 - DNS in Detail](#room-1---dns-in-detail)
   - [Room 2 - HTTP in Detail](#room-2---http-in-detail)
   - [Room 3 - How Websites Work](#room-3---how-websites-work)
   - [Room 4 - Putting it all together](#room-4---putting-it-all-together)
+
+</details>
+
+<details><summary><strong>Module 7 - Attacks and Defense</strong></summary>
+  
 - [Module 7 - Attacks and Defense](#module-7---attacks-and-defense)
   - [Room 1 - The CIA Triad](#room-1---the-cia-triad)
   - [Room 2 - Cryptography Concepts](#room-2---cryptography-concepts)
   - [Room 3 - Become a Hacker](#room-3---become-a-hacker)
   - [Room 4 - Become a Defender](#room-4---become-a-defender)
 
+</details>
 
 ---
 
