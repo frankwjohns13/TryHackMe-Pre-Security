@@ -178,7 +178,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 **Quick distinctions worth remembering**
 - **RAM** is volatile (needs power). Storage is non-volatile.
 - **HDD** = spinning magnetic disks (slower, cheaper per GB).
-- SSD = flash memory (much faster, more expensive, no moving parts).
+- **SSD** = flash memory (much faster, more expensive, no moving parts).
 - Modern systems almost always use **UEFI** instead of the older **BIOS**, but people still say “BIOS” generically.
 
 **What happens when you press the power button**
