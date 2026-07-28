@@ -255,7 +255,7 @@ Client · Server · Protocol · Port · DNS · Network
   | Server   | The side that receives and responds to the request |
   | Protocol | The agreed set of rules for how the client and server talk to each other (commands, request format, responses for success/failure) |
   | Port     | A number that identifies a specific service running on a computer (e.g. web servers usually listen on port 80 or 443) |
-  | DNA      | Domain Name System - converts a human-readable name (google.com) into an IP address (like a phone book) |
+  | DNS      | Domain Name System - converts a human-readable name (google.com) into an IP address (like a phone book) |
   | Network  | The connection that lets the client and server reach each other |
   
 </div>
