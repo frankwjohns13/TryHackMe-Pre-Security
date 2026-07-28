@@ -34,7 +34,13 @@
     - [Task Manager](#task-manager)
     - [Native Windows Security](#native-windows-security)
   - [Room 3 - Linux CLI Basics](#room-3---linux-cli-basics)
+    - [A Quick Note About the Terminal](#a-quick-note-about-the-terminal)
+    - [Interacting With the Terminal](#interacting-with-the-terminal)
+    - [Investigating the System](#investigating-the-system)
   - [Room 4 - Windows CLI Basics](#room-4---windows-cli-basics)
+    - [What is the Windows Command Line?](#what-is-the-windows-command-line)
+    - [Navigating Files and Finding a File](#navigating-files-and-finding-a-file)
+    - [Gathering System Information on Windows](#gathering-system-information-on-windows)
   - [Room 5 - Operating System Security](#room-5---operating-system-security)
 - [Module 4 - Software Basics](#module-4---software-basics)
   - [Room 1 - Data Representation](#room-1---data-representation)
@@ -759,7 +765,7 @@ Linux stores important configuration and informational files in the /etc directo
 
 ---
 
-#### What Is the Windows Command Line?
+#### What is the Windows Command Line?
 
 The **Command Prompt** (CMD) is a text-based interface for interacting with the Windows operating system. Instead of clicking folders and menus, you type commands to tell the system exactly what to do.
 
