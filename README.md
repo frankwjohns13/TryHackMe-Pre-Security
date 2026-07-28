@@ -661,34 +661,79 @@ In **Advanced settings** you can view and manage:
 ---
 
 ### Room 3 - Linux CLI Basics
+**Learning Objectives**
+-	Understand what the Linux terminal is and what it's used for.
+-	Feel comfortable interacting with the Linux environment.
+-	Navigate through the Linux filesystem with basic commands.
 
+**A Quick Note About the Terminal**\
+Before we begin exploring, let's take a moment to familiarize ourselves with the tool we're using.
 
+The **terminal** is a text-based interface for controlling a Linux system. Instead of interacting with the graphical interface, you type commands that tell the computer exactly what to do. Cyber security professionals use it because:
+- It's faster than clicking around
+- It gives more control
+- Many security tools only run in the terminal
 
+#### Interacting With the Terminal
+-	Step 1: "Where Am I?"
+  - pwd
 
+-	Step 2: “What’s around me?”
+	- ls
+  - ls -l (gives more details)
+  - ls -al (shows hidden files)
 
+-	Step 3: Let’s move around
+  -cd <directory>
+  - cd ..
 
+-	Step 4: Learn the Power of “Find”
+  - find <starting_point> -name <filename>
 
+-	Step 5: Read the File
+  - cat <filename>
 
+#### Investigation the System
+- Step 1: “Who are you logged in as?”
+  -	whoami 
 
+- Step 2: “What system are you on?”
+  -	uname -a
 
+- Step 3: “Check disk and storage infor”
+  -	df -h
+    - /dev/root is the main disk of the system
+    - tmpfs entries are temporary filesystems stored in ram
+    - /dev/shm is a shared memory area
+    - /run/user/114 is similar temporary storage for another system user
 
-
-
-
-
-
-
-
-
-
-
-
+- Step 4: Read a system file
+  -	Linux stores configuration and informational files in the /etc directory.
 
 **End of Room 3**
 
 ---
 
 ### Room 4 - Windows CLI Basics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **End of Room 4**
