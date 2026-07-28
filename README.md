@@ -108,12 +108,15 @@
 
 </details>
 
+**End the Table of Contents**
+
 ---
 
 ## Introduction
 Welcome to my notes for the TryHackMe Pre-Security learning path. \
 You can view my TryHackMe Badges here -> [Badges](https://tryhackme.com/p/WickedWizard?tab=badges)
 
+  
 ## Module 1 - Introduction to Cybersecurity
 
 ### Room 1 - Offensive Security Intro
