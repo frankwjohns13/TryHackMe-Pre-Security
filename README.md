@@ -32,7 +32,7 @@
   - [Room 4 - Virtualization Basics](#room-4---virtualization-basics)
   - [Room 5 - Cloud Computing Fundamentals](#room-5---cloud-computing-fundamentals)
 
-  </details>
+</details>
   
   <details><summary><strong>Module 3 - Operating Systems Basics</strong></summary>
     
