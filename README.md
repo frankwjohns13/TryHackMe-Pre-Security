@@ -66,7 +66,8 @@ Hack your first website (legally in a safe environment) and experience an ethica
   | [Penetration Tester](#penetration-tester) | Ethically hacks systems to find vulnerabilities and report risks |
   | [Red Teamer](#red-teamer) | Emulates real threat actors; tests detection and response capabilities |
 
-    
+---
+
 #### Security Analyst ####
 "Security analysts construct security measures to protect the company from attacks. Analysts explore and evaluate company networks to uncover actionable data." - THM
 
