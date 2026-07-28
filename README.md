@@ -1,124 +1,16 @@
 # TryHackMe Pre-Security Notes
 
-## Table of Contents
-<details><summary><strong>Introduction</strong></summary>
-  
-- [Introduction](#introduction)
-
-</details>
-
-<details><summary><strong>Module 1 - Introduction to Cybersecurity</strong></summary>
-  
-- [Module 1 - Introduction to Cybersecurity](#module-1---introduction-to-cybersecurity)
-  - [Room 1 - Offensive Security Intro](#room-1---offensive-security-intro)
-  - [Room 2 - Defensive Security Intro](#room-2---defensive-security-intro)
-  - [Room 3 - Careers in Cyber](#room-3---careers-in-cyber)
-    - [Security Analyst](#security-analyst)
-    - [Security Engineer](#security-engineer)
-    - [Incident Responder](#incident-responder)
-    - [Digital Forensics Examiner](#digital-forensics-examiner)
-    - [Malware Analyst](#malware-analyst)
-    - [Penetration Tester](#penetration-tester)
-    - [Red Teamer](#red-teamer)
-
-</details>
-
-<details><summary><strong>Module 2 - Computer Fundamentals</strong></summary>
-  
-- [Module 2 - Computer Fundamentals](#module-2---computer-fundamentals)
-  - [Room 1 - Inside a Computer System](#room-1---inside-a-computer-system)
-  - [Room 2 - Computer Types](#room-2---computer-types)
-  - [Room 3 - Client-Server Basics](#room-3---client-server-basics)
-  - [Room 4 - Virtualization Basics](#room-4---virtualization-basics)
-  - [Room 5 - Cloud Computing Fundamentals](#room-5---cloud-computing-fundamentals)
-
-</details>
-  
-  <details><summary><strong>Module 3 - Operating Systems Basics</strong></summary>
-    
-  - [Module 3 - Operating Systems Basics](#module-3---operating-systems-basics)
-  - [Room 1 - Operating Systems - Introduction](#room-1---operating-systems---introduction)
-    - [What is an Operating System?](#what-is-an-operating-system)
-    - [Operating System Duties](#operating-system-duties)
-    - [Operating System Security](#operating-system-security)
-    - [Types of Operating Systems](#types-of-operating-systems)
-    - [Real-World Operating Systems](#real-world-operating-systems)
-  - [Room 2 - Windows Basics](#room-2---windows-basics)
-    - [Exploring the Windows Workspace](#exploring-the-windows-workspace)
-    - [Core Desktop Components](#core-desktop-components)
-    - [Updating Applications](#updating-applications)
-    - [Diving Into Settings](#diving-into-settings)
-    - [Task Manager](#task-manager)
-    - [Native Windows Security](#native-windows-security)
-  - [Room 3 - Linux CLI Basics](#room-3---linux-cli-basics)
-    - [A Quick Note About the Terminal](#a-quick-note-about-the-terminal)
-    - [Interacting With the Terminal](#interacting-with-the-terminal)
-    - [Investigating the System](#investigating-the-system)
-  - [Room 4 - Windows CLI Basics](#room-4---windows-cli-basics)
-    - [What is the Windows Command Line?](#what-is-the-windows-command-line)
-    - [Navigating Files and Finding a File](#navigating-files-and-finding-a-file)
-    - [Gathering System Information on Windows](#gathering-system-information-on-windows)
-  - [Room 5 - Operating System Security](#room-5---operating-system-security)
-    - [Introduction to Operating System Security](#introduction-to-operating-system-security)
-    - [Common Examples of OS Security Issues](#common-examples-of-os-security-issues)
-    - [Common Weak Passwords](#common-weak-passwords)
-    - [Practical Concepts Demonstrated](#practical-concepts-demonstrated)
-
-</details>
-
-<details><summary><strong>Module 4 - Software Basics</strong></summary>
-  
-- [Module 4 - Software Basics](#module-4---software-basics)
-  - [Room 1 - Data Representation](#room-1---data-representation)
-  - [Room 2 - Data Encoding](#room-2---data-encoding)
-  - [Room 3 - Python - Simple Demo](#room-3---python---simple-demo)
-  - [Room 4 - JavaScript - Simple Demo](#room-4---javascript---simple-demo)
-  - [Room 5 - Database SQL Basics](#room-5---database-sql-basics)
-
-</details>
-
-<details><summary><strong>Module 5 - Network Fundamentals</strong></summary>
-  
-- [Module 5 - Network Fundamentals](#module-5---network-fundamentals)
-  - [Room 1 - What is Networking](#room-1---what-is-networking)
-  - [Room 2 - Intro to LAN](#room-2---intro-to-lan)
-  - [Room 3 - OSI Model](#room-3---osi-model)
-  - [Room 4 - Packets and Frames](#room-4---packets-and-frames)
-  - [Room 5 - Extending Your Network](#room-5---extending-your-network)
-
-</details>
-
-<details><summary><strong>Module 6 - How The Web Works</strong></summary>
-
-  - [Module 6 - How The Web Works](#module-6---how-the-web-works)
-  - [Room 1 - DNS in Detail](#room-1---dns-in-detail)
-  - [Room 2 - HTTP in Detail](#room-2---http-in-detail)
-  - [Room 3 - How Websites Work](#room-3---how-websites-work)
-  - [Room 4 - Putting it all together](#room-4---putting-it-all-together)
-
-</details>
-
-<details><summary><strong>Module 7 - Attacks and Defense</strong></summary>
-  
-- [Module 7 - Attacks and Defense](#module-7---attacks-and-defense)
-  - [Room 1 - The CIA Triad](#room-1---the-cia-triad)
-  - [Room 2 - Cryptography Concepts](#room-2---cryptography-concepts)
-  - [Room 3 - Become a Hacker](#room-3---become-a-hacker)
-  - [Room 4 - Become a Defender](#room-4---become-a-defender)
-
-</details>
-
-**End the Table of Contents**
-
----
-
 ## Introduction
 Welcome to my notes for the TryHackMe Pre-Security learning path. \
 You can view my TryHackMe Badges here -> [Badges](https://tryhackme.com/p/WickedWizard?tab=badges)
 
+---
+
 <details><summary><strong>Module 1 - Introduction to Cybersecurity</strong></summary>
   
 ## Module 1 - Introduction to Cybersecurity
+
+<details><summary><strong>Room 1 - Offensive Security Intro</strong></summary>
 
 ### Room 1 - Offensive Security Intro
 Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
@@ -134,8 +26,12 @@ Hack your first website (legally in a safe environment) and experience an ethica
 
 **End of Room 1**
 
+</details>
+
 ---
 
+<details><summary><strong>Room 2 - Defensive Security Intro</strong></summary>
+  
 ### Room 2 - Defensive Security Intro
 Introducing defensive security, where you will protect FakeBank from an ongoing attack. \
 
@@ -150,10 +46,21 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 
 **End of Room 2**
 
+</details>
+
 ---
 
+<details><summary><strong>Room 3 - Careers in Cyber</strong></summary>
+  
 ### Room 3 - Careers in Cyber
-
+  - [Security Analyst](#security-analyst)
+  - [Security Engineer](#security-engineer)
+  - [Incident Responder](#incident-responder)
+  - [Digital Forensics Examiner](#digital-forensics-examiner)
+  - [Malware Analyst](#malware-analyst)
+  - [Penetration Tester](#penetration-tester)
+  - [Red Teamer](#red-teamer)
+    
 #### Security Analyst ####
 "Security analysts construct security measures to protect the company from attacks. Analysts explore and evaluate company networks to uncover actionable data." - THM
 
@@ -236,20 +143,35 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 **End of Room 3**
 
+</details>
+
 ---
 
 **End of Module 1**
 
----
-
 </details>
 
+---
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+<details><summary><strong>Module 2 - Computer Fundamentals</strong></summary>
+  
 ## Module 2 - Computer Fundamentals
 
+<details><summary><strong>Room 1 - Inside a Computer System</strong></summary>
+  
 ### Room 1 - Inside a Computer System
 **Learning Objectives**
 - Recognize the main hardware components of a computer and understand what each one does.
@@ -286,8 +208,12 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 
 **End of Room 1**
 
+</details>
+
 ---
 
+<details><summary><strong>Room 2 - Computer Types</strong></summary>
+  
 ### Room 2 - Computer Types
 **Learning Objectives**
 - Identify and distinguish computers you interact with directly (laptops, phones, tablets) and indirectly (servers, IoT devices, embedded systems). Understand why each type is designed the way it is.
@@ -325,8 +251,11 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 
 **End of Room 2**
 
+</details>
+
 ---
 
+<details><summary><strong>Room 3 - Client-Server Basics</strong></summary>
 ### Room 3 - Client-Server Basics
 **Learning Objectives**
 Understand the client-server model at a surface level, including these concepts:\
@@ -384,7 +313,11 @@ Client · Server · Protocol · Port · DNS · Network
 
 **End of Room 3**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 4 - Virtualization Basics</strong></summary>
 
 ### Room 4 - Virtualization Basics
 
@@ -449,7 +382,11 @@ A container is a lightweight, isolated environment that packages a single applic
 
 **End of Room 4**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 5 - Cloud Computing Fundamentals</strong></summary>
 
 ### Room 5 - Cloud Computing Fundamentals
 
@@ -510,10 +447,14 @@ Hosting an app on your own computer means:
 
 **End of Room 5**
 
+</details>
+
 ---
 
 **End of Module 2**
 
+</details>
+
 ---
 
 
@@ -521,7 +462,17 @@ Hosting an app on your own computer means:
 
 
 
+
+
+
+
+
+
+<details><summary>Module 3 - Operating Systems Basics<strong></strong></summary>
+
 ## Module 3 - Operating Systems Basics
+
+<details><summary><strong>Room 1 - Operating Systems - Introduction</strong></summary>
 
 ### Room 1 - Operating Systems - Introduction
 **Learning Objectives**
@@ -626,7 +577,12 @@ At a basic level, the operating system handles:
 
 **End of Room 1**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 2 - Windows Basics</strong></summary>
+
 
 ### Room 2 - Windows Basics
 **Learning Objectives**
@@ -734,7 +690,12 @@ In **Advanced settings** you can view and manage:
 
 **End of Room 2**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 3 - Linux CLI Basics</strong></summary>
+
 
 ### Room 3 - Linux CLI Basics
 **Learning Objectives**
@@ -799,7 +760,12 @@ Linux stores important configuration and informational files in the /etc directo
 
 **End of Room 3**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 4 - Windows CLI Basics</strong></summary>
+
 
 ### Room 4 - Windows CLI Basics
 
@@ -865,7 +831,12 @@ Cybersecurity professionals use the command line because:
 
 **End of Room 4**
 
+</details>
+
 ---
+
+<details><summary>Room 5 - Operating System Security<strong></strong></summary>
+
 
 ### Room 5 - Operating System Security
 
@@ -944,6 +915,14 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 **End of Room 5**
 
+</details>
+
+---
+
+**End of Module 3**
+
+</details>
+
 ---
 
 
@@ -954,7 +933,13 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 
 
+
+
+<details><summary><strong>Module 4 - Software Basics</strong></summary>
+
 ## Module 4 - Software Basics
+
+<details><summary><strong>Room 1 - Data Representation</strong></summary>
 
 ### Room 1 - Data Representation
 
@@ -981,34 +966,57 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 **End of Room 1**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 2 - Data Encoding</strong></summary>
+
 
 ### Room 2 - Data Encoding
 
 
 **End of Room 2**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 3 - Python - Simple Demo</strong></summary>
 
 ### Room 3 - Python - Simple Demo
 
 
 **End of Room 3**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 4 - JavaScript - Simple Demo</strong></summary>
 
 ### Room 4 - JavaScript - Simple Demo
 
 
 **End of Room 4**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 5 - Database SQL Basics</strong></summary>
 
 ### Room 5 - Database SQL Basics
 
 
 **End of Room 5**
 
+</details>
+
+---
+
+</details>
+
 ---
 
 
@@ -1019,42 +1027,71 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 
 
+
+
+<details><summary><strong>Module 5 - Network Fundamentals</strong></summary>
+
 ## Module 5 - Network Fundamentals
 
+<details><summary><strong>Room 1 - What is Networking</strong></summary>
 
 ### Room 1 - What is Networking
 
 
 **End of Room 1**
 
+</details>
+
 ---
+
+
+
+<details><summary><strong>Room 2 - Intro to LAN</strong></summary>
 
 ### Room 2 - Intro to LAN
 
 
 **End of Room 2**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 3 - OSI Model</strong></summary>
 
 ### Room 3 - OSI Model
 
 
 **End of Room 3**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 4 - Packets and Frames</strong></summary>
 
 ### Room 4 - Packets and Frames
 
 
 **End of Room 4**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 5 - Extending Your Network</strong></summary>
 
 ### Room 5 - Extending Your Network
 
 
 **End of Room 5**
 
+</details>
+
+---
+
+</details>
+
 ---
 
 
@@ -1063,68 +1100,130 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 
 
+
+
+
+
+
+
+<details><summary><strong>Module 6 - How The Web Works</strong></summary>
+
 ## Module 6 - How The Web Works
 
+<details><summary><strong>Room 1 - DNS in Detail</strong></summary>
 
 ### Room 1 - DNS in Detail
 
 
 **End of Room 1**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 2 - HTTP in Detail</strong></summary>
 
 ### Room 2 - HTTP in Detail
 
 
 **End of Room 2**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 3 - How Websites Work</strong></summary>
 
 ### Room 3 - How Websites Work
 
 
 **End of Room 3**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 4 - Putting it all together</strong></summary>
 
 ### Room 4 - Putting it all together
 
 
 **End of Room 4**
 
+</details>
+
 ---
+
+</details>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary><strong>Module 7 - Attacks and Defense</strong></summary>
 
 ## Module 7 - Attacks and Defense
 
+<details><summary><strong>Room 1 - The CIA Triad</strong></summary>
 
 ### Room 1 - The CIA Triad
 
 
 **End of Room 1**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 2 - Cryptography Concepts</strong></summary>
 
 ### Room 2 - Cryptography Concepts
 
 
 **End of Room 2**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 3 - Become a Hacker</strong></summary>
 
 ### Room 3 - Become a Hacker
 
 
 **End of Room 3**
 
+</details>
+
 ---
+
+<details><summary><strong>Room 4 - Become a Defender</strong></summary>
 
 ### Room 4 - Become a Defender
 
 
 **End of Room 4**
 
+</details>
+
 ---
 
+</details>
 
 
 ---
