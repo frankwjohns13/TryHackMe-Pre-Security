@@ -662,53 +662,62 @@ In **Advanced settings** you can view and manage:
 
 ### Room 3 - Linux CLI Basics
 **Learning Objectives**
-- Understand what the Linux terminal is and what it's used for.
-- Feel comfortable interacting with the Linux environment.
-- Navigate through the Linux filesystem with basic commands.
+- Understand what the Linux terminal is and what it’s used for
+- Feel comfortable interacting with the Linux environment
+- Navigate the Linux filesystem using basic commands
 
-**A Quick Note About the Terminal**\
-Before we begin exploring, let's take a moment to familiarize ourselves with the tool we're using.
+---
 
-The **terminal** is a text-based interface for controlling a Linux system. Instead of interacting with the graphical interface, you type commands that tell the computer exactly what to do. Cyber security professionals use it because:
-- It's faster than clicking around
-- It gives more control
+#### A Quick Note About the Terminal
+
+The **terminal** is a text-based interface for controlling a Linux system. Instead of clicking through a graphical interface, you type commands that tell the computer exactly what to do.
+
+Cybersecurity professionals prefer the terminal because:
+- It’s faster than clicking around
+- It gives more precise control
 - Many security tools only run in the terminal
 
+---
+
 #### Interacting With the Terminal
-- Step 1: "Where Am I?"
-  - pwd
 
-- Step 2: “What’s around me?”
-  - ls
-  - ls -l (gives more details)
-  - ls -al (shows hidden files)
+**Step 1: Where am I?**
+- *pwd* - Shows the current working directory (Present Working Directory).
 
-- Step 3: Let’s move around
-  - cd <directory>
-  - cd ..
+**Step 2: What’s around me?**
+- *ls*          - List files and folders
+- *ls -l*       - Detailed list (permissions, size, date)
+- *ls -al*      - Includes hidden files (those starting with .)
 
-- Step 4: Learn the Power of “Find”
-  - find <starting_point> -name <filename>
+Step 3: Let’s move around
+- *cd*     - Change directory
+- *cd ..*  - Moves up one directory
 
-- Step 5: Read the File
-  - cat <filename>
+**Step 4: Find files**
+- *find <starting_point> -name <filename>*
+- **Example:** find / -name "passwd"
 
-#### Investigation the System
-- Step 1: “Who are you logged in as?”
-  -	whoami 
+**Step 5: Read a file**
+- *cat <filename>*
 
-- Step 2: “What system are you on?”
-  -	uname -a
+#### Investigating the System
 
-- Step 3: “Check disk and storage infor”
-  -	df -h
-    - /dev/root is the main disk of the system
-    - tmpfs entries are temporary filesystems stored in ram
-    - /dev/shm is a shared memory area
-    - /run/user/114 is similar temporary storage for another system user
+**Step 1: Who are you logged in as?**
+- *whoami*
 
-- Step 4: Read a system file
-  -	Linux stores configuration and informational files in the /etc directory.
+**Step 2: What system are you on?**
+- *uname -a*      - Displays kernel and system information.
+
+**Step 3: Check disk and storage info**
+- *df -h*
+  - /dev/root → Main system disk
+  - tmpfs → Temporary filesystems stored in RAM
+  - /dev/shm → Shared memory area
+  - /run/user/... → Temporary storage for user sessions
+
+**Step 4: Read a system file**\
+Linux stores important configuration and informational files in the /etc directory.\
+**Example:** cat /etc/passwd
 
 **End of Room 3**
 
