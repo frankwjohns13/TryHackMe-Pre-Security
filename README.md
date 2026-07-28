@@ -700,6 +700,8 @@ Step 3: Let’s move around
 **Step 5: Read a file**
 - *cat <filename>*
 
+---
+
 #### Investigating the System
 
 **Step 1: Who are you logged in as?**
@@ -725,57 +727,65 @@ Linux stores important configuration and informational files in the /etc directo
 
 ### Room 4 - Windows CLI Basics
 
-**Learning Objectives:**
+**Learning Objectives**
 - Use the Windows command line confidently
 - Navigate folders without clicking
 - Find files when you only know their name
 - Read files using the terminal
 - Collect basic system and network information
 
-**What Is the Windows Command Line?**\
-The **Command Prompt** (often referred to as CMD) is a text-based interface for interacting with the Windows operating system. Instead of clicking folders and menus, you type commands to tell the system exactly what you want to do, such as listing files, moving between folders, or checking system information. It might look simple, but it's a powerful and widely used tool.
+---
 
-The **terminal** is a text-based interface for interacting with the Windows OS. Instead of clicking windows and folders, you type commands that tell the computer exactly what to do. cyber security professionals use it because:
-- It's faster than clicking around
-- It gives more control
+#### What Is the Windows Command Line?
+
+The **Command Prompt** (CMD) is a text-based interface for interacting with the Windows operating system. Instead of clicking folders and menus, you type commands to tell the system exactly what to do.
+
+Cybersecurity professionals use the command line because:
+- It’s faster than clicking around
+- It gives more precise control
 - Many security tools only run in the terminal
 
-**Navigating files and finding your a file**
-- Step 1: Where Am I?
-  - the *cd* command by itself will return you current location. 
+---
 
-- Step 2: What's around me?
-  - the *dir* command lists files and folders in your current location
+#### Navigating Files and Finding a File
 
-- Step 3: Are there hidden files?
-  - the *dir /a* command will show all files including hidden files
+**Step 1: Where am I?**
+- *cd* - Shows your current location (Current Directory).
 
-- Step 4: Moving around the filesystem
-  - the *cd* command is also used to navigate the filesystem
-    - *cd <directory>* will move you to that directory
-    - *cd ..* will move you up one level 
+**Step 2: What’s around me?**
+- *dir* - Lists files and folders in the current directory.
 
-- Step 5: Finding a file on the Disk
-  - *dir /s <filename> searches all subdirectories for the file name
+**Step 3: Are there hidden files?**
+- *dir /a* - Shows all files, including hidden ones.
 
-- Step 6: Navigate to the file
-  - *cd <path_to_file>*
+**Step 4: Moving around the filesystem**
+- *cd <folder_name>*     - Move into a folder
+- *cd ..*                - Move up one level
 
-- Step 7: Read the file
-  - *type filename*
+**Step 5: Finding a file on the disk**
+- *dir /s <filename>* - Searches all subdirectories for the specified file name.
 
-**Gathering System Information on Windows**
-- Step 1: Who Am I Logged In As?
-  - whoami
+**Step 6: Navigate to the file**
+- *cd <path_to_file>*
 
-- Step 2: What is the Name of This Computer?
-  - hostname
+**Step 7: Read the file**
+- *type <filename>*
 
-- Step 3: What Version of Windows Is This?
-  - systeminfo
+---
 
-- Step 4: How Is This Machine Connected to the Network?
-  - ipconfig
+#### Gathering System Information on Windows
+
+**Step 1: Who am I logged in as?**
+- *whoami*
+
+**Step 2: What is the name of this computer?**
+- *hostname*
+
+**Step 3: What version of Windows is this?**
+- *systeminfo*
+
+**Step 4: How is this machine connected to the network?**
+- ipconfig
 
 **End of Room 4**
 
