@@ -16,13 +16,12 @@ You can view my TryHackMe Badges here -> [Badges](https://tryhackme.com/p/Wicked
 Hack your first website (legally in a safe environment) and experience an ethical hacker's job.
 
 **What is Offensive Security?** 
-"It involves breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access." - THM
+"It involves breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access." - TryHackMe
 
 **Tool Used**
 - **Gobuster** - Takes a list of potential page or directory names and tries accessing a website with each of them.
-- **Flags**
-  - -u to state website
-  - -w to use a word list
+  - -u → specify the target website
+  - -w → specify the wordlist
 
 **End of Room 1**
 
@@ -33,16 +32,19 @@ Hack your first website (legally in a safe environment) and experience an ethica
 <details><summary><strong>Room 2 - Defensive Security Intro</strong></summary>
   
 ### Room 2 - Defensive Security Intro
-Introducing defensive security, where you will protect FakeBank from an ongoing attack. \
+**Goal:** Protect FakeBank from an ongoing attack.\
 
-**Think like a Defender** \n
-"Defensive security is the process of defending and securing devices and systems." \
+**What is Defensive Security?**\
+“Defensive security is the process of defending and securing devices and systems.”
 
-**What does a defender do?**
-- Detecting and investigating attacks, and responding before damage occurs.
-- Detecting Suspicious Activity - Use the Event Management tool to detect a suspicious IP address.
-- Identifying the Attack - Security Analyst Dashboard to find what page they are trying to access.
-- Stop the Attack - Use a firewall rule to block the attackers IP address.
+**What does a defender do?**\
+- Detect and investigate attacks
+- Respond before damage occurs
+
+**Practical steps in the room:**
+1. Detect Suspicious Activity → Use the Event Management tool to find a suspicious IP address
+2. Identify the Attack → Use the Security Analyst Dashboard to see what page the attacker is trying to access
+3. Stop the Attack → Create a firewall rule to block the attacker’s IP address
 
 **End of Room 2**
 
@@ -53,13 +55,17 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 <details><summary><strong>Room 3 - Careers in Cyber</strong></summary>
   
 ### Room 3 - Careers in Cyber
-  - [Security Analyst](#security-analyst)
-  - [Security Engineer](#security-engineer)
-  - [Incident Responder](#incident-responder)
-  - [Digital Forensics Examiner](#digital-forensics-examiner)
-  - [Malware Analyst](#malware-analyst)
-  - [Penetration Tester](#penetration-tester)
-  - [Red Teamer](#red-teamer)
+
+  | **Role**                        | **Short Description**                                    |
+  |---------------------------------|----------------------------------------------------------|
+  | [Security Analyst](#security-analyst) | Builds security measures, analyzes networks, creates reports, and develops security plans |
+  | [Security Engineer](#security-engineer) | Designs, tests, and implements security solutions; monitors and updates systems |
+  | [Incident Responder](#incident-responder) | Handles security breaches; focuses on MTTD, MTTA, and MTTR metrics |
+  | [Digital Forensics Examiner](#digital-forensics-examiner) | Collects and analyzes digital evidence (often for legal cases) |
+  | [Malware Analyst](#malware-analyst) | Reverse-engineers malicious programs (static + dynamic analysis) |
+  | [Penetration Tester](#penetration-tester) | Ethically hacks systems to find vulnerabilities and report risks |
+  | [Red Teamer](#red-teamer) | Emulates real threat actors; tests detection and response capabilities |
+
     
 #### Security Analyst ####
 "Security analysts construct security measures to protect the company from attacks. Analysts explore and evaluate company networks to uncover actionable data." - THM
@@ -69,14 +75,6 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 - Compile ongoing reports about the safety of networks, documenting security issues and measures taken in response.
 - Develop security plans, incorporating research on new attack tools and trends, and measures needed across teams to maintain data security.
 
-**Relevant Career Guides** (Official Links)
-- [Becoming a Cyber Security Analyst](https://tryhackme.com/r/careers/cyber-security-analyst)
-- [How to Become a Level 1 SOC Analyst](https://tryhackme.com/r/resources/blog/become-level-1-soc-analyst)
-- [A Day in the Life of a SOC Analyst](https://tryhackme.com/r/resources/blog/interview-with-soc-analyst)
-- [The Ultimate SOC L1 Analyst Interview Guide](https://tryhackme.com/r/resources/blog/soc-analyst-interview-guide)
-- [From Student to SOC Analyst: Hayden’s Success Story](https://tryhackme.com/r/resources/blog/haydens-success-story)
-
-
 #### Security Engineer ####
 "Security engineers develop and implement security solutions."
 
@@ -84,13 +82,6 @@ Introducing defensive security, where you will protect FakeBank from an ongoing 
 - Testing and screening security measures across software
 - Monitor networks and reports to update systems and mitigate vulnerabilities
 - Identify and implement systems needed for optimal security
-
-**Relevant Career Guides** (Official Links)
-- [Becoming a Security Engineer](https://tryhackme.com/r/careers/security-engineer)
-- [How to Become a Security Engineer](https://tryhackme.com/r/resources/blog/become-security-engineer)
-- [A Day in the Life of a Security Engineer](https://tryhackme.com/r/resources/blog/interview-with-security-engineer)
-- [Preparing for a Security Engineering Interview](https://tryhackme.com/r/resources/blog/security-engineer-interview-guide)
-- [Becoming a Security Engineer: Richárd’s Success Story](https://tryhackme.com/r/resources/blog/richard-success-story)
 
 #### Incident Responder ####
 Incident responders respond to security breaches. Incident response metrics include MTTD, MTTA, and MTTR - the meantime to detect, acknowledge, and recover (from attacks.) 
@@ -124,12 +115,6 @@ Incident responders respond to security breaches. Incident response metrics incl
 - Perform security assessments, audits, and analyse policies
 - Evaluate and report on insights, recommending actions for attack prevention
 
-**Relevant Career Guides** (Official Links)
-- [Becoming a Penetration Tester](https://tryhackme.com/r/careers/penetration-tester)
-- [How to Become a Penetration Tester](https://tryhackme.com/r/resources/blog/how-to-become-a-penetration-tester)
-- [Preparing for a Junior Penetration Tester Interview](https://tryhackme.com/r/resources/blog/jr-pentester-interview-guide)
-- [From IT Support to Pentester: Tom’s Success Story](https://tryhackme.com/r/resources/blog/tom-success-story)
-
 #### Red Teamer ####
 Red teamers share similarities to penetration testers, with a more targeted job role. 
 
@@ -137,9 +122,6 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 - Emulate the role of a threat actor to uncover exploitable vulnerabilities, maintain access and avoid detection
 - Assess organisations' security controls, threat intelligence, and incident response procedures
 - Evaluate and report on insights, with actionable data for companies to avoid real-world instances
-
-**Relevant Career Guides** (Official Link)
-- [Red Teaming: Job Roles, Salaries & Opportunities](https://tryhackme.com/r/resources/blog/red-teaming-jobs-salaries-opportunities)
 
 **End of Room 3**
 
