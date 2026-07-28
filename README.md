@@ -860,17 +860,18 @@ Many people still use very weak and predictable passwords. The **RockYou** breac
 
 **Top 10 most common passwords from RockYou:**
 
-1. 123456
-2. 12345
-3. 123456789
-4. password
-5. iloveyou
-6. princess
-7. rockyou
-8. 1234567
-9. 12345678
-10. abc123
-
+ | **Rank** | **Password**|
+ |----------|-------------|
+ | 1.       | 123456      |
+ | 2.       | 12345       |
+ | 3.       | 123456789   |
+ | 4.       | password    |
+ | 5.       | iloveyou    |
+ | 6.       | princess    |
+ | 7.       | rockyou     |
+ | 8.       | 1234567     |
+ | 9.       | 12345678    |
+ | 10.      | abc123      |
 
 **2. Weak File Permissions**\
 The **principle of least privilege** states that users and programs should only have the minimum access needed to perform their tasks.
