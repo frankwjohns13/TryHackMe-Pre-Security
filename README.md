@@ -822,29 +822,61 @@ Cybersecurity professionals use the command line because:
 
 ### Room 5 - Operating System Security
 
+**Learning Objectives**
+- Understand the importance of operating system security
+- Identify common security weaknesses in operating systems
+- Apply basic security concepts such as authentication, permissions, and protection against malicious software
 
+---
 
+#### Introduction to Operating System Security
 
+An **operating system (OS)** sits between the hardware and the applications you run. It controls access to the CPU, memory, storage, and devices.
 
+Because modern devices (phones, laptops, servers) store a large amount of private and sensitive data, securing the operating system is critical.
 
+When we talk about security, we protect three main principles (the **CIA Triad**):
+- **Confidentiality** — Only authorized people can access the data
+- **Integrity** — Data cannot be modified without authorization
+- **Availability** — Systems and data are available when needed
 
+---
 
+#### Common Examples of OS Security Issues
 
+**1. Authentication and Weak Passwords**\
+Authentication verifies identity using:
+- Something you **know** (password or PIN)
+- Something you **are** (fingerprint, biometrics)
+- Something you **have** (phone for SMS codes)
 
+Weak passwords remain one of the most common attack vectors. Many users still choose simple or reused passwords.
 
+**2. Weak File Permissions**\
+The **principle of least privilege** states that users and programs should only have the minimum access needed to perform their tasks.
 
+Weak permissions can allow attackers to:
+- Read confidential files (Confidentiality)
+- Modify or delete files (Integrity)
 
+**3. Malicious Programs**\
+Malware can attack all three parts of the CIA Triad:
+- **Trojans** — Give attackers remote access
+- **Ransomware** — Encrypts files and demands payment (Availability)
 
+---
 
+#### Practical Concepts Demonstrated
 
+In the practical portion of the room, the following concepts were applied:
 
+- Using **SSH** to remotely access a Linux system
+- Switching between user accounts
+- Exploiting weak passwords
+- Viewing command history
+- Escalating privileges to the `root` (administrator) account
 
-
-
-
-
-
-
+These steps highlight why strong passwords, proper user privileges, and careful system configuration are essential for OS security.
 
 **End of Room 5**
 
@@ -860,8 +892,27 @@ Cybersecurity professionals use the command line because:
 
 ## Module 4 - Software Basics
 
-
 ### Room 1 - Data Representation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **End of Room 1**
