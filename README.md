@@ -44,6 +44,7 @@
   - [Room 5 - Operating System Security](#room-5---operating-system-security)
     - [Introduction to Operating System Security](#introduction-to-operating-system-security)
     - [Common Examples of OS Security Issues](#common-examples-of-os-security-issues)
+    - [Common Weak Passwords](#common-weak-passwords)
     - [Practical Concepts Demonstrated](#practical-concepts-demonstrated)
 - [Module 4 - Software Basics](#module-4---software-basics)
   - [Room 1 - Data Representation](#room-1---data-representation)
@@ -853,22 +854,22 @@ Authentication verifies identity using:
 - Something you **are** (fingerprint, biometrics)
 - Something you **have** (phone for SMS codes)
 
-Weak passwords remain one of the most common attack vectors. Many users still choose simple or reused passwords.
+#### Common Weak Passwords
 
-Here are the top 10 passwords from the National Cyber Security Centre (NCSC) list of the [100,000 most common passwords](https://www.ncsc.gov.uk/blog-post/passwords-passwords-everywhere).
+Many people still use very weak and predictable passwords. The **RockYou** breach (2009) exposed millions of passwords and is still commonly used in password attacks today.
 
-  | **Rank** | **Password** |
-  |----------|--------------|
-  | 1        | 123456       |
-  | 2        | 123456879    |
-  | 3        | qwerty       |
-  | 4        | password     |
-  | 5        | 111111       |
-  | 6        | 12345678     |
-  | 7        | abc123       |
-  | 8        | 1234567      |
-  | 9        | password1    |
-  | 10       | 12345        |
+**Top 10 most common passwords from RockYou:**
+
+1. 123456
+2. 12345
+3. 123456789
+4. password
+5. iloveyou
+6. princess
+7. rockyou
+8. 1234567
+9. 12345678
+10. abc123
 
 
 **2. Weak File Permissions**\
