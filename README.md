@@ -42,6 +42,9 @@
     - [Navigating Files and Finding a File](#navigating-files-and-finding-a-file)
     - [Gathering System Information on Windows](#gathering-system-information-on-windows)
   - [Room 5 - Operating System Security](#room-5---operating-system-security)
+    - [Introduction to Operating System Security](#introduction-to-operating-system-security)
+    - [Common Examples of OS Security Issues](#common-examples-of-os-security-issues)
+    - [Practical Concepts Demonstrated](#practical-concepts-demonstrated)
 - [Module 4 - Software Basics](#module-4---software-basics)
   - [Room 1 - Data Representation](#room-1---data-representation)
   - [Room 2 - Data Encoding](#room-2---data-encoding)
@@ -851,6 +854,22 @@ Authentication verifies identity using:
 - Something you **have** (phone for SMS codes)
 
 Weak passwords remain one of the most common attack vectors. Many users still choose simple or reused passwords.
+
+Here are the top 10 passwords from the National Cyber Security Centre (NCSC) list of the [100,000 most common passwords](https://www.ncsc.gov.uk/blog-post/passwords-passwords-everywhere).
+
+  | **Rank** | **Password** |
+  |----------|--------------|
+  | 1        | 123456       |
+  | 2        | 123456879    |
+  | 3        | qwerty       |
+  | 4        | password     |
+  | 5        | 111111       |
+  | 6        | 12345678     |
+  | 7        | abc123       |
+  | 8        | 1234567      |
+  | 9        | password1    |
+  | 10       | 12345        |
+
 
 **2. Weak File Permissions**\
 The **principle of least privilege** states that users and programs should only have the minimum access needed to perform their tasks.
