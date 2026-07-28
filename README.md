@@ -116,6 +116,7 @@
 Welcome to my notes for the TryHackMe Pre-Security learning path. \
 You can view my TryHackMe Badges here -> [Badges](https://tryhackme.com/p/WickedWizard?tab=badges)
 
+<details><summary><strong>Module 1 - Introduction to Cybersecurity</strong></summary>
   
 ## Module 1 - Introduction to Cybersecurity
 
@@ -241,6 +242,7 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 ---
 
+</details>
 
 
 
