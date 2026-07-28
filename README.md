@@ -2,7 +2,8 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Module 1 - Introduction to Cybersecurity](#module-1---introduction-to-cybersecurity)
+  <details>
+    <summary><strong>[Module 1 - Introduction to Cybersecurity](#module-1---introduction-to-cybersecurity)</strong></summary>
   - [Room 1 - Offensive Security Intro](#room-1---offensive-security-intro)
   - [Room 2 - Defensive Security Intro](#room-2---defensive-security-intro)
   - [Room 3 - Careers in Cyber](#room-3---careers-in-cyber)
@@ -13,6 +14,7 @@
     - [Malware Analyst](#malware-analyst)
     - [Penetration Tester](#penetration-tester)
     - [Red Teamer](#red-teamer)
+    </details> 
 - [Module 2 - Computer Fundamentals](#module-2---computer-fundamentals)
   - [Room 1 - Inside a Computer System](#room-1---inside-a-computer-system)
   - [Room 2 - Computer Types](#room-2---computer-types)
