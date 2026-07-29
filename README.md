@@ -149,6 +149,9 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 
 
+
+
+
 <details><summary><strong>Module 2 - Computer Fundamentals</strong></summary>
   
 ## Module 2 - Computer Fundamentals
@@ -441,6 +444,9 @@ Hosting an app on your own computer means:
 </details>
 
 ---
+
+
+
 
 
 
@@ -922,6 +928,11 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 
 
 
+
+
+
+
+
 <details><summary><strong>Module 4 - Software Basics</strong></summary>
 
 ## Module 4 - Software Basics
@@ -1027,6 +1038,83 @@ Hexadecimal: `A3EA2A`
 
 ### Room 2 - Data Encoding
 
+**Learning Objectives**
+- Understand ASCII
+- Understand Unicode
+- Differentiate between UTF-8, UTF-16, and UTF-32
+- Learn how emojis are encoded
+- Understand what causes “weird gibberish” characters (mojibake)
+
+---
+
+#### ASCII
+
+**ASCII** (American Standard Code for Information Interchange) is a system that converts letters, numbers, and special characters into binary numbers that computers can understand.
+
+- Uses **7 bits** (or often stored in 8 bits)
+- Can represent **128 characters** (0–127)
+- Covers basic English letters, digits, and common symbols
+
+---
+
+#### European Languages (ISO/IEC 8859 Series)
+
+Because ASCII only covered English characters, additional standards were created:
+
+- **ISO-8859-1 (Latin-1)**  
+  Covers Western European languages (German, French, Spanish, Italian, Portuguese, Nordic languages, etc.)
+  
+- **ISO-8859-2 (Latin-2)**  
+  Covers Central and Eastern European languages (Polish, Czech, Hungarian, Croatian, Romanian, Slovak, etc.)
+
+These standards extended ASCII but still had limitations when mixing multiple languages.
+
+---
+
+### Unicode
+
+**Unicode** is a universal character set that assigns a unique number (called a **code point**) to every character across all languages and symbols.
+
+Examples:
+- `U+0041` → Latin “A”
+- `U+03A9` → Greek “Ω”
+- `U+3042` → Japanese Hiragana “あ”
+
+The latest Unicode standard defines nearly **157,000 characters**, including almost **4,000 emoji sequences**.
+
+---
+
+### UTF-8, UTF-16, and UTF-32
+
+These are different ways of **encoding** Unicode code points into binary:
+
+| Encoding | How it works                          | Common Use Case                  |
+|----------|---------------------------------------|----------------------------------|
+| **UTF-8**   | Variable length (1–4 bytes)          | Most common on the web           |
+| **UTF-16**  | Mostly 2 bytes (sometimes 4)         | Windows, Java, some applications |
+| **UTF-32**  | Always 4 bytes                       | Rarely used (very space-heavy)   |
+
+**UTF-8** is the most widely used encoding today because it is efficient and backward-compatible with ASCII.
+
+\* The latest Unicode defines close to **157 thousand** characters, almost **4,000** of them are **emoji** sequences.
+
+---
+
+### Emoji Encoding
+
+Emojis are also part of Unicode.  
+They are stored as special Unicode code points (and sometimes as sequences of multiple code points).
+
+---
+
+### What Causes Weird Gibberish Characters?
+
+This is called **mojibake**.
+
+It happens when text is decoded using the **wrong character encoding**.  
+Example: UTF-8 text being interpreted as ISO-8859-1 (or vice versa).
+
+---
 
 **End of Room 2**
 
@@ -1037,6 +1125,34 @@ Hexadecimal: `A3EA2A`
 <details><summary><strong>Room 3 - Python - Simple Demo</strong></summary>
 
 ### Room 3 - Python - Simple Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **End of Room 3**
@@ -1050,6 +1166,24 @@ Hexadecimal: `A3EA2A`
 ### Room 4 - JavaScript - Simple Demo
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **End of Room 4**
 
 </details>
@@ -1059,6 +1193,23 @@ Hexadecimal: `A3EA2A`
 <details><summary><strong>Room 5 - Database SQL Basics</strong></summary>
 
 ### Room 5 - Database SQL Basics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **End of Room 5**
