@@ -1080,7 +1080,7 @@ Examples:
 - `U+03A9` → Greek “Ω”
 - `U+3042` → Japanese Hiragana “あ”
 
-The latest Unicode standard defines nearly **157,000 characters**, including almost **4,000 emoji sequences**.
+\* The latest Unicode standard defines nearly **157,000 characters**, including almost **4,000 emoji sequences**.
 
 ---
 
@@ -1095,8 +1095,6 @@ These are different ways of **encoding** Unicode code points into binary:
 | **UTF-32**  | Always 4 bytes                       | Rarely used (very space-heavy)   |
 
 **UTF-8** is the most widely used encoding today because it is efficient and backward-compatible with ASCII.
-
-\* The latest Unicode defines close to **157 thousand** characters, almost **4,000** of them are **emoji** sequences.
 
 ---
 
