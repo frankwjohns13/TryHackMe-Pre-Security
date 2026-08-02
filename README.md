@@ -1124,6 +1124,55 @@ Example: UTF-8 text being interpreted as ISO-8859-1 (or vice versa).
 
 ### Room 3 - Python - Simple Demo
 
+In this room they had me create a little number guessing game. The main point of the room was to get a quick introduction to python. 
+
+**Learning Objectives**
+- Python variables
+- Conditional statements
+- Loops
+
+**Variables** are used to hold a value that is not yet known or one that may need to change. 
+
+**Conditional statements** are used to test values and give different responses based on the outcome.
+
+**Loops** are used to repeat an action until a statement becomes true 
+
+#### Code used to create the game (slightly modified from what they had me do)
+
+import random # Gives us access to the random number generator
+
+secret = random.randint(1,20)                           # Picks an integer between 1 and 20.
+tries = 0                                               # Sets the number of tries to 0.
+guess = 0                                               # Sets the guess value to a number outside of the range.
+
+print("I'm thinking of a number between 1 and 20")      # Displays the message on the screen.
+
+while guess != secret:                                  # Repeats all indented lines until the condition is met.
+  try:
+      
+    text = input("Take a guess: ").strip()              # Prompts the user for a guess and waits for a response
+    guess = int(text)                                   # Converts the text number into a number
+      
+    tries = tries + 1                                   # Increments the number of tries.
+
+    if guess < 1 or guess > 20:                                                     # Checks to see if the number is within range. 
+        print("That number is out of range. Try again.")                            # If the number is out of range (0 < or > 20) then, it notifies the player. 
+    elif guess < secret:                                                            # Checks if the guess is smaller than the secret.
+        print("Too low, try again.")                                                # Prompts the user. 
+    elif guess > secret:                                                            # Checks if the guess is greater than the secret. 
+        print("Too high, try again.")                                               # Prompts the use.
+    else:                                                                           # Otherwise
+        print("You got it in ", tries, " tries!")                                   # You got it right
+  except ValueError:                                                                # Handles the error if you enter something other than a numeric value, like dog. 
+      print("Invalid entry. Please enter a valid integer between 1 and 20.")        # Advises for a valid entry. 
+
+
+
+
+
+
+
+
 
 
 
