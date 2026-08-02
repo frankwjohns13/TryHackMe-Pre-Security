@@ -29,6 +29,15 @@ Hack your first website (legally in a safe environment) and experience an ethica
 
 ---
 
+
+
+
+
+
+
+
+
+
 <details><summary><strong>Room 2 - Defensive Security Intro</strong></summary>
   
 ### Room 2 - Defensive Security Intro
@@ -51,6 +60,15 @@ Hack your first website (legally in a safe environment) and experience an ethica
 </details>
 
 ---
+
+
+
+
+
+
+
+
+
 
 <details><summary><strong>Room 3 - Careers in Cyber</strong></summary>
   
@@ -150,8 +168,6 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 
 
-
-
 <details><summary><strong>Module 2 - Computer Fundamentals</strong></summary>
   
 ## Module 2 - Computer Fundamentals
@@ -199,6 +215,15 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 
 ---
 
+
+
+
+
+
+
+
+
+
 <details><summary><strong>Room 2 - Computer Types</strong></summary>
   
 ### Room 2 - Computer Types
@@ -241,6 +266,15 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 </details>
 
 ---
+
+
+
+
+
+
+
+
+
 
 <details><summary><strong>Room 3 - Client-Server Basics</strong></summary>
   
@@ -304,6 +338,15 @@ Client · Server · Protocol · Port · DNS · Network
 </details>
 
 ---
+
+
+
+
+
+
+
+
+
 
 <details><summary><strong>Room 4 - Virtualization Basics</strong></summary>
 
@@ -373,6 +416,15 @@ A container is a lightweight, isolated environment that packages a single applic
 </details>
 
 ---
+
+
+
+
+
+
+
+
+
 
 <details><summary><strong>Room 5 - Cloud Computing Fundamentals</strong></summary>
 
@@ -572,8 +624,16 @@ At a basic level, the operating system handles:
 
 ---
 
-<details><summary><strong>Room 2 - Windows Basics</strong></summary>
 
+
+
+
+
+
+
+
+
+<details><summary><strong>Room 2 - Windows Basics</strong></summary>
 
 ### Room 2 - Windows Basics
 **Learning Objectives**
@@ -685,8 +745,16 @@ In **Advanced settings** you can view and manage:
 
 ---
 
-<details><summary><strong>Room 3 - Linux CLI Basics</strong></summary>
 
+
+
+
+
+
+
+
+
+<details><summary><strong>Room 3 - Linux CLI Basics</strong></summary>
 
 ### Room 3 - Linux CLI Basics
 **Learning Objectives**
@@ -755,8 +823,16 @@ Linux stores important configuration and informational files in the /etc directo
 
 ---
 
-<details><summary><strong>Room 4 - Windows CLI Basics</strong></summary>
 
+
+
+
+
+
+
+
+
+<details><summary><strong>Room 4 - Windows CLI Basics</strong></summary>
 
 ### Room 4 - Windows CLI Basics
 
@@ -826,8 +902,16 @@ Cybersecurity professionals use the command line because:
 
 ---
 
-<details><summary>Room 5 - Operating System Security<strong></strong></summary>
 
+
+
+
+
+
+
+
+
+<details><summary>Room 5 - Operating System Security<strong></strong></summary>
 
 ### Room 5 - Operating System Security
 
@@ -915,9 +999,6 @@ These steps highlight why strong passwords, proper user privileges, and careful 
 </details>
 
 ---
-
-
-
 
 
 
@@ -1033,8 +1114,16 @@ Hexadecimal: `A3EA2A`
 
 ---
 
-<details><summary><strong>Room 2 - Data Encoding</strong></summary>
 
+
+
+
+
+
+
+
+
+<details><summary><strong>Room 2 - Data Encoding</strong></summary>
 
 ### Room 2 - Data Encoding
 
@@ -1120,6 +1209,15 @@ Example: UTF-8 text being interpreted as ISO-8859-1 (or vice versa).
 
 ---
 
+
+
+
+
+
+
+
+
+
 <details><summary><strong>Room 3 - Python - Simple Demo</strong></summary>
 
 ### Room 3 - Python - Simple Demo
@@ -1172,6 +1270,15 @@ while guess != secret:                                  # The loop that keeps go
 </details>
 
 ---
+
+
+
+
+
+
+
+
+
 
 <details><summary><strong>Room 4 - JavaScript - Simple Demo</strong></summary>
 
@@ -1245,48 +1352,111 @@ try {
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **End of Room 4**
 
 </details>
 
 ---
 
+
+
+
+
+
+
+
+
+
 <details><summary><strong>Room 5 - Database SQL Basics</strong></summary>
 
 ### Room 5 - Database SQL Basics
 
+**Learning Objectives**
+- Understand what data is and why it matters
+- Explain what a database is and why it is used
+- Understand what SQL is and what it is used for
+- Identify tables, rows, and columns
+- Write simple SQL queries to retrieve information
 
+**Key Terms**
+- **data** - A collection of facts, information, and statistics
+- **database** - A place where a computer stores information in an organized way
+- **table** - Resembles a spreadsheet, where information is organized neatly into rows and columns.
+- **Columns** - Are the titles at the top of the table. They describe the type of information stored.
+- **Rows** - Go across the table. Each row contains one complete set of information.
+- **Simple Query Language (SQL)** is a language used to ask questions of a database.
 
+**Common SQL Keywords**
+- `SELECT` - Choose what data to display
+- `FROM` - Choose where the data comes from
+- `WHERE` - Filter records based on a condition
+- `ORDER BY` - Sort results
+  - `ASC` - For ascending
+  - `DESC` - For descending
 
+---
 
+#### Example Table: Orders
 
+| id | drink     | price | quantity |
+|----|-----------|-------|----------|
+| 1  | Coffee    | 3.50  | 2        |
+| 2  | Tea        | 2.75  | 1        |
+| 3  | Coffee    | 3.50  | 1        |
+| 4  | Smoothie  | 5.00  | 3        |
+| 5  | Tea        | 2.75  | 2        |
 
+---
 
+#### Asking Questions With SQL
 
+Instead of reading the table row by row, SQL lets the computer do the work for us.
 
+For example, the café owner might ask:
+- “Show me all orders.”
+- “Show me only coffee orders.”
+- “Show me the cheapest drink.”
 
+These questions are called **queries**.
 
+---
 
+##### Step 1: View Everything in a Table (Select + From)
 
+We start with the most basic query. When we use `SELECT *`, the * symbol means **all columns**. The word `FROM` tells the database which table to use.
 
+Example: `SELECT * FROM Orders;`
 
+---
 
+##### Step 2: Show Only Specific Columns (Select Drink, Price)
+
+Sometimes we do not need every column. We can choose specific columns by listing them after `SELECT`.
+
+Example: `SELECT drink, price FROM Orders;`
+
+---
+
+##### Step 3: Filter Results (Where)
+
+The `WHERE` keyword filters rows. It keeps only rows that match a condition.
+
+Example: `SELECT * FROM Orders WHERE drink = 'Coffee';`
+
+---
+
+##### Step 4: Sort Results (Order By)
+The `ORDER BY` keyword sorts results by a column. By default, results are sorted in ascending order (lowest to highest).
+
+Example: sorting orders by price (lowest first): `SELECT * FROM Orders ORDER BY price;`
+
+---
+
+##### Step 5: Combine Filtering + Sorting
+
+Most real queries combine parts together. Here, we filter to keep only one drink type and then sort by price.
+
+Example: `SELECT * FROM Orders WHERE drink = 'Coffee' ORDER BY price DESC;`
 
 
 **End of Room 5**
@@ -1311,6 +1481,12 @@ try {
 
 
 
+
+
+
+
+
+
 <details><summary><strong>Module 5 - Network Fundamentals</strong></summary>
 
 ## Module 5 - Network Fundamentals
@@ -1318,6 +1494,25 @@ try {
 <details><summary><strong>Room 1 - What is Networking</strong></summary>
 
 ### Room 1 - What is Networking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 **End of Room 1**
