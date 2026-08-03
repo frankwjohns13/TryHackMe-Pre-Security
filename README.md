@@ -41,12 +41,12 @@ Hack your first website (legally in a safe environment) and experience an ethica
 <details><summary><strong>Room 2 - Defensive Security Intro</strong></summary>
   
 ### Room 2 - Defensive Security Intro
-**Goal:** Protect FakeBank from an ongoing attack.\
+**Goal:** Protect FakeBank from an ongoing attack.
 
 **What is Defensive Security?**\
 “Defensive security is the process of defending and securing devices and systems.”
 
-**What does a defender do?**\
+**What does a defender do?**
 - Detect and investigate attacks
 - Respond before damage occurs
 
