@@ -1493,95 +1493,99 @@ Example: `SELECT * FROM Orders WHERE drink = 'Coffee' ORDER BY price DESC;`
 
 <details><summary><strong>Room 1 - What is Networking</strong></summary>
 
-### Room 1 - What is Networking
+### Room 1 - What is Networking?
+
+**Learning Objectives**
+- Understand what a network is
+- Explain the difference between private and public networks
+- Identify devices on a network using IP and MAC addresses
+- Understand the basic purpose of the `ping` command
+
+---
 
 #### What is Networking?
 
-Networks are simply things connected. For example, your friendship circle: you are all connected because of similar interests, hobbies, skills and sorts.
+A network is simply a group of things that are connected.  
+In computing, this means devices (computers, phones, cameras, servers, etc.) that can communicate with each other.
 
-Networks can be found in all walks of life:
-- A city's public transportation system
-- Infrastructure such as the national power grid for electricity
-- Meeting and greeting your neighbors
-- Postal systems for sending letters and parcels
+Networks can be very small (just two devices) or extremely large (billions of devices).
 
-But more specifically, in computing, networking is the same idea, just dispersed to technological devices. Take your phone as an example; the reason that you have it is to access things. We'll cover how these devices communicate with each other and the rules that follow.
-
-In computing, a network can be formed by anywhere from 2 devices to billions. These devices include everything from your laptop and phone to security cameras, traffic lights and even farming!
+---
 
 #### What is the Internet?
 
-The Internet is one giant network that consists of many, many small networks within itself. 
+The Internet is a massive public network made up of many smaller private networks connected together.
 
-The first iteration of the Internet was within the ARPANET project in the late 1960s. This project was funded by the United States Defense Department and was the first documented network in action. However, it wasn't until 1989 when the Internet as we know it was invented by Tim Berners-Lee by the creation of the **W**orld **W**ide **W**eb (**WWW**). It wasn't until this point that the Internet started to be used as a repository for storing and sharing information, just like it is today.
+- **Private network** — A network you control (home, office, school)
+- **Public network** — The wider Internet that connects private networks together
 
-As previously stated, the Internet is made up of many small networks all joined together.  These small networks are called private networks, where networks connecting these small networks are called public networks -- or the Internet! So, to recap, a network can be one of two types:
-- A private network
-- A public network
+---
 
 #### Identifying Devices on a Network
 
-To communicate and maintain order, devices must be both identifying and identifiable on a network. What use is it if you don't know whom you're talking to at the end of the day?
+Devices need a way to be identified so they can communicate.  
+They use two main identifiers:
 
-Devices on a network are very similar to humans in the fact that we have two ways of being identified:
-- Our Name
-- Our Fingerprints
+| Identifier     | Description                                      | Can it change? |
+|----------------|--------------------------------------------------|----------------|
+| **IP Address** | Logical address used to find a device on a network | Yes            |
+| **MAC Address**| Physical address burned into the network card    | No (normally)  |
 
-Now we can change our name through deed poll, but we can't, however, change our fingerprints. Every human has an individual set of fingerprints which means that even if they change their name, there is still an identity behind it. Devices have the same thing: two means of identification, with one being permeable. These are:
-- An IP Address
-- A Media Access Control (MAC) Address -- think of this as being similar to a serial number.
+---
 
-**IP Addresses**\
-Briefly, an IP address (or **I**nternet **P**rotocol) address can be used as a way of identifying a host on a network for a period of time, where that IP address can then be associated with another device without the IP address changing. First, let's split up precisely what an IP address is in the diagram below:
+#### IP Addresses
 
-An IP address is a set of numbers that are divided into four octets. The value of each octet will summarise to be the IP address of the device on the network. This number is calculated through a technique known as IP addressing & subnetting, but that is for another day. What's important to understand here is that IP addresses can change from device to device but cannot be active simultaneously more than once within the same network.
+An IP address is a unique number that identifies a device on a network for a period of time.
 
-IP Addresses follow a set of standards known as protocols. These protocols are the backbone of networking and force many devices to communicate in the same language, which is something that we'll come onto another time. However, we should recall that devices can be on both a private and public network. Depending on where they are will determine what type of IP address they have: a public or private IP address.
+- **IPv4** example: `192.168.1.77`
+- **IPv6** example: `2a00:22c4:a531:c500:425f:cce6:c36b:f64d`
 
-A public address is used to identify the device on the Internet, whereas a private address is used to identify a device amongst other devices. Take the table & screenshot below as an example. Here we have two devices on a private network:
+**Public vs Private IP**
+- **Private IP** — Used inside your local network (e.g. 192.168.x.x)
+- **Public IP** — Used on the Internet (given by your ISP)
 
-  | **Device Name** | **IP Address** | **IP Address Type** |
-  |-----------------|----------------|---------------------|
-  | DESKTOP-KJE57FD | 192.168.1.77   | Private             |
-  | DESKTOP-KJE57FD | 86.157.52.21   | Public              |
-  | CMNatic-PC      | 192.168.1.74   | Private             |
-  | CMNatic-PC      | 86.157.52.21   | Public              |
+---
 
-**DESKTOP-KJE57FD** (192.168.1.77) and **CMNatic-PC** (192.168.1.74) will be able to use their private IP addresses to communicate with each other. However, any data sent to the Internet from either of these devices will be identified by the same public IP address. Public IP addresses are given by your **I**nternet **S**ervice **P**rovider (or **ISP**) at a monthly fee (your bill!)
+#### MAC Addresses
 
-As more and more devices become connected, it is becoming increasingly harder to get a public address that isn't already in use. For example, Cisco, an industry giant in the world of networking, estimated that there would be approximately 50 billion devices connected on the Internet by the end of 2021. (Cisco., 2021)(opens in new tab). Enter IP address versions. So far, we have only discussed one version of the Internet Protocol addressing scheme known as IPv4, which uses a numbering system of 2^32 IP addresses (4.29 billion) -- so you can see why there is such a shortage!
+A MAC address is a permanent hardware address assigned to a network interface card (NIC).
 
-IPv6 is a new iteration of the Internet Protocol addressing scheme to help tackle this issue. Although it is seemingly more daunting, it boasts a few benefits:
-- Supports up to 2^128 of IP addresses (340 trillion-plus), resolving the issues faced with IPv4
-- More efficient due to new methodologies
+Example format: `a4:c3:f0:85:ac:2d`
 
-IPv6: `2a00:22c4:a531:c500:425f:cce6:c36b:f64d`\
-Ipv4: `86.157.52.21`
+- First half = Manufacturer
+- Second half = Unique device ID
 
-**MAC Addresses**
+MAC addresses can be spoofed (faked), which is why relying only on MAC filtering is not very secure.
 
-Devices on a network will all have a physical network interface, which is a microchip board found on the device's motherboard. This network interface is assigned a unique address at the factory it was built at, called a **MAC** (**M**edia **A**ccess **C**ontrol ) address. The MAC address is a twelve-character hexadecimal number (a base sixteen numbering system used in computing to represent numbers) split into two's and separated by a colon. These colons are considered separators. For example, a4:c3:f0:85:ac:2d. The first six characters represent the company that made the network interface, and the last six is a unique number.
+---
 
-  | **Vendor who build the network interface** | **Unique address of the network interface** |
-  |-------------|------------------|
-  | a4:c3:f0:   | 85:ac:2d         |
-  
-However, an interesting thing with MAC addresses is that they can be faked or "spoofed" in a process known as spoofing. This spoofing occurs when a networked device pretends to identify as another using its MAC address. When this occurs, it can often break poorly implemented security designs that assume that devices talking on a network are trustworthy. Take the following scenario: A firewall is configured to allow any communication going to and from the MAC address of the administrator. If a device were to pretend or "spoof" this MAC address, the firewall would now think that it is receiving communication from the administrator when it isn't.
+#### The `ping` Command
 
-Places such as cafes, coffee shops, and hotels alike often use MAC address control when using their "Guest "or "Public" Wi-Fi. This configuration could offer better services, i.e. a faster connection for a price if you are willing to pay the fee per device.  
+`ping` is a basic tool used to test connectivity between devices.
 
-Ping is one of the most fundamental network tools available to us. Ping uses **ICMP** (**I**nternet **C**ontrol **M**essage **P**rotocol) packets to determine the performance of a connection between devices, for example, if the connection exists or is reliable.
+It uses **ICMP** (**I**nternet **C**ontrol **M**essage **P**rotocol) to send a small packet and wait for a reply.
 
-The time taken for ICMP packets travelling between devices is measured by ping, such as in the screenshot below. This measuring is done using ICMP's echo packet and then ICMP's echo reply from the target device.
+Examples:
+```bash
+ping 192.168.1.1
+ping 8.8.8.8
+ping google.com
+```
 
-Pings can be performed against devices on a network, such as your home network or resources like websites. This tool can be easily used and comes installed on Operating Systems (OSs) such as Linux and Windows. The syntax to do a simple ping is `ping IP address or website URL`.\
-`ping 192.168.1.0` - will ping your gateway\
-`ping 8.8.8.8` - will ping the google dns server
+#### Quick Troubleshooting with Ping
 
+When you can’t reach a website, you can use `ping` to narrow down the problem:
 
+1. **Ping your gateway** (e.g. `ping 192.168.1.1`)  
+   → Checks if your device has basic network connectivity.
 
+2. **Ping a public IP address** (e.g. `ping 8.8.8.8`)  
+   → Checks if you can reach the Internet.
 
+3. **Ping a website by name** (e.g. `ping google.com`)  
+   → Checks if DNS is working.
 
+This simple process helps you quickly identify whether the problem is local, with your Internet connection, or with DNS.
 
 **End of Room 1**
 
