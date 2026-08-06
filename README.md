@@ -1632,6 +1632,12 @@ This simple process helps you quickly identify whether the problem is local, wit
 
 #### Network Devices
 
+**Hub**
+- An older networking device that connects multiple devices
+- When it receives data, it sends a copy out to **every** port
+- Creates a lot of unnecessary traffic
+- Largely replaced by switches
+
 **Switch**
 - Connects multiple devices on the same network
 - Learns which device is on which port and only sends data to the correct port
@@ -1658,8 +1664,6 @@ Subnetting is the process of dividing a large network into smaller networks (sub
 | Network Address | Identifies the network itself                | 192.168.1.0    |
 | Host Address    | Identifies a specific device                 | 192.168.1.100  |
 | Default Gateway | Device that sends traffic to other networks  | 192.168.1.1    |
-
-> You can add your subnetting table from your Network+ notes here.
 
 **IPv4 Addressing and Subnetting**
 
@@ -1719,6 +1723,70 @@ DHCP automatically assigns IP addresses to devices on a network.
 
 ### Room 3 - OSI Model
 
+**Learning Objectives**
+- Understand what the OSI model is and why it exists
+- Identify the seven layers of the OSI model
+- Explain the basic function of each layer
+- Understand the difference between TCP and UDP
+
+---
+
+#### What is the OSI Model?
+
+The **OSI (Open Systems Interconnection) Model** is a framework that describes how data moves from one device to another across a network.  
+It divides the process into **seven layers**, each with a specific responsibility.
+
+This standardization allows different devices and software to communicate successfully.
+
+**The Seven Layers (from top to bottom):**
+
+| Layer | Name          | Simple Description                          |
+|-------|---------------|---------------------------------------------|
+| 7     | Application   | User-facing applications and services       |
+| 6     | Presentation  | Data formatting and encryption              |
+| 5     | Session       | Manages connections (sessions)              |
+| 4     | Transport     | Reliable or fast delivery (TCP / UDP)       |
+| 3     | Network       | IP addressing and routing                   |
+| 2     | Data Link     | MAC addresses and framing                   |
+| 1     | Physical      | Cables, signals, and bits                   |
+
+---
+
+#### Layer 1 – Physical
+Deals with the actual hardware and the transmission of raw bits (1s and 0s) over cables, fiber, or wireless signals.
+
+#### Layer 2 – Data Link
+Handles physical addressing using **MAC addresses**.  
+It takes packets from Layer 3 and turns them into frames that can be sent across the local network.
+
+#### Layer 3 – Network
+Responsible for **logical addressing (IP addresses)** and deciding the best path for data to travel (routing).
+
+#### Layer 4 – Transport
+Ensures data is delivered correctly. Two main protocols are used here:
+
+**TCP (Transmission Control Protocol)**
+- Reliable and connection-oriented
+- Guarantees delivery and correct order
+- Used for web browsing, email, file transfers
+
+**UDP (User Datagram Protocol)**
+- Fast and connectionless
+- No guarantee of delivery
+- Used for video streaming, DNS, online games
+
+#### Layer 5 – Session
+Creates, maintains, and ends connections (sessions) between devices.
+
+#### Layer 6 – Presentation
+Formats and translates data so that the receiving application can understand it.  
+Encryption and compression often happen at this layer.
+
+#### Layer 7 – Application
+The layer closest to the user.  
+This is where applications (browsers, email clients, etc.) interact with the network.
+
+---
 
 **End of Room 3**
 
