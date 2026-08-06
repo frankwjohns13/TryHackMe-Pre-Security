@@ -215,7 +215,7 @@ That’s the entire high-level sequence. Everything after step 5 is the OS takin
 
 When I studied Game and Simulation Programming at Rasmussen, one of my professors used a simple drawing of a person sitting at a desk with a filing cabinet in the background to help students better remember the differences between the CPU, RAM, and the HDD. 
 
-I have always been one to got a little further. Here is my analogy to help you keep these strait and add a few other concepts. *Oh, yes, AI helped draw the picture because I cannot. And yes, it used a picture of me as the model for the person at the desk.* 
+I have always been one to got a little further. Here is my analogy to help you keep these strait and add a few other concepts. *Oh, yes, AI helped draw the picture because I cannot. And yes, it used a picture of me as the model for the person at the desk. Although I think it added a few pounds to me.* 
 
 ![Computer Hardware Analogy](Computer_Desk2.webp)
 
