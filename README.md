@@ -2032,6 +2032,79 @@ Allows a single physical network to be logically divided into separate networks 
 
 ### Room 1 - DNS in Detail
 
+**Learning Objectives**
+- Understand what DNS is and why it is used
+- Explain the domain name hierarchy
+- Identify common DNS record types
+- Understand the basic process of a DNS request
+
+---
+
+#### What is DNS?
+
+**DNS (Domain Name System)** translates human-readable domain names (like `tryhackme.com`) into IP addresses (like `104.26.10.229`).
+
+Without DNS, we would have to remember long numerical IP addresses for every website we visit.
+
+---
+
+#### Domain Hierarchy
+
+A domain name is structured in levels:
+
+| Part                | Example              | Description |
+|---------------------|----------------------|-----------|
+| **Top-Level Domain (TLD)** | `.com`              | The right-most part of the domain |
+| **Second-Level Domain**    | `tryhackme`         | The main name you register |
+| **Subdomain**              | `admin.tryhackme.com` | Optional left-hand side of the domain |
+
+**Types of TLDs:**
+- **gTLD** (Generic) → `.com`, `.org`, `.edu`, `.net`
+- **ccTLD** (Country Code) → `.uk`, `.ca`, `.jp`
+
+---
+
+#### Common DNS Record Types
+
+| Record Type | Purpose |
+|-------------|---------|
+| **A**       | Maps a domain to an IPv4 address |
+| **AAAA**    | Maps a domain to an IPv6 address |
+| **CNAME**   | Points one domain name to another domain name |
+| **MX**      | Specifies the mail servers for a domain |
+| **TXT**     | Stores text information (often used for verification and email security) |
+
+---
+
+#### How a DNS Request Works
+
+1. Your computer checks its local DNS cache.
+2. If not found, it asks a **Recursive DNS Server** (usually provided by your ISP).
+3. The recursive server queries the **Root DNS Servers**.
+4. The root servers point to the correct **TLD servers** (e.g. `.com`).
+5. The TLD servers point to the domain’s **Authoritative Name Servers**.
+6. The authoritative server returns the requested DNS record.
+7. The result is cached (based on the TTL value) and sent back to your computer.
+
+**TTL (Time To Live)** controls how long a DNS record can be stored in cache before it must be looked up again.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **End of Room 1**
 
