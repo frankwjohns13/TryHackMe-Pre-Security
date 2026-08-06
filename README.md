@@ -209,6 +209,33 @@ Red teamers share similarities to penetration testers, with a more targeted job 
 
 That’s the entire high-level sequence. Everything after step 5 is the OS taking control.
 
+---
+
+#### Understanding the Main Hardware Components
+
+When I studied Game and Simulation Programming at Rasmussen, one of my professors used a simple drawing of a person sitting at a desk with a filing cabinet in the background to help students better remember the differences between the CPU, RAM, and the HDD. 
+
+I have always been one to got a little further. Here is my analogy to help you keep these strait and add a few other concepts. *Oh, yes, AI helped draw the picture because I cannot. And yes, it used a picture of me as the model for the person at the desk.* 
+
+![Computer Hardware Analogy](Computer_Desk2.webp)
+
+- **CPU (Me at the desk):** The *Central Processing Unit*. This is the worker that does ALL the thinking. Reads the papers, makes decisions, does the math, and follows instructions. The faster you are, the faster work gets done. 
+- **RAM (The Executive Desk):** *Random Access Memory*. This is your immediate workspace you have. You can quickly reach anything on the desk. The larger it is the more you can have on it. However, like a job that has a clean desk policy, when you leave (shutdown the computer) it all gets cleared away. 
+- **HDD/SSD (The Filing Cabinet):** Your *Hard Disk Drive* or *Solid State Drive* is your long term storage. You place things there that you want to keep, but aren't working on right now. Main things that are kept there are:
+  - **OS**: The top drawer is your *Operating System* (Windows, macOS, Linux). This is the rulebook for how the office runs. 
+  - **Virtual Memory**: The next drawer is the overflow drawer for your desk. When you are working with too many papers to fit on your desk, you can place some in this drawer to make room. These are called the **Swap/Page Files**. It's slower than having the papers on your desk, but quicker than having to find them in the next drawer.
+  - **Documents**: Your personal long term storage. This is where your paperwork, letters, spreadsheets, pictures, downloads, etc. are kept.
+  - **Archive**: The bottom drawer is the cold storage for old files. This is where things go that you don't use much. It is where your backups are kept. 
+- **PSU (The Coffee Cup)**: The *Power Supply Unit* is what gives you the power to do the work. Without power, there is not work.
+- **UPS (The Coffee Maker)**: The *Uninterruptible Power Supply* is what keeps your coffee cup full. It is a battery backup that works even when the power is out. At least for a short period. 
+- **Recycle Bin (The Wastepaper Basket**: This is where things go when you delete them. They are moved from the filing cabinet to the trash. Of course, until the trash is emptied you can still dig back in there and retrieve the file you threw away. (The recycling bin still takes up space on your HDD/SSD until the items are emptied)
+
+So, easy way to remember the key components. Cabinet = long-term storage, Desk = short-term storage, You = the thinker, Coffee = power. 
+
+---
+
+
+
 **End of Room 1**
 
 </details>
