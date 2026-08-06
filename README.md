@@ -1798,6 +1798,118 @@ This is where applications (browsers, email clients, etc.) interact with the net
 
 ### Room 4 - Packets and Frames
 
+**Learning Objectives**
+- Understand the difference between packets and frames
+- Explain the TCP Three-Way Handshake
+- Compare TCP and UDP
+- Identify common networking ports
+
+---
+
+#### Packets and Frames
+
+Data is broken into small pieces before being sent across a network. These pieces are called **packets** and **frames**.
+
+- **Packet** → Used at **Layer 3** (Network layer). Contains IP addresses.
+- **Frame** → Used at **Layer 2** (Data Link layer). Contains MAC addresses and wraps around the packet.
+
+Think of it like mailing a letter:
+- The **letter** is the packet (the actual data + IP information)
+- The **envelope** is the frame (adds MAC addresses so it can travel on the local network)
+
+This process of adding information at each layer is called **encapsulation**.
+
+---
+
+#### Important Packet Headers
+
+| Header              | Purpose                                      |
+|---------------------|----------------------------------------------|
+| Source Address      | IP of the sender                             |
+| Destination Address | IP of the receiver                           |
+| Time to Live (TTL)  | Prevents packets from looping forever        |
+| Checksum            | Checks if the data has been corrupted        |
+
+---
+
+#### TCP – The Three-Way Handshake
+
+TCP is a **connection-oriented** protocol. It guarantees that data arrives correctly and in order.
+
+Before any data is sent, TCP performs a **Three-Way Handshake**:
+
+1. **SYN** – Client: “I want to connect”
+2. **SYN/ACK** – Server: “I acknowledge your request and want to connect too”
+3. **ACK** – Client: “Connection established”
+
+After the handshake, data can be sent reliably.  
+When finished, the connection is closed using a **FIN** packet.
+
+**TCP Advantages**
+- Reliable
+- Guarantees delivery and order
+
+**TCP Disadvantages**
+- Slower than UDP
+- Uses more resources
+
+---
+
+#### UDP
+
+UDP is a **connectionless** protocol. It sends data without checking if it arrives.
+
+**UDP Advantages**
+- Very fast
+- Low overhead
+
+**UDP Disadvantages**
+- No guarantee of delivery
+- No error recovery
+
+UDP is commonly used for video streaming, online games, and DNS.
+
+---
+
+#### Ports
+
+Ports are numbers (0–65535) that identify specific services or applications on a device.
+
+| Port | Protocol | Common Use                  |
+|------|----------|-----------------------------|
+| 21   | FTP      | File transfer               |
+| 22   | SSH      | Secure remote access        |
+| 80   | HTTP     | Web traffic (unencrypted)   |
+| 443  | HTTPS    | Secure web traffic          |
+| 445  | SMB      | File and printer sharing    |
+| 3389 | RDP      | Remote Desktop              |
+
+Ports 0–1023 are known as **well-known ports**.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **End of Room 4**
 
