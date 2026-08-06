@@ -1837,10 +1837,14 @@ This process of adding information at each layer is called **encapsulation**.
 TCP is a **connection-oriented** protocol. It guarantees that data arrives correctly and in order.
 
 Before any data is sent, TCP performs a **Three-Way Handshake**:
+1. **Client → Server**: SYN  
+   “I want to open a connection.”
 
-1. **SYN** – Client: “I want to connect”
-2. **SYN/ACK** – Server: “I acknowledge your request and want to connect too”
-3. **ACK** – Client: “Connection established”
+2. **Server → Client**: SYN/ACK  
+   “I received your request and I also want to connect.”
+
+3. **Client → Server**: ACK  
+   “Connection is now established.”
 
 After the handshake, data can be sent reliably.  
 When finished, the connection is closed using a **FIN** packet.
