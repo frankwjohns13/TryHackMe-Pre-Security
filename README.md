@@ -1892,29 +1892,6 @@ Ports 0–1023 are known as **well-known ports**.
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **End of Room 4**
 
 </details>
@@ -1925,6 +1902,76 @@ Ports 0–1023 are known as **well-known ports**.
 
 ### Room 5 - Extending Your Network
 
+**Learning Objectives**
+- Understand port forwarding
+- Explain how firewalls work
+- Understand the purpose of VPNs
+- Review the roles of routers and switches
+
+---
+
+#### Port Forwarding
+
+Port forwarding allows devices on a private network to be reached from the Internet.
+
+**Example:**  
+A web server on `192.168.1.10` (port 80) is only accessible inside the local network.  
+By configuring port forwarding on the router, external users can reach it using the public IP address.
+
+Port forwarding is configured on the **router**.
+
+---
+
+#### Firewalls
+
+A firewall controls what traffic is allowed to enter or leave a network.
+
+It can filter traffic based on:
+- Source IP
+- Destination IP
+- Port number
+- Protocol (TCP / UDP)
+
+**Two main types:**
+
+| Type       | Description |
+|------------|-----------|
+| **Stateful** | Tracks the full connection and makes dynamic decisions. More intelligent but uses more resources. |
+| **Stateless** | Uses a fixed set of rules to allow or block individual packets. Faster but less flexible. |
+
+---
+
+#### VPN Basics
+
+A **VPN (Virtual Private Network)** creates a secure, encrypted tunnel over the Internet so devices on different networks can communicate privately.
+
+**Benefits of a VPN:**
+- Connects remote networks securely
+- Encrypts traffic (privacy)
+- Can provide anonymity
+
+**Common VPN Technologies:**
+- **PPTP** — Easy to set up, weaker encryption
+- **IPSec** — Stronger encryption, more complex to configure
+
+---
+
+#### Routers and Switches (Quick Review)
+
+**Router**
+- Connects different networks together
+- Works at **Layer 3** (IP addresses)
+- Decides the best path for packets
+
+**Switch**
+- Connects devices within the same network
+- Works mainly at **Layer 2** (MAC addresses)
+- **Layer 3 switches** can also perform some routing functions
+
+**VLAN (Virtual LAN)**  
+Allows a single physical network to be logically divided into separate networks for better organization and security.
+
+---
 
 **End of Room 5**
 
