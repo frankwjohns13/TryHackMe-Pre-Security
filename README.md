@@ -1599,6 +1599,115 @@ This simple process helps you quickly identify whether the problem is local, wit
 
 ### Room 2 - Intro to LAN
 
+**Learning Objectives**
+- Understand common LAN topologies
+- Explain the role of switches and routers
+- Understand the basics of subnetting
+- Learn how ARP and DHCP work
+
+---
+
+#### LAN Topologies
+
+**Topology** refers to the physical or logical layout of a network.
+
+**Star Topology**
+- All devices connect to a central switch or hub
+- Most common topology today
+- **Advantages**: Easy to expand, failure of one device doesn’t bring down the whole network
+- **Disadvantages**: More expensive (extra cabling + central device), central device is a single point of failure
+
+**Bus Topology**
+- All devices connect to a single backbone cable
+- **Advantages**: Cheap and simple to set up
+- **Disadvantages**: Slow when many devices talk at once, hard to troubleshoot, single point of failure
+
+**Ring Topology**
+- Devices connect in a loop
+- Data travels in one direction around the ring
+- **Advantages**: Easy to troubleshoot, less congestion than bus
+- **Disadvantages**: One break can take down the entire network
+
+---
+
+#### Network Devices
+
+**Switch**
+- Connects multiple devices on the same network
+- Learns which device is on which port and only sends data to the correct port
+- Much more efficient than a hub
+
+**Router**
+- Connects different networks together
+- Routes data between networks (for example, from your home network to the Internet)
+
+---
+
+#### Subnetting Basics
+
+Subnetting is the process of dividing a large network into smaller networks (subnets).
+
+**Why subnet?**
+- Better organization
+- Improved security
+- More efficient use of IP addresses
+
+**Key Addresses in a Subnet**
+| Type            | Purpose                                      | Example        |
+|-----------------|----------------------------------------------|----------------|
+| Network Address | Identifies the network itself                | 192.168.1.0    |
+| Host Address    | Identifies a specific device                 | 192.168.1.100  |
+| Default Gateway | Device that sends traffic to other networks  | 192.168.1.1    |
+
+> You can add your subnetting table from your Network+ notes here.
+
+**IPv4 Addressing and Subnetting**
+
+**Subnet Mask in Binary (Examples)**
+- /24 → 11111111.11111111.11111111.**00000000**
+- /25 → 11111111.11111111.11111111.**10000000**
+- /26 → 11111111.11111111.11111111.**11000000**
+  
+**IPv4 Subnetting Quick Reference**
+
+| CIDR | Subnet Mask       | Subnets | Usable Hosts |
+|------|-------------------|---------|--------------|
+| /24  | 255.255.255.0     | 1       | 254          |
+| /25  | 255.255.255.128   | 2       | 126          |
+| /26  | 255.255.255.192   | 4       | 62           |
+| /27  | 255.255.255.224   | 8       | 30           |
+| /28  | 255.255.255.240   | 16      | 14           |
+| /29  | 255.255.255.248   | 32      | 6            |
+| /30  | 255.255.255.252   | 64      | 2            |
+
+**Quick Breakdown**
+- **Total IPs** = 2^(32 - CIDR)
+- **Usable Hosts** = Total IPs - 2 (subtract network address & broadcast address)
+
+---
+
+#### ARP (Address Resolution Protocol)
+
+ARP maps an **IP address** to a **MAC address**.
+
+**How it works:**
+1. A device sends an **ARP Request**: “Who has this IP address?”
+2. The device that owns the IP replies with an **ARP Reply** containing its MAC address
+3. The information is stored in the ARP cache for future use
+
+---
+
+#### DHCP (Dynamic Host Configuration Protocol)
+
+DHCP automatically assigns IP addresses to devices on a network.
+
+**DHCP Process (DORA):**
+1. **Discover** – Device looks for a DHCP server
+2. **Offer** – Server offers an IP address
+3. **Request** – Device asks to use the offered address
+4. **Acknowledge** – Server confirms the assignment
+
+---
 
 **End of Room 2**
 
