@@ -2220,21 +2220,85 @@ Because HTTP is **stateless**, cookies help the server remember information abou
 
 ### Room 3 - How Websites Work
 
+#### Introduction
 
+There are two major components that make up a website:
+- Front End (Client-Side) - the way your browser renders a website.
+- Back End (Server-Side) - a server that processes your request and returns a response.
 
+---
 
+#### HTML
 
+Websites are primarily created using:
+- HTML, to build websites and define their structure
+- CSS, to make websites look pretty by adding styling options
+- JavaScript, implement complex features on pages using interactivity
 
+**H**yper**T**ext **M**arkup **L**anguage (HTML) is the language websites are written in. Elements (also known as tags) are the building blocks of HTML pages and tells the browser how to display content. The code snippet below shows a simple HTML document, the structure of which is the same for every website:
 
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Example Heading</h1>
+    <p>Example paragraph..</p>
+  </body>
+</html>
+```
 
+The HTML structure (shown above) has the following components:
+- The `<!DOCTYPE html>` defines that the page is a HTML5 document. This helps with standardization across different browsers and tells the browser to use HTML5 to interpret the page.
+- The `<html>` element is the root element of the HTML page - all other elements come after this element.
+- The `<head>` element contains information about the page (such as the page title)
+- The `<body>` element defines the HTML document's body; only content inside of the body is shown in the browser.
+- The `<h1>` element defines a large heading
+- The `<p>` element defines a paragraph
+- There are many other elements (tags) used for different purposes. For example, there are tags for buttons (`<button>`), images (`<img>`), lists, and much more. 
 
+---
 
+#### JavaScript
 
+JavaScript (JS) is one of the most popular coding languages in the world and allows pages to become interactive. 
 
+JavaScript is added within the page source code and can be either loaded within `<script>` tags or can be included remotely with the src attribute: `<script src="/location/of/javascript_file.js"></script>`
 
+#### Sensitive Data Exposure
 
+Sensitive Data Exposure occurs when a website doesn't properly protect (or remove) sensitive clear-text information to the end-user; usually found in a site's frontend source code.
 
+We now know that websites are built using many HTML elements (tags), all of which we can see simply by "viewing the page source". A website developer may have forgotten to remove login credentials, hidden links to private parts of the website or other sensitive data shown in HTML or JavaScript.
 
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake Website</title>
+  </head>
+  <body>
+    <form>
+      <input type='text' name='username'>
+      <input type='password' name='password'>
+      <button>Login</button>
+      <!-- TODO: remove test credentials admin:password123 -->
+    </form>
+  </body>
+</html>
+```
+
+---
+
+#### HTML Injection
+
+HTML Injection is a vulnerability that occurs when unfiltered user input is displayed on the page. If a website fails to sanitise user input (filter any "malicious" text that a user inputs into a website), and that input is used on the page, an attacker can inject HTML code into a vulnerable website.
+
+Input sanitisation is very important in keeping a website secure, as information a user inputs into a website is often used in other frontend and backend functionality. A vulnerability you'll explore in another lab is database injection, where you can manipulate a database lookup query to log in as another user by controlling the input that's directly used in the query - but for now, let's focus on HTML injection (which is client-side).
+
+---
 
 **End of Room 3**
 
@@ -2245,6 +2309,9 @@ Because HTTP is **stateless**, cookies help the server remember information abou
 <details><summary><strong>Room 4 - Putting it all together</strong></summary>
 
 ### Room 4 - Putting it all together
+
+
+
 
 
 
