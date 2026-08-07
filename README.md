@@ -2220,53 +2220,21 @@ Because HTTP is **stateless**, cookies help the server remember information abou
 
 ### Room 3 - How Websites Work
 
-**Learning Objectives**
-- Understand the three pillars of cybersecurity
-- Explain Confidentiality, Integrity, and Availability
-- Recognize the CIA Triad in real-world scenarios
 
-**Key Terminology**
-- **Confidentiality** — Ensuring information is only accessible to authorized individuals
-- **Integrity** — Ensuring information is not modified without authorization
-- **Availability** — Ensuring information and systems are accessible when needed
 
----
 
-#### Understanding the CIA Triad
 
-In cybersecurity, security means protecting data so that three core conditions are always met:
 
-- **Confidentiality**
-- **Integrity**
-- **Availability**
 
-These three principles are known as the **CIA Triad**.
 
----
 
-**Confidentiality**  
-Sensitive data should only be accessible to people who are authorized to see it.
 
-**Example:**  
-Your online banking login should only be available to you — not to other people.
 
----
 
-**Integrity**  
-Data should not be changed or tampered with by unauthorized users.
 
-**Example:**  
-When you transfer $100 online, the amount should not be secretly changed to $1,000 by an attacker.
 
----
 
-**Availability**  
-Systems and data should be available to authorized users whenever they are needed.
 
-**Example:**  
-A hospital’s patient records system must stay online so doctors can access critical information during an emergency.
-
----
 
 **End of Room 3**
 
@@ -2335,6 +2303,53 @@ A hospital’s patient records system must stay online so doctors can access cri
 
 ### Room 1 - The CIA Triad
 
+**Learning Objectives**
+- Understand the three pillars of cybersecurity
+- Explain Confidentiality, Integrity, and Availability
+- Recognize the CIA Triad in real-world scenarios
+
+**Key Terminology**
+- **Confidentiality** — Ensuring information is only accessible to authorized individuals
+- **Integrity** — Ensuring information is not modified without authorization
+- **Availability** — Ensuring information and systems are accessible when needed
+
+---
+
+#### Understanding the CIA Triad
+
+In cybersecurity, security means protecting data so that three core conditions are always met:
+
+- **Confidentiality**
+- **Integrity**
+- **Availability**
+
+These three principles are known as the **CIA Triad**.
+
+---
+
+**Confidentiality**  
+Sensitive data should only be accessible to people who are authorized to see it.
+
+**Example:**  
+Your online banking login should only be available to you — not to other people.
+
+---
+
+**Integrity**  
+Data should not be changed or tampered with by unauthorized users.
+
+**Example:**  
+When you transfer $100 online, the amount should not be secretly changed to $1,000 by an attacker.
+
+---
+
+**Availability**  
+Systems and data should be available to authorized users whenever they are needed.
+
+**Example:**  
+A hospital’s patient records system must stay online so doctors can access critical information during an emergency.
+
+---
 
 **End of Room 1**
 
