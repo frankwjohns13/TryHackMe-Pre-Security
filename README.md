@@ -2094,18 +2094,6 @@ A domain name is structured in levels:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 **End of Room 1**
 
 </details>
@@ -2116,6 +2104,111 @@ A domain name is structured in levels:
 
 ### Room 2 - HTTP in Detail
 
+**Learning Objectives**
+- Understand the difference between HTTP and HTTPS
+- Break down the parts of a URL
+- Identify common HTTP methods and status codes
+- Understand the purpose of HTTP headers and cookies
+
+---
+
+#### What is HTTP and HTTPS?
+
+**HTTP (HyperText Transfer Protocol)** is the protocol used to transfer webpage data (HTML, images, videos, etc.) between a browser and a web server.
+
+**HTTPS** is the secure version of HTTP. It encrypts the data so it cannot be easily read by others and helps confirm you are talking to the real server.
+
+---
+
+#### URLs (Uniform Resource Locator)
+
+A URL tells the browser how and where to access a resource.
+
+**Example:**\
+https://user:password@tryhackme.com:443/view-room?id=1#task3
+
+| Part            | Description |
+|-----------------|-----------|
+| **Scheme**      | Protocol used (`http`, `https`, `ftp`) |
+| **User**        | Optional username and password |
+| **Host**        | Domain name or IP address |
+| **Port**        | Port number (80 for HTTP, 443 for HTTPS) |
+| **Path**        | Location of the resource |
+| **Query String**| Extra information sent to the server (`?id=1`) |
+| **Fragment**    | Jump to a specific part of the page (`#task3`) |
+
+---
+
+#### HTTP Methods
+
+| Method   | Purpose |
+|----------|---------|
+| **GET**  | Retrieve information from the server |
+| **POST** | Submit data to the server (create new records) |
+| **PUT**  | Update existing information |
+| **DELETE** | Delete information from the server |
+
+---
+
+#### HTTP Status Codes
+
+| Range     | Meaning |
+|-----------|---------|
+| 100–199   | Informational |
+| 200–299   | Success |
+| 300–399   | Redirection |
+| 400–499   | Client Error |
+| 500–599   | Server Error |
+
+**Common Status Codes:**
+
+| Code | Meaning |
+|------|---------|
+| 200  | OK – Request successful |
+| 201  | Created |
+| 301  | Moved Permanently |
+| 302  | Found (temporary redirect) |
+| 400  | Bad Request |
+| 401  | Unauthorized |
+| 403  | Forbidden |
+| 404  | Not Found |
+| 405  | Method Not Allowed |
+| 500  | Internal Server Error |
+| 503  | Service Unavailable |
+
+---
+
+#### HTTP Headers
+
+Headers provide extra information with requests and responses.
+
+**Common Request Headers:**
+- `Host` – Which website is being requested
+- `User-Agent` – Browser and version
+- `Content-Length` – Size of the data being sent
+- `Cookie` – Data stored from previous visits
+
+**Common Response Headers:**
+- `Set-Cookie` – Tells the browser to store a cookie
+- `Content-Type` – Type of data being returned (HTML, image, etc.)
+- `Cache-Control` – How long the browser should store the content
+- `Content-Encoding` – Compression method used
+
+---
+
+#### Cookies
+
+Cookies are small pieces of data stored by the browser.
+
+They are commonly used to:
+- Keep you logged in
+- Remember preferences
+- Track sessions
+
+Because HTTP is **stateless**, cookies help the server remember information about the user between requests.
+
+
+---
 
 **End of Room 2**
 
